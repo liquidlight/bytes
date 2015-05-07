@@ -19,7 +19,7 @@ $animationTransition: (
 );
 
 // LL Sass Library
-@import "../../../../basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
+@import "../../../../../usr/local/share/typo3/6.0/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
 
 *,
 *:before,
@@ -33,13 +33,20 @@ body {
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight: 300;
+	background: #fff;
+}
+
+p {
+	margin: 0 0 1em;
 }
 
 a {
 	color: theme(primary);
+	border-bottom: 2px solid theme(primary);
+	text-decoration: none;
 }
 
-main,
+section,
 footer {
 	padding: r(2rem);
 	max-width: r(50rem);
@@ -53,6 +60,18 @@ footer {
 }
 
 /**
+ * Modular
+ */
+.featured {
+	font-size: 120%;
+	font-weight: 400;
+}
+
+.divider {
+	background: #eee;
+}
+
+/**
  * Sign Up Form
  */
 form {
@@ -62,7 +81,7 @@ form {
 	text-align: center;
 
 	.button {
-		@include animation(background);
+		@include animate(background);
 		border: 0;
 		background: theme(primary);
 		display: inline-block;
@@ -75,6 +94,7 @@ form {
 		}
 	}
 }
+
 .field {
 	@extend %clearfix;
 	position: relative;
@@ -87,20 +107,24 @@ form {
 	margin-bottom: r(1rem);
 
 	input {
-		@include animation(background, border);
+		@include animate(background, border);
 		position: relative;
 		display: block;
 		padding: r(1rem);
 		border: none;
-		background: #F0F0F0;
+		background: #fff;
 		-webkit-appearance: none;
-
 		width: 100%;
 		border: 0.2em solid #ccc;
+
+		&:focus {
+			outline: none;
+			border-color: theme(primary);
+		}
 	}
 
 	label {
-		@include animation(transform);
+		@include animation(transform, color);
 		display: inline-block;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -112,7 +136,6 @@ form {
 		bottom: 100%;
 		padding: 0 r(1rem);
 		transform: translate3d(0, 2.5rem, 0);
-		transition: transform 0.25s ease-in-out;
 	}
 
 	label span {
@@ -123,12 +146,25 @@ form {
 	&.input--filled label {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+	}
+
+	input:focus + label {
 		color: theme(primary);
 	}
 
 	input:focus + input,
 	&.input--filled input {
-		background-color: transparent;
 		border-color: theme(primary);
+	}
+}
+
+/**
+ * Footer
+ */
+footer {
+	border-top: 0.2em solid #eee;
+	a {
+		border-bottom: 0;
+		color: #B61329;
 	}
 }
