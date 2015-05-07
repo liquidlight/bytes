@@ -7,8 +7,9 @@ $px-only: false;
 //@import "src/sprite";
 
 $theme : (
-	'base': #222,
-	'primary': #E40322
+	base: #434a54,
+	primary: #26A3CF,
+	primaryDark: #434a54
 );
 
 $animationTransition: (
@@ -18,8 +19,33 @@ $animationTransition: (
 	distance: 0.3em
 );
 
+// Layout
+$mq-breakpoints: (
+    phone: 30em,
+    tablet: 45em,
+    desktop: 60em
+);
+
 // LL Sass Library
 @import "../../../../../usr/local/share/typo3/6.0/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
+
+@font-face {
+  font-family: 'GrotaSans';
+  src: url('../fonts/GrotaSans-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GrotaSans-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GrotaSans-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GrotaSans-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GrotaSans-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'GrotaSansMedium';
+  src: url('../fonts/GrotaSansMedium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/GrotaSansMedium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GrotaSansMedium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GrotaSansMedium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GrotaSansMedium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 
 *,
 *:before,
@@ -29,21 +55,34 @@ $animationTransition: (
 
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
+	font-family: 'GrotaSans', sans-serif;
+	font-size: 17px;
 	line-height: 1.5;
-	font-weight: 300;
+	font-weight: 400;
 	background: #fff;
+	min-width: 16em;
+	color: theme(base);
+
+	@include mq(tablet) {
+		padding-top: r(2rem);
+		font-size: 19px;
+	}
 }
 
 p {
 	margin: 0 0 1em;
+	letter-spacing: 0.3px;
 }
 
 a {
+	@include animate(border);
 	color: theme(primary);
-	border-bottom: 2px solid theme(primary);
+	border-bottom: 0.15em solid theme(primary);
 	text-decoration: none;
+
+	&:hover {
+		border-bottom-color: theme(primaryDark);
+	}
 }
 
 section,
@@ -53,22 +92,32 @@ footer {
 	margin: 0 auto;
 }
 
-footer {
-	font-size: 80%;
-	color: #666;
-	text-align: center;
-}
-
 /**
  * Modular
  */
 .featured {
-	font-size: 120%;
+	font-size: 130%;
 	font-weight: 400;
+	text-align: center;
+	font-family: 'GrotaSansMedium';
 }
 
 .divider {
 	background: #eee;
+}
+
+
+/**
+ * Logo
+ */
+.logo {
+	max-width: 7em;
+	margin: 0 auto r(2rem);
+	width: 100%;
+
+	img {
+		width: 100%;
+	}
 }
 
 /**
@@ -100,11 +149,9 @@ form {
 	position: relative;
 	z-index: 1;
 	display: block;
-	width: 50%;
-	float: left;
 	padding: r(0 1rem);
 	text-align: left;
-	margin-bottom: r(1rem);
+	margin-bottom: r(2rem);
 
 	input {
 		@include animate(background, border);
@@ -135,7 +182,7 @@ form {
 		position: absolute;
 		bottom: 100%;
 		padding: 0 r(1rem);
-		transform: translate3d(0, 2.5rem, 0);
+		transform: translate3d(0, 2.8rem, 0);
 	}
 
 	label span {
@@ -156,15 +203,29 @@ form {
 	&.input--filled input {
 		border-color: theme(primary);
 	}
+
+	@include mq(tablet) {
+		width: 50%;
+		float: left;
+		margin-bottom: r(1rem);
+	}
 }
 
 /**
  * Footer
  */
 footer {
-	border-top: 0.2em solid #eee;
+	border-top: 0.2em solid theme(primary);
+	font-size: 90%;
+	color: #999;
+	text-align: center;
+
 	a {
 		border-bottom: 0;
-		color: #B61329;
+		color: theme(primaryDark);
+
+		&:hover {
+			color: theme(primary);
+		}
 	}
 }

@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Spark</title>
-	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Spark Conference Brighton - A mini-conference</title>
+	<meta name="description" content="Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
+
+	<meta itemprop="name" content="Spark Conference, Brighton">
+	<meta itemprop="description" content="Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
+	<meta itemprop="image" content="">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@sparkbrighton">
+
+	<meta property="og:title" content="Spark Conference, Brighton"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://www.sparkconf.uk" />
+	<meta property="og:image" content=""/>
+	<meta property="og:description" content="Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities" />
+	<meta property="og:site_name" content="Spark Conference" />
+
 	<link rel="stylesheet" href="/assets/spark/css/screen.css">
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-62725695-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
 <body>
 	<main>
 		<section>
-			<h1>Spark Conference, Brighton</h1>
-			<p class="featured">Spark is a cheap, web-industry focused mini-conference hosted in the heart of Brighton.</p>
+			<h1 class="logo"><img src="/assets/spark/img/logo.png" alt="Spark Conference, Brighton" /></h1>
+			<p class="featured">Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local&nbsp;charities.</p>
 		</section>
 		<div class="divider">
 			<section>
-				<p>To be kept up-to-date with the conference - sign up to the mailing list below, or follow us on <a href="http://www.twitter.com/sparkbrighton">Twitter</a>.</p>
+				<p>To be kept up-to-date with the conference - sign up to the mailing list below, or follow us on&nbsp;<a href="http://www.twitter.com/sparkbrighton">Twitter</a>.</p>
 				<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
 					<div class="error msg js-error"></div>
 					<span class="field">
@@ -33,12 +60,12 @@
 			</section>
 		</div>
 		<section>
-			<p>The evening event will feature four keynotes from people on the web-industry factory floor. Ranging from design to production, from tip and tricks to lessons in life. During the evening there will also be a chance to win some amazing prizes from some wonderful sponsors.</p>
-			<p>If you would like to sponsor the event by either donating some wonderful prizes or a contribution towards the running cost of the evening then please drop us an email: <a href="mailto:hello@sparkconf.uk">hello@sparkconf.uk</a>.</p>
+			<p>The evening event will feature four keynotes from people on the web-industry factory floor. Ranging from design to production, from tips and tricks to lessons in life. During the evening there will also be a chance to win some amazing prizes from some wonderful&nbsp;sponsors.</p>
+			<p>If you would like to sponsor the event by either donating some wonderful prizes or a contribution towards the running cost of the evening then please drop us an email:&nbsp;<a href="mailto:hello@sparkconf.uk">hello@sparkconf.uk</a>.</p>
 		</section>
 	</main>
 	<footer>
-		Spark - a mini-conference by <a href="http://www.liqudlight.co.uk">Liquid Light</a>
+		Spark - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a>
 	</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
