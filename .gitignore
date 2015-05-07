@@ -18,21 +18,3 @@ error_log
 /backup
 /var
 /html/imgf
-
-# Typo3
-/html/index.php
-
-# Ignore serveral upload and file directories.
-/html/fileadmin
-uploads/
-
-# Ignore cache
-/html/typo3conf/temp_CACHED*
-/html/typo3conf/temp_fieldInfo.php
-/html/typo3src
-/html/typo3
-/html/t3lib
-/html/typo3conf/l10n
-
-# Ignore temp directory.
-/html/typo3temp/
