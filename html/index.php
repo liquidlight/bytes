@@ -42,7 +42,6 @@
 			<section>
 				<p>To be kept up-to-date with the conference - sign up to the mailing list below, or follow us on&nbsp;<a href="http://www.twitter.com/sparkbrighton">Twitter</a>.</p>
 				<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
-					<div class="error msg js-error"></div>
 					<span class="field">
 						<input type="text" name="name" class="required name" id="name" />
 						<label for="name">
@@ -55,6 +54,7 @@
 							<span>Email Address</span>
 						</label>
 					</span>
+					<div class="error msg js-error"></div>
 					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
 			</section>

@@ -211,6 +211,22 @@ form {
 	}
 }
 
+.msg {
+	&.error,
+	&.success {
+		font-weight: 400;
+		text-align: center;
+		font-family: 'GrotaSansMedium';
+		margin-bottom: r(1rem);
+	}
+	&.error {
+		color: #E40322;
+	}
+	&.success {
+		font-size: 130%;
+	}
+}
+
 /**
  * Footer
  */

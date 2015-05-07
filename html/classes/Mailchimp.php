@@ -1,20 +1,20 @@
 <?php
 
-require_once 'Mailchimp/Folders.php';
-require_once 'Mailchimp/Templates.php';
-require_once 'Mailchimp/Users.php';
-require_once 'Mailchimp/Helper.php';
-require_once 'Mailchimp/Mobile.php';
-require_once 'Mailchimp/Conversations.php';
-require_once 'Mailchimp/Ecomm.php';
-require_once 'Mailchimp/Neapolitan.php';
-require_once 'Mailchimp/Lists.php';
-require_once 'Mailchimp/Campaigns.php';
-require_once 'Mailchimp/Vip.php';
-require_once 'Mailchimp/Reports.php';
-require_once 'Mailchimp/Gallery.php';
-require_once 'Mailchimp/Goal.php';
-require_once 'Mailchimp/Exceptions.php';
+require_once dirname(__FILE__) . '/Mailchimp/Folders.php';
+require_once dirname(__FILE__) . '/Mailchimp/Templates.php';
+require_once dirname(__FILE__) . '/Mailchimp/Users.php';
+require_once dirname(__FILE__) . '/Mailchimp/Helper.php';
+require_once dirname(__FILE__) . '/Mailchimp/Mobile.php';
+require_once dirname(__FILE__) . '/Mailchimp/Conversations.php';
+require_once dirname(__FILE__) . '/Mailchimp/Ecomm.php';
+require_once dirname(__FILE__) . '/Mailchimp/Neapolitan.php';
+require_once dirname(__FILE__) . '/Mailchimp/Lists.php';
+require_once dirname(__FILE__) . '/Mailchimp/Campaigns.php';
+require_once dirname(__FILE__) . '/Mailchimp/Vip.php';
+require_once dirname(__FILE__) . '/Mailchimp/Reports.php';
+require_once dirname(__FILE__) . '/Mailchimp/Gallery.php';
+require_once dirname(__FILE__) . '/Mailchimp/Goal.php';
+require_once dirname(__FILE__) . '/Mailchimp/Exceptions.php';
 
 class Mailchimp {
     
