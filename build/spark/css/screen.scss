@@ -1,0 +1,134 @@
+/**
+ * Spark Conference Website
+ */
+
+// Setup - REM Units and Sprite
+$px-only: false;
+//@import "src/sprite";
+
+$theme : (
+	'base': #222,
+	'primary': #E40322
+);
+
+$animationTransition: (
+	duration: 0.3s,
+	function: ease,
+
+	distance: 0.3em
+);
+
+// LL Sass Library
+@import "../../../../basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+a {
+	color: theme(primary);
+}
+
+main,
+footer {
+	padding: r(2rem);
+	max-width: r(50rem);
+	margin: 0 auto;
+}
+
+footer {
+	font-size: 80%;
+	color: #666;
+	text-align: center;
+}
+
+/**
+ * Sign Up Form
+ */
+form {
+	margin-left: r(-1rem);
+	margin-right: r(-1rem);
+	padding: r(2rem 0 1rem);
+	text-align: center;
+
+	.button {
+		@include animation(background);
+		border: 0;
+		background: theme(primary);
+		display: inline-block;
+		color: #fff;
+		padding: r(0.5rem 2rem);
+		font-size: 120%;
+
+		&:hover {
+			background: theme(base);
+		}
+	}
+}
+.field {
+	@extend %clearfix;
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 50%;
+	float: left;
+	padding: r(0 1rem);
+	text-align: left;
+	margin-bottom: r(1rem);
+
+	input {
+		@include animation(background, border);
+		position: relative;
+		display: block;
+		padding: r(1rem);
+		border: none;
+		background: #F0F0F0;
+		-webkit-appearance: none;
+
+		width: 100%;
+		border: 0.2em solid #ccc;
+	}
+
+	label {
+		@include animation(transform);
+		display: inline-block;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-touch-callout: none;
+		user-select: none;
+
+		width: 100%;
+		position: absolute;
+		bottom: 100%;
+		padding: 0 r(1rem);
+		transform: translate3d(0, 2.5rem, 0);
+		transition: transform 0.25s ease-in-out;
+	}
+
+	label span {
+		display: block;
+	}
+
+	input:focus + label,
+	&.input--filled label {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		color: theme(primary);
+	}
+
+	input:focus + input,
+	&.input--filled input {
+		background-color: transparent;
+		border-color: theme(primary);
+	}
+}
