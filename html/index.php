@@ -7,9 +7,12 @@
 	<title>Spark Conference Brighton - A mini-conference</title>
 	<meta name="description" content="Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
 
+	<link rel="shortcut icon" href="/assets/spark/img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="500x500" href="/assets/spark/img/spark-favicon.png">
+
 	<meta itemprop="name" content="Spark Conference, Brighton">
 	<meta itemprop="description" content="Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
-	<meta itemprop="image" content="">
+	<meta itemprop="image" content="http://www.sparkconf.uk/assets/spark/img/spark-favicon.png">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@sparkbrighton">
@@ -17,7 +20,7 @@
 	<meta property="og:title" content="Spark Conference, Brighton"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="http://www.sparkconf.uk" />
-	<meta property="og:image" content=""/>
+	<meta property="og:image" content="http://www.sparkconf.uk/assets/spark/img/spark-favicon.png"/>
 	<meta property="og:description" content="Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities" />
 	<meta property="og:site_name" content="Spark Conference" />
 
