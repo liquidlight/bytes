@@ -53,7 +53,11 @@
 				<p>Every penny raised will be divided between our two charities - <b>abandofbrothers</b> and <b>drop4drop</b>. By attenting this mini-conf you are helping these great causes.</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
 			</div>
-				<p class="sub-note">We are on the hunt for more speakers, sponsors and prizes - if you think you can help in any way, drop up as <a href="http://www.twitter.com/sparkbrighton">tweet</a> or an&nbsp;<a href="mailto:hello@sparkconf.uk">email</a>.</p>
+			<div class="pull-out">
+				<h3>Be part of something awesome.</h3>
+				<p>If you fancy doing a 20 minute presentation at Spark about something web related or you would like to donate some prizes for our event, then all you need to do is drop us a <a href="http://www.twitter.com/sparkbrighton">tweet</a> or an&nbsp;<a href="mailto:hello@sparkconf.uk">email</a>.</p>
+				<p>Be part of something amazing which not only helps people learn, but raises money for local causes too.</p>
+			</div>
 		</section>
 		<section>
 			<div class="divider spaced">

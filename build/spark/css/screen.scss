@@ -134,6 +134,10 @@ h2 {
 		}
 	}
 }
+h3 {
+	font-size: 160%;
+	text-align: center;
+}
 
 b {
 	font-weight: normal;
@@ -174,6 +178,15 @@ b {
 		font-size: 110%;
 		columns: 2;
 		column-gap: r(2rem);
+	}
+}
+.pull-out {
+	margin-top: r(2rem);
+	border-top: 1px solid #ddd;
+	> p {
+		max-width: r(60rem);
+		margin: r(0 auto 1.5rem);
+
 	}
 }
 .sub-note {
