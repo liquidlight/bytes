@@ -37,13 +37,128 @@
 </head>
 <body>
 	<main>
-		<section>
-			<h1 class="logo"><img src="/assets/spark/img/logo.png" alt="Spark Conference, Brighton" /></h1>
-			<p class="featured">Spark is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local&nbsp;charities.</p>
-		</section>
-		<div class="divider">
+		<header>
 			<section>
-				<p>To be kept up-to-date with the conference - sign up to the mailing list below, or follow us on&nbsp;<a href="http://www.twitter.com/sparkbrighton">Twitter</a>.</p>
+				<h1 class="logo"><img src="/assets/spark/img/logo.png" alt="Spark Conference, Brighton" /></h1>
+				<p class="featured">Thursday 29th October, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
+				<p class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for local&nbsp;charities.</p>
+				<a href="" class="button">Buy Tickets - £10</a>
+			</section>
+		</header>
+		<section>
+			<h2>What's Spark?</h2>
+			<div class="intro">
+				<p>The evening event will feature four keynotes from people on the web-industry factory floor. Ranging from design to production, from tips and tricks to lessons in life. During the evening there will also be a chance to win some amazing prizes from some wonderful&nbsp;sponsors.</p>
+				<p>If you would like to sponsor the event by either donating some wonderful prizes or a contribution towards the running cost of the evening then please drop us an email:&nbsp;<a href="mailto:hello@sparkconf.uk">hello@sparkconf.uk</a>.</p>
+			</div>
+		</section>
+		<div class="divider alt">
+			<section>
+				<h2>Who are we raising money for?</h2>
+				<ul class="set">
+					<li>
+						<div class="block">
+							<img src="/assets/spark/img/abob.png" alt="" />
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="block">
+							<img src="http://drop4drop.org/wp-content/themes/drop4drop/images/logo.png" alt="" />
+							<div class="text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<section>
+			<h2>Who's Speaking?</h2>
+			<ul class="set">
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="http://fillmurray.com/500/500" alt="" />
+							</div>
+							<div class="cell">
+								<h3>Mike Street</h3>
+								<ul class="links">
+									<li><a href="">@mikestreety</a></li>
+									<li><a href="">mikestreety.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="http://fillmurray.com/500/500" alt="" />
+							</div>
+							<div class="cell">
+								<h3>Mike Street</h3>
+								<ul class="links">
+									<li><a href="">@mikestreety</a></li>
+									<li><a href="">mikestreety.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="http://fillmurray.com/500/500" alt="" />
+							</div>
+							<div class="cell">
+								<h3>Mike Street</h3>
+								<ul class="links">
+									<li><a href="">@mikestreety</a></li>
+									<li><a href="">mikestreety.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="http://fillmurray.com/500/500" alt="" />
+							</div>
+							<div class="cell">
+								<h3>Mike Street</h3>
+								<ul class="links">
+									<li><a href="">@mikestreety</a></li>
+									<li><a href="">mikestreety.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<div class="divider spaced alt">
+				<h2>Sign up to the mailing list</h2>
 				<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
 					<span class="field">
 						<input type="text" name="name" class="required name" id="name" />
@@ -57,14 +172,31 @@
 							<span>Email Address</span>
 						</label>
 					</span>
+					<span class="field last">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+					</span>
 					<div class="error msg js-error"></div>
-					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 				</form>
-			</section>
-		</div>
+			</div>
+		</section>
+			<h2>Where is it?</h2>
+			<div id="map"></div>
 		<section>
-			<p>The evening event will feature four keynotes from people on the web-industry factory floor. Ranging from design to production, from tips and tricks to lessons in life. During the evening there will also be a chance to win some amazing prizes from some wonderful&nbsp;sponsors.</p>
-			<p>If you would like to sponsor the event by either donating some wonderful prizes or a contribution towards the running cost of the evening then please drop us an email:&nbsp;<a href="mailto:hello@sparkconf.uk">hello@sparkconf.uk</a>.</p>
+			<h2>With thanks to...</h2>
+			<ul class="set small">
+				<li>
+					<a href=""><img src="http://fillmurray.com/150/70" alt="" /></a>
+				</li>
+				<li>
+					<a href=""><img src="http://fillmurray.com/150/70" alt="" /></a>
+				</li>
+				<li>
+					<a href=""><img src="http://fillmurray.com/150/70" alt="" /></a>
+				</li>
+				<li>
+					<a href=""><img src="http://fillmurray.com/150/70" alt="" /></a>
+				</li>
+			</ul>
 		</section>
 	</main>
 	<footer>
@@ -72,6 +204,7 @@
 	</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script src="assets/spark/js/core.js"></script>
 </body>
 </html>

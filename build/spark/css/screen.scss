@@ -9,7 +9,9 @@ $px-only: false;
 $theme : (
 	base: #434a54,
 	primary: #26A3CF,
-	primaryDark: #434a54
+	light: #fff,
+	subtle: #f9f9f9,
+	divider: #eeeeee
 );
 
 $animationTransition: (
@@ -59,12 +61,11 @@ body {
 	font-size: 17px;
 	line-height: 1.5;
 	font-weight: 400;
-	background: #fff;
+	background: theme(light);
 	min-width: 16em;
 	color: theme(base);
 
 	@include mq(tablet) {
-		padding-top: r(2rem);
 		font-size: 19px;
 	}
 }
@@ -84,12 +85,38 @@ a {
 		border-bottom-color: theme(primaryDark);
 	}
 }
-
+header {
+	text-align: center;
+	background: url('../img/header-BandW.jpg') fixed bottom center;
+	background-size: cover;
+}
 section,
 footer {
 	padding: r(2rem);
-	max-width: r(50rem);
+	max-width: r(72rem);
 	margin: 0 auto;
+}
+
+h2 {
+	color: theme(primary);
+	font-size: 180%;
+	text-align: center;
+	margin-top: 0;
+	letter-spacing: 2px;
+	&:before,
+	&:after {
+		font-family: Arial;
+		font-weight: 400;
+		opacity: 0.4;
+	}
+	&:before {
+		content: '{';
+		padding-right: r(1rem);
+	}
+	&:after {
+		content: '}';
+		padding-left: r(1rem);
+	}
 }
 
 /**
@@ -101,11 +128,27 @@ footer {
 	text-align: center;
 	font-family: 'GrotaSansMedium';
 }
-
-.divider {
-	background: #eee;
+.featured-sub {
+	font-size: 110%;
 }
 
+.divider {
+	background: theme(subtle);
+}
+.divider.alt {
+	background: theme(primary);
+	color: #fff;
+
+	h2 {
+		color: theme(light);
+	}
+}
+.spaced {
+	padding: r(1.5rem);
+}
+.intro {
+	columns: 2;
+}
 
 /**
  * Logo
@@ -123,25 +166,35 @@ footer {
 /**
  * Sign Up Form
  */
-form {
-	margin-left: r(-1rem);
-	margin-right: r(-1rem);
-	padding: r(2rem 0 1rem);
-	text-align: center;
+.button,
+.divider.alt .button {
+	@include animate(background, color);
+	border: 0;
+	background: theme(primary);
+	display: inline-block;
+	color: theme(light);
+	padding: r(1rem 2rem);
+	font-size: 120%;
 
-	.button {
-		@include animate(background);
-		border: 0;
-		background: theme(primary);
-		display: inline-block;
-		color: #fff;
-		padding: r(0.5rem 2rem);
-		font-size: 120%;
-
-		&:hover {
-			background: theme(base);
-		}
+	&:hover {
+		background: theme(base);
 	}
+}
+div.divider.alt .button {
+	background: none;
+	border: r(0.2rem) solid theme(light);
+	padding: r(0.6rem 2rem);
+	&:hover {
+		color: theme(base);
+		background: theme(light);
+	}
+}
+
+form {
+	@extend %clearfix;
+	margin-left: r(-0.75rem);
+	margin-right: r(-0.75rem);
+	text-align: center;
 }
 
 .field {
@@ -149,24 +202,28 @@ form {
 	position: relative;
 	z-index: 1;
 	display: block;
-	padding: r(0 1rem);
+	padding: r(0 0.75rem);
 	text-align: left;
 	margin-bottom: r(2rem);
 
+	&.last {
+		margin-bottom: 0;
+	}
+
 	input {
 		@include animate(background, border);
+		color: theme(base);
 		position: relative;
 		display: block;
 		padding: r(1rem);
 		border: none;
-		background: #fff;
+		background: theme(light);
 		-webkit-appearance: none;
 		width: 100%;
-		border: 0.2em solid #ccc;
+		border: none;
 
 		&:focus {
 			outline: none;
-			border-color: theme(primary);
 		}
 	}
 
@@ -179,6 +236,7 @@ form {
 		user-select: none;
 
 		width: 100%;
+		color: theme(base);
 		position: absolute;
 		bottom: 100%;
 		padding: 0 r(1rem);
@@ -193,21 +251,27 @@ form {
 	&.input--filled label {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
+		color: theme(light);
 	}
 
 	input:focus + label {
-		color: theme(primary);
+		color: theme(light);
 	}
 
 	input:focus + input,
 	&.input--filled input {
-		border-color: theme(primary);
+		border-color: theme(base);
 	}
 
 	@include mq(tablet) {
-		width: 50%;
+		width: 40%;
 		float: left;
-		margin-bottom: r(1rem);
+		margin-bottom: 0;
+
+		&.last {
+			width: 20%;
+			background: none;
+		}
 	}
 }
 
@@ -225,6 +289,97 @@ form {
 	&.success {
 		font-size: 130%;
 	}
+}
+
+/**
+ * Speakers
+ */
+.set {
+	@extend %secret-list;
+	@extend %clearfix;
+	margin-left: - r(1.5rem);
+	.block {
+		background: #f9f9f9;
+		padding: r(1.5rem);
+	}
+	> li {
+		padding-left: r(1.5rem);
+		margin-bottom: r(1.5rem);
+	}
+	h3 {
+		margin-top: 0;
+		font-size: 180%;
+		margin-bottom: r(1rem);
+	}
+	.top {
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+	}
+	.top .cell {
+		display: table-cell;
+		vertical-align: top;
+		width: 30%;
+		+ .cell {
+			width: 70%;
+			padding-left: r(1.5rem);
+		}
+	}
+	img {
+		width: 100%;
+		display: block;
+	}
+	.text {
+		padding-top: r(1.5rem);
+	}
+
+	.divider.alt & {
+		margin-left: - r(4rem);
+		> li {
+			padding-left: r(4rem);
+		}
+		.block {
+			background: none;
+			padding: 0;
+		}
+		.text {
+			color: #f9f9f9;
+		}
+		img {
+			width: 75%;
+			margin: 0 auto;
+		}
+	}
+
+	@include mq(tablet) {
+		> li {
+			width: 50%;
+			float: left;
+		}
+	}
+}
+.set.small {
+	> li {
+		width: 50%;
+		float: left;
+	}
+	@include mq(tablet) {
+		> li {
+			width: 25%;
+		}
+	}
+
+}
+.links {
+	@extend %secret-list;
+}
+
+/**
+ * Map
+ */
+#map {
+	width: 100%;
+	height: r(25rem);
 }
 
 /**
