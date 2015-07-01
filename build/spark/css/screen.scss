@@ -7,7 +7,7 @@ $px-only: false;
 //@import "src/sprite";
 
 $theme : (
-	base: #434a54,
+	base: #49525E,
 	primary: #26A3CF,
 	light: #fff,
 	subtle: #f9f9f9,
@@ -48,13 +48,11 @@ $mq-breakpoints: (
        url('../fonts/GrotaSansMedium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
-
 *,
 *:before,
 *:after {
 	box-sizing: border-box;
 }
-
 
 body {
 	font-family: 'GrotaSans', sans-serif;
@@ -89,6 +87,22 @@ header {
 	text-align: center;
 	background: url('../img/header-BandW.jpg') fixed bottom center;
 	background-size: cover;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background: rgba(255, 255, 255, 0.7);
+		z-index: 1;
+	}
+
+	section {
+		position: relative;
+		z-index: 5;
+	}
 }
 section,
 footer {
@@ -103,27 +117,34 @@ h2 {
 	text-align: center;
 	margin-top: 0;
 	letter-spacing: 2px;
-	&:before,
-	&:after {
-		font-family: Arial;
-		font-weight: 400;
-		opacity: 0.4;
+	@include mq(tablet) {
+		&:before,
+		&:after {
+			font-family: Arial;
+			font-weight: 400;
+			opacity: 0.4;
+		}
+		&:before {
+			content: '{';
+			padding-right: r(1rem);
+		}
+		&:after {
+			content: '}';
+			padding-left: r(1rem);
+		}
 	}
-	&:before {
-		content: '{';
-		padding-right: r(1rem);
-	}
-	&:after {
-		content: '}';
-		padding-left: r(1rem);
-	}
+}
+
+b {
+	font-weight: normal;
+	color: #000;
 }
 
 /**
  * Modular
  */
 .featured {
-	font-size: 130%;
+	font-size: 140%;
 	font-weight: 400;
 	text-align: center;
 	font-family: 'GrotaSansMedium';
@@ -138,6 +159,7 @@ h2 {
 .divider.alt {
 	background: theme(primary);
 	color: #fff;
+	margin-bottom: r(2rem);
 
 	h2 {
 		color: theme(light);
@@ -147,9 +169,21 @@ h2 {
 	padding: r(1.5rem);
 }
 .intro {
-	columns: 2;
+	color: lighten(theme(base), 15%);
+	@include mq(tablet) {
+		font-size: 110%;
+		columns: 2;
+		column-gap: r(2rem);
+	}
 }
-
+.sub-note {
+	text-align: center;
+	border-top: 1px solid #ddd;
+	padding-top: r(1.5rem);
+	margin-top: r(2.5rem);
+	color: lighten(theme(base), 15%);
+	margin-bottom: 0;
+}
 /**
  * Logo
  */
@@ -178,6 +212,11 @@ h2 {
 
 	&:hover {
 		background: theme(base);
+		color: theme(light);
+	}
+	&.button-small {
+		font-size: 100%;
+		padding: r(0.5rem 1rem);
 	}
 }
 div.divider.alt .button {
@@ -220,7 +259,7 @@ form {
 		background: theme(light);
 		-webkit-appearance: none;
 		width: 100%;
-		border: none;
+		border: r(0.2rem) solid theme(primary);
 
 		&:focus {
 			outline: none;
@@ -249,18 +288,22 @@ form {
 
 	input:focus + label,
 	&.input--filled label {
-		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0);
-		color: theme(light);
-	}
-
-	input:focus + label {
-		color: theme(light);
+		color: theme(base);
 	}
 
 	input:focus + input,
 	&.input--filled input {
 		border-color: theme(base);
+	}
+
+	.button {
+		border: none;
+		background: theme(primary);
+		color: theme(light);
+		&:hover {
+			background: theme(base);
+		}
 	}
 
 	@include mq(tablet) {
@@ -346,7 +389,7 @@ form {
 			color: #f9f9f9;
 		}
 		img {
-			width: 75%;
+			width: 60%;
 			margin: 0 auto;
 		}
 	}
@@ -386,7 +429,6 @@ form {
  * Footer
  */
 footer {
-	border-top: 0.2em solid theme(primary);
 	font-size: 90%;
 	color: #999;
 	text-align: center;

@@ -126,23 +126,12 @@ $(function () {
 			styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#333333"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#eeeeee"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#26A3CF"},{"visibility":"on"}]}]
 		});
 		var icon = '/assets/spark/img/marker.png';
-    	addMarker(50.826238,-0.138210,'<strong>The Skiff</strong><br />	6 Gloucester Street<br />Brighton and Hove<br />BN1 4EW', '/assets/spark/img/marker-spark.png', 71, 103);
+    	addMarker(50.826238,-0.138210,'<strong>The Lighthouse</strong><br />28 Kensington Street<br />Brighton and Hove<br />BN1 4AJ', '/assets/spark/img/marker-spark.png', 71, 103);
  		addMarker(50.828649,-0.141149,'<strong>Brighton Train Station</strong>', icon);
  		addMarker(50.825711,-0.141476,'<strong>NCP</strong><br />Church Street<br />Brighton<br />BN1 1US', icon);
  		addMarker(50.831459,-0.137277,'<strong>London Road Parking</strong><br />Providence Place,<br />Brighton<br />BN1 4GE', icon);
 
 	}
-
-
-	function setupMap () {
-		if( $(window).width() > 480 && !mapActive )
-		{
-			initialize();
-		}
-	}
-
-	setupMap();
-
-	$(window).resize(setupMap);
+	initialize();
 
 });
