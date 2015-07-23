@@ -145,7 +145,7 @@
 							</div>
 						</div>
 						<div class="text">
-							BLURB
+							Charlotte is a front-end developer at Clearleft. She is passionate about the web and has a keen interest in the education of new developers. She regularly volunteers at meet ups like codebar.
 						</div>
 					</div>
 				</li>
