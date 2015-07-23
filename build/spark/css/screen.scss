@@ -7,6 +7,7 @@ $px-only: false;
 //@import "src/sprite";
 
 $theme : (
+	dark: #000,
 	base: #49525E,
 	primary: #26A3CF,
 	light: #fff,
@@ -95,7 +96,7 @@ header {
 		bottom: 0;
 		right: 0;
 		left: 0;
-		background: rgba(255, 255, 255, 0.7);
+		background: rgba(theme(light), 0.7);
 		z-index: 1;
 	}
 
@@ -141,7 +142,7 @@ h3 {
 
 b {
 	font-weight: normal;
-	color: #000;
+	color: theme(dark);
 }
 
 /**
@@ -162,7 +163,7 @@ b {
 }
 .divider.alt {
 	background: theme(primary);
-	color: #fff;
+	color: theme(light);
 	margin-bottom: r(2rem);
 
 	h2 {
@@ -364,7 +365,8 @@ form {
 	}
 	h3 {
 		margin-top: 0;
-		font-size: 180%;
+		font-size: 150%;
+		text-align: left;
 		margin-bottom: r(1rem);
 	}
 	.top {
@@ -411,6 +413,9 @@ form {
 		> li {
 			width: 50%;
 			float: left;
+			&:nth-child(odd) {
+				clear: left;
+			}
 		}
 	}
 }
@@ -422,6 +427,12 @@ form {
 	@include mq(tablet) {
 		> li {
 			width: 25%;
+			&:nth-child(odd) {
+				clear: none;
+			}
+			&:nth-child(4n+1) {
+				clear: left;
+			}
 		}
 	}
 
@@ -445,6 +456,7 @@ footer {
 	font-size: 90%;
 	color: #999;
 	text-align: center;
+	border-top: 0.2em solid theme(primary);
 
 	a {
 		border-bottom: 0;

@@ -53,11 +53,6 @@
 				<p>Every penny raised will be divided between our two charities - <b>abandofbrothers</b> and <b>drop4drop</b>. By attenting this mini-conf you are helping these great causes.</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
 			</div>
-			<div class="pull-out">
-				<h3>Be part of something awesome.</h3>
-				<p>If you fancy doing a 20 minute presentation at Spark about something web related or you would like to donate some prizes for our event, then all you need to do is drop us a <a href="http://www.twitter.com/sparkbrighton">tweet</a> or an&nbsp;<a href="mailto:hello@sparkconf.uk">email</a>.</p>
-				<p>Be part of something amazing which not only helps people learn, but raises money for local causes too.</p>
-			</div>
 		</section>
 		<section>
 			<div class="divider spaced">
@@ -113,8 +108,117 @@
 				</ul>
 			</section>
 		</div>
+		<section>
+			<h2>Who's speaking?</h2>
+			<ul class="set">
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="/assets/spark/img/speakers/dan-edwards.jpg" alt="Dan Edwards" />
+							</div>
+							<div class="cell">
+								<h3>Dan Edwards</h3>
+								<ul class="links">
+									<li><a href="http://www.twitter.com/de">@de</a></li>
+									<li><a href="http://nodivide.us">nodivide.us</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							Dan is the Creative Director of No Divide, an agency he co-founded in 2014. He’s also the host of the YouTube show, Let’s Talk Design, co-creator of <a href="http://oozled.com/">oozled.com</a> and in 2013 won net magazine’s Young Designer of the Year.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="/assets/spark/img/speakers/charlotte-jackson.jpg" alt="Charlotte Jackson" />
+							</div>
+							<div class="cell">
+								<h3>Charlotte Jackson</h3>
+								<ul class="links">
+									<li><a href="http://www.twitter.com/lottejackson">@lottejackson</a></li>
+									<li><a href="http://www.lottejackson.com">lottejackson.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							BLURB
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="http://fillmurray.com/500/500" alt="Rosa Fox" />
+							</div>
+							<div class="cell">
+								<h3>Rosa Fox</h3>
+								<ul class="links">
+									<li><a href="http://www.twitter.com/rosaemerald">@rosaemerald</a></li>
+									<li><a href="http://www.rosa-fox.com/">rosa-fox.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							DINGO
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="http://assets.rollingstone.com/assets/images/story/r-kellys-trapped-in-the-closet-will-return-on-ifc-20120321/square.jpg" alt="Will Chidlow" />
+							</div>
+							<div class="cell">
+								<h3>Will Chidlow</h3>
+								<ul class="links">
+									<li><a href="http://www.twitter.com/terminallywill">@terminallywill</a></li>
+									<li><a href="http://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							BONG
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
 		<h2>Where is it?</h2>
 		<div id="map"></div>
+		<section>
+			<h2>With thanks to...</h2>
+			<ul class="set small">
+				<li>
+					<a href="http://www.liquidlight.co.uk/">Liquid Light</a>
+				</li>
+				<li>
+					<a href="http://www.life-water.co.uk/">Lifewater</a>
+				</li>
+
+				<li>
+					<a href="http://bisonbeer.co.uk/"><img src="/assets/spark/img/partners/bison-beer.jpg" alt="Bison Beer"></a>
+				</li>
+				<li>
+					<a href="http://bluebirdteaco.com/"><img src="/assets/spark/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
+				</li>
+				<li>
+					<a href="http://www.cybercandy.co.uk/">Cybercandy</a>
+				</li>
+				<li>
+					<a href="http://www.drinkinbrighton.co.uk/deadwaxsocial"><img src="/assets/spark/img/partners/deadwax.jpg" alt="Dead Wax Social"></a>
+				</li>
+				<li>
+					<a href="http://www.komedia.co.uk/brighton/"><img src="/assets/spark/img/partners/komedia.jpg" alt="Komedia"></a>
+				</li>
+
+			</ul>
+		</section>
 	</main>
 	<footer>
 		Spark - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a><br>
