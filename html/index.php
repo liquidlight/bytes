@@ -134,6 +134,25 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
+								<img src="/assets/spark/img/speakers/rosa-fox.jpg" alt="Rosa Fox" />
+							</div>
+							<div class="cell">
+								<h3>Rosa Fox</h3>
+								<ul class="links">
+									<li><a href="http://www.twitter.com/rosaemerald">@rosaemerald</a></li>
+									<li><a href="http://www.rosa-fox.com/">rosa-fox.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							Rosa works remotely for Happy Bear Software as a Ruby developer. She has a background in music computing and co-organises two local events which encourage diversity in the tech industry: <a href="http://codebar.io/brighton">Codebar Brighton</a> and <a href="http://shecodesbtn.co.uk/">She Codes Brighton</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
 								<img src="/assets/spark/img/speakers/charlotte-jackson.jpg" alt="Charlotte Jackson" />
 							</div>
 							<div class="cell">
@@ -149,30 +168,12 @@
 						</div>
 					</div>
 				</li>
+
 				<li>
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="http://fillmurray.com/500/500" alt="Rosa Fox" />
-							</div>
-							<div class="cell">
-								<h3>Rosa Fox</h3>
-								<ul class="links">
-									<li><a href="http://www.twitter.com/rosaemerald">@rosaemerald</a></li>
-									<li><a href="http://www.rosa-fox.com/">rosa-fox.com</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text">
-							DINGO
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="block">
-						<div class="top">
-							<div class="cell">
-								<img src="http://assets.rollingstone.com/assets/images/story/r-kellys-trapped-in-the-closet-will-return-on-ifc-20120321/square.jpg" alt="Will Chidlow" />
+								<img src="/assets/spark/img/speakers/will-chidlow.jpg" alt="Will Chidlow" />
 							</div>
 							<div class="cell">
 								<h3>Will Chidlow</h3>
@@ -183,7 +184,7 @@
 							</div>
 						</div>
 						<div class="text">
-							BONG
+							Will is a designer at Liquid Light, specialising in making the web look and work better. When not designing, he can be found tinkering with a Raspberry Pi and drinking too much coffee.
 						</div>
 					</div>
 				</li>
@@ -195,15 +196,17 @@
 			<h2>With thanks to...</h2>
 			<ul class="set small">
 				<li>
-					<a href="http://www.liquidlight.co.uk/">Liquid Light</a>
+					<a href="http://bisonbeer.co.uk/"><img src="/assets/spark/img/partners/bison-beer.jpg" alt="Bison Beer"></a>
+				</li>
+				<li>
+					<a href="http://www.drinkinbrighton.co.uk/deadwaxsocial"><img src="/assets/spark/img/partners/deadwax.jpg" alt="Dead Wax Social"></a>
 				</li>
 				<li>
 					<a href="http://www.life-water.co.uk/">Lifewater</a>
 				</li>
 
-				<li>
-					<a href="http://bisonbeer.co.uk/"><img src="/assets/spark/img/partners/bison-beer.jpg" alt="Bison Beer"></a>
-				</li>
+			</ul>
+			<ul class="set small">
 				<li>
 					<a href="http://bluebirdteaco.com/"><img src="/assets/spark/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
 				</li>
@@ -211,12 +214,11 @@
 					<a href="http://www.cybercandy.co.uk/">Cybercandy</a>
 				</li>
 				<li>
-					<a href="http://www.drinkinbrighton.co.uk/deadwaxsocial"><img src="/assets/spark/img/partners/deadwax.jpg" alt="Dead Wax Social"></a>
+					<a href="http://www.liquidlight.co.uk/">Liquid Light</a>
 				</li>
 				<li>
 					<a href="http://www.komedia.co.uk/brighton/"><img src="/assets/spark/img/partners/komedia.jpg" alt="Komedia"></a>
 				</li>
-
 			</ul>
 		</section>
 	</main>
