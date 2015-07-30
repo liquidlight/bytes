@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//www.marudot.com//iCal Event Maker
-X-WR-CALNAME:Spark Conf
+X-WR-CALNAME:Bytes Conf
 CALSCALE:GREGORIAN
 BEGIN:VTIMEZONE
 TZID:Europe/London
@@ -27,8 +27,8 @@ DTSTAMP:20150701T104701Z
 UID:20150701T104701Z-1630174289@marudot.com
 DTSTART;TZID="Europe/London":20151029T190000
 DTEND;TZID="Europe/London":20151029T230000
-SUMMARY:Spark Conference
-DESCRIPTION:An affordable\, web-industry focused mini-conference raising money for charities. - http://www.sparkconf.uk/
+SUMMARY:Bytes Conference
+DESCRIPTION:An affordable\, web-industry focused mini-conference raising money for charities. - http://www.bytesconf.co.uk/
 LOCATION:Lighthouse\, Kensington Street\, Brighton\, BN1 4AJ
 END:VEVENT
 END:VCALENDAR

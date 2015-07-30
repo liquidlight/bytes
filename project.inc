@@ -1,6 +1,6 @@
 <?php
 /**
- * Spark project settings
+ * Bytes project settings
  * 
  * @author Oliver Rowlands <oliver@liquidlight.co.uk>
  * @copyright Liquid Light Digital Ltd.
@@ -9,31 +9,31 @@
 return ZyncHelper::arrayMergeRecursive(
 	ZyncHelper::load(realpath($_ENV['ZYNC_PATH']).'/Project/Static/Default.inc'),
 	array(
-		'label' => 'Spark',
+		'label' => 'Bytes',
 		'environments' => array(
 		
 			// Production environment
 			'production' => array(
 				'host' => array(
-					'name' => 'spark',
+					'name' => 'bytes',
 				),
 				'paths' => array(
 					'html' => array(
-						'root' => '/var/www/sparkconf.uk/html/',
+						'root' => '/var/www/bytesconf.co.uk/html/',
 					),
 					'backup' => array(
-						'root' => '/var/www/sparkconf.uk/backup/',
+						'root' => '/var/www/bytesconf.co.uk/backup/',
 					),
 				),
 				'domains' => array(
-					'sparkconf.uk',
+					'bytesconf.co.uk',
 				),
 			),
 			
 			// Development environment
 			'development' => array(
 				'domains' => array(
-					'www.spark.lldev.co.uk',
+					'www.bytes.lldev.co.uk',
 				)
 			),
 			
