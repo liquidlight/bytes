@@ -54,7 +54,7 @@
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
 			</div>
 		</section>
-		<section>
+		<section id="signup">
 			<div class="divider spaced">
 				<h2>Sign up to the mailing list</h2>
 				<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
@@ -77,7 +77,7 @@
 				</form>
 			</div>
 		</section>
-		<div class="divider alt">
+		<div class="divider alt" id="charities">
 			<section>
 				<h2>Who are we raising money for?</h2>
 				<ul class="set">
@@ -108,7 +108,7 @@
 				</ul>
 			</section>
 		</div>
-		<section>
+		<section id="speakers">
 			<h2>Who's speaking?</h2>
 			<ul class="set">
 				<li>
@@ -192,7 +192,7 @@
 		</section>
 		<h2>Where is it?</h2>
 		<div id="map"></div>
-		<section>
+		<section id="partners">
 			<h2>With thanks to...</h2>
 			<ul class="partners">
 				<li>
