@@ -42,7 +42,11 @@
 				<h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1>
 				<p class="featured">Thursday 29th October, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
 				<p class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charities.</p>
-				<a href="Bytes_Conf.ics" class="button">Add Bytes to your calendar</a>
+				<?php if(time() > strtotime('10:00am 7th August 2015')) : ?>
+					<a href="http://www.eventbrite.com/e/bytes-conf-tickets-17602896738" class="button">Buy Tickets - £12</a>
+				<?php else: ?>
+					<a href="http://www.eventbrite.com/e/bytes-conf-tickets-17602896738" class="button">Tickets on sale 7th August at 10am</a>
+				<?php endif ?>
 			</section>
 		</header>
 		<section>
@@ -52,6 +56,7 @@
 				<p>If you are just starting out, or an industry professional this affordable mini-conf will help you gain insight from our highly experienced key note speakers, with topics ranging from development and design to workflows and performance tips.</p>
 				<p>Every penny raised will be divided between our two charities - <b>abandofbrothers</b> and <b>drop4drop</b>. By attending this mini-conf you are helping these great causes.</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
+				<p><a href="Bytes_Conf.ics">Add Bytes to your calendar.</a></p>
 			</div>
 		</section>
 		<section id="signup">
