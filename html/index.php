@@ -50,7 +50,7 @@
 			<div class="intro">
 				<p>Bytes is a web-industry focused mini-conference to be held at <b>Lighthouse</b>, a hub for creative industries in the centre of Brighton, on <b>Thursday 29th October</b>.</p>
 				<p>If you are just starting out, or an industry professional this affordable mini-conf will help you gain insight from our highly experienced key note speakers, with topics ranging from development and design to workflows and performance tips.</p>
-				<p>Every penny raised will be divided between our two charities - <b>abandofbrothers</b> and <b>drop4drop</b>. By attenting this mini-conf you are helping these great causes.</p>
+				<p>Every penny raised will be divided between our two charities - <b>abandofbrothers</b> and <b>drop4drop</b>. By attending this mini-conf you are helping these great causes.</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
 			</div>
 		</section>
