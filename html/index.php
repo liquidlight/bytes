@@ -212,6 +212,9 @@
 				<li>
 					<a rel="nofollow" href="http://www.life-water.co.uk/"><img src="/assets/bytes/img/partners/lifewater.jpg" alt="Lifewater"></a>
 				</li>
+				<li>
+					<a rel="nofollow" href="http://brewedinbrighton.co.uk/"><img src="/assets/bytes/img/partners/north-laine.png" alt="North Laine"></a>
+				</li>
 
 			</ul>
 			<ul class="partners">
