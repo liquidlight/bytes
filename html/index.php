@@ -120,18 +120,19 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="/assets/bytes/img/speakers/dan-edwards.jpg" alt="Dan Edwards" />
+								<img src="/assets/bytes/img/speakers/john-ellison.jpg" alt="John Ellison" />
 							</div>
 							<div class="cell">
-								<h3>Dan Edwards</h3>
+								<h3>John Ellison</h3>
 								<ul class="links">
-									<li><a href="http://www.twitter.com/de">@de</a></li>
-									<li><a href="http://nodivide.us">nodivide.us</a></li>
+									<li><a href="http://www.twitter.com/iamjohnellison">@iamjohnellison</a></li>
+									<li><a href="http://john-ellison.com">john-ellison.com</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							Dan is the Creative Director of No Divide, an agency he co-founded in 2014. He’s also the host of the YouTube show, Let’s Talk Design, co-creator of <a href="http://oozled.com/">oozled.com</a> and in 2013 won net magazine’s Young Designer of the Year.
+							<p>John is a user experience designer passionate about living a great story. He recently embarked on a 90-day journey at Clearleft, writing daily about his experience on his <a href="https://90days.john-ellison.com/">Blog</a>. John is currently working on helping to <a href="http://solvetherefugeecrisis.com/">solve the refugee crisis</a>.</p>
+							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbt/">What is the future that we want to build together?</a></p>
 						</div>
 					</div>
 				</li>
@@ -150,7 +151,8 @@
 							</div>
 						</div>
 						<div class="text">
-							Rosa works remotely for Happy Bear Software as a Ruby developer. She has a background in music computing and co-organises two local events which encourage diversity in the tech industry: <a href="http://codebar.io/brighton">Codebar Brighton</a> and <a href="http://shecodesbtn.co.uk/">She Codes Brighton</a>
+							<p>Rosa works remotely for Happy Bear Software as a Ruby developer. She has a background in music computing and co-organises two local events which encourage diversity in the tech industry: <a href="http://codebar.io/brighton">Codebar Brighton</a> and <a href="http://shecodesbtn.co.uk/">She Codes Brighton</a></p>
+							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbx/">Built by everyone</a></p>
 						</div>
 					</div>
 				</li>
@@ -169,7 +171,8 @@
 							</div>
 						</div>
 						<div class="text">
-							Charlotte is a front-end developer at Clearleft. She is passionate about the web and has a keen interest in the education of new developers. She regularly volunteers at meet ups like codebar.
+							<p>Charlotte is a front-end developer at Clearleft. She is passionate about the web and has a keen interest in the education of new developers. She regularly volunteers at meet ups like codebar.</p>
+							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbw/">From pages to patterns</a></p>
 						</div>
 					</div>
 				</li>
@@ -189,7 +192,8 @@
 							</div>
 						</div>
 						<div class="text">
-							Will is a designer at Liquid Light, specialising in making the web look and work better. When not designing, he can be found tinkering with a Raspberry Pi and drinking too much coffee.
+							<p>Will is a designer at Liquid Light, specialising in making the web look and work better. When not designing, he can be found tinkering with a Raspberry Pi and drinking too much coffee.</p>
+							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbr/">The unsung skill</a></p>
 						</div>
 					</div>
 				</li>
