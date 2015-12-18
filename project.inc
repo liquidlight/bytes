@@ -26,7 +26,7 @@ return ZyncHelper::arrayMergeRecursive(
 					),
 				),
 				'domains' => array(
-					'bytesconf.co.uk',
+					'www.bytesconf.co.uk',
 				),
 			),
 			
