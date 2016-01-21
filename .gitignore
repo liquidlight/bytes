@@ -17,4 +17,3 @@ error_log
 *.dh.key
 /backup
 /var
-/html/imgf
