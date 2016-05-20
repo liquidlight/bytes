@@ -6,13 +6,16 @@
 $px-only: false;
 //@import "src/sprite";
 
-$theme : (
-	dark: #000,
+$theme: (
 	base: #49525E,
 	primary: #26A3CF,
-	light: #fff,
-	subtle: #f9f9f9,
-	divider: #eeeeee
+	primaryDark: #1089B3,
+	tertiary: #E40322,
+	neutralLightest: #fff,
+	neutralLight: #f9f9f9,
+	neutralMid: #ccc,
+	neutralDark: #999,
+	neutralDarkest: #000
 );
 
 $animationTransition: (
@@ -30,7 +33,7 @@ $mq-breakpoints: (
 );
 
 // LL Sass Library
-@import "../../../../../usr/local/share/typo3/6.0/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
+@import "../../../../../ll/basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
 
 @font-face {
   font-family: 'GrotaSans';
@@ -50,8 +53,8 @@ $mq-breakpoints: (
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
@@ -60,7 +63,7 @@ body {
 	font-size: 17px;
 	line-height: 1.5;
 	font-weight: 400;
-	background: theme(light);
+	background: theme(neutralLightest);
 	min-width: 16em;
 	color: theme(base);
 
@@ -75,7 +78,7 @@ p {
 }
 
 a {
-	@include animate(border);
+	@include animate(border, color);
 	color: theme(primary);
 	border-bottom: 0.15em solid theme(primary);
 	text-decoration: none;
@@ -89,14 +92,14 @@ header {
 	background: url('../img/header-BandW.jpg') fixed bottom center;
 	background-size: cover;
 	position: relative;
-	&:before {
+	&::before {
 		content: '';
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		right: 0;
 		left: 0;
-		background: rgba(theme(light), 0.7);
+		background: rgba(theme(neutralLightest), 0.7);
 		z-index: 1;
 	}
 
@@ -107,8 +110,8 @@ header {
 }
 section,
 footer {
-	padding: r(2rem);
-	max-width: r(72rem);
+	padding: 2rem;
+	max-width: 72rem;
 	margin: 0 auto;
 }
 
@@ -119,19 +122,19 @@ h2 {
 	margin-top: 0;
 	letter-spacing: 2px;
 	@include mq(tablet) {
-		&:before,
-		&:after {
+		&::before,
+		&::after {
 			font-family: Arial;
 			font-weight: 400;
 			opacity: 0.4;
 		}
-		&:before {
+		&::before {
 			content: '{';
-			padding-right: r(1rem);
+			padding-right: 1rem;
 		}
-		&:after {
+		&::after {
 			content: '}';
-			padding-left: r(1rem);
+			padding-left: 1rem;
 		}
 	}
 }
@@ -142,7 +145,7 @@ h3 {
 
 b {
 	font-weight: normal;
-	color: theme(dark);
+	color: theme(neutralDarkest);
 }
 
 /**
@@ -159,43 +162,43 @@ b {
 }
 
 .divider {
-	background: theme(subtle);
+	background: theme(neutralLight);
 }
 .divider.alt {
 	background: theme(primary);
-	color: theme(light);
-	margin-bottom: r(2rem);
+	color: theme(neutralLightest);
+	margin-bottom: 2rem;
 
 	h2 {
-		color: theme(light);
+		color: theme(neutralLightest);
 	}
 }
 .spaced {
-	padding: r(1.5rem);
+	padding: 1.5rem;
 }
 .intro {
-	color: lighten(theme(base), 15%);
+	color: neutralLightesten(theme(base), 15%);
 	@include mq(tablet) {
 		font-size: 110%;
 		columns: 2;
-		column-gap: r(2rem);
+		column-gap: 2rem;
 	}
 }
 .pull-out {
-	margin-top: r(2rem);
-	border-top: 1px solid #ddd;
+	margin-top: 2rem;
+	border-top: 1px solid theme(neutralMid);
 	> p {
-		max-width: r(60rem);
-		margin: r(0 auto 1.5rem);
+		max-width: 60rem;
+		margin: 0 auto 1.5rem;
 
 	}
 }
 .sub-note {
 	text-align: center;
-	border-top: 1px solid #ddd;
-	padding-top: r(1.5rem);
-	margin-top: r(2.5rem);
-	color: lighten(theme(base), 15%);
+	border-top: 1px solid theme(neutralMid);
+	padding-top: 1.5rem;
+	margin-top: 2.5rem;
+	color: neutralLightesten(theme(base), 15%);
 	margin-bottom: 0;
 }
 /**
@@ -203,7 +206,7 @@ b {
  */
 .logo {
 	max-width: 7em;
-	margin: 0 auto r(2rem);
+	margin: 0 auto 2rem;
 	width: 100%;
 
 	img {
@@ -220,26 +223,26 @@ b {
 	border: 0;
 	background: theme(primary);
 	display: inline-block;
-	color: theme(light);
-	padding: r(1rem 2rem);
+	color: theme(neutralLightest);
+	padding: 1rem 2rem;
 	font-size: 120%;
 
 	&:hover {
 		background: theme(base);
-		color: theme(light);
+		color: theme(neutralLightest);
 	}
 	&.button-small {
 		font-size: 100%;
-		padding: r(0.5rem 1rem);
+		padding: 0.5rem 1rem;
 	}
 }
 div.divider.alt .button {
 	background: none;
-	border: r(0.2rem) solid theme(light);
-	padding: r(0.6rem 2rem);
+	border: 0.2rem solid theme(neutralLightest);
+	padding: 0.6rem 2rem;
 	&:hover {
 		color: theme(base);
-		background: theme(light);
+		background: theme(neutralLightest);
 	}
 }
 
@@ -255,9 +258,9 @@ form {
 	position: relative;
 	z-index: 1;
 	display: block;
-	padding: r(0 0.75rem);
+	padding: 0 0.75rem;
 	text-align: left;
-	margin-bottom: r(2rem);
+	margin-bottom: 2rem;
 
 	&.last {
 		margin-bottom: 0;
@@ -268,12 +271,11 @@ form {
 		color: theme(base);
 		position: relative;
 		display: block;
-		padding: r(1rem);
-		border: none;
-		background: theme(light);
+		padding: 1rem;
+		background: theme(neutralLightest);
 		-webkit-appearance: none;
 		width: 100%;
-		border: r(0.2rem) solid theme(primary);
+		border: 0.2rem solid theme(primary);
 
 		&:focus {
 			outline: none;
@@ -292,7 +294,7 @@ form {
 		color: theme(base);
 		position: absolute;
 		bottom: 100%;
-		padding: 0 r(1rem);
+		padding: 0 1rem;
 		transform: translate3d(0, 2.8rem, 0);
 	}
 
@@ -314,7 +316,7 @@ form {
 	.button {
 		border: none;
 		background: theme(primary);
-		color: theme(light);
+		color: theme(neutralLightest);
 		&:hover {
 			background: theme(base);
 		}
@@ -338,10 +340,10 @@ form {
 		font-weight: 400;
 		text-align: center;
 		font-family: 'GrotaSansMedium';
-		margin-bottom: r(1rem);
+		margin-bottom: 1rem;
 	}
 	&.error {
-		color: #E40322;
+		color: theme(tertiary);
 	}
 	&.success {
 		font-size: 130%;
@@ -354,20 +356,20 @@ form {
 .set {
 	@extend %secret-list;
 	@extend %clearfix;
-	margin-left: - r(1.5rem);
+	margin-left: - 1.5rem;
 	.block {
-		background: #f9f9f9;
-		padding: r(1.5rem 1.5rem 0.5rem);
+		background: theme(neutralLight);
+		padding: 1.5rem 1.5rem 0.5rem;
 	}
 	> li {
-		padding-left: r(1.5rem);
-		margin-bottom: r(1.5rem);
+		padding-left: 1.5rem;
+		margin-bottom: 1.5rem;
 	}
 	h3 {
 		margin-top: 0;
 		font-size: 150%;
 		text-align: left;
-		margin-bottom: r(1rem);
+		margin-bottom: 1rem;
 	}
 	.top {
 		display: table;
@@ -380,7 +382,7 @@ form {
 		width: 30%;
 		+ .cell {
 			width: 70%;
-			padding-left: r(1.5rem);
+			padding-left: 1.5rem;
 		}
 	}
 	img {
@@ -388,20 +390,20 @@ form {
 		display: block;
 	}
 	.text {
-		padding-top: r(1.5rem);
+		padding-top: 1.5rem;
 	}
 
 	.divider.alt & {
-		margin-left: - r(4rem);
+		margin-left: -4rem;
 		> li {
-			padding-left: r(4rem);
+			padding-left: 4rem;
 		}
 		.block {
 			background: none;
 			padding: 0;
 		}
 		.text {
-			color: #f9f9f9;
+			color: theme(neutralLight);
 		}
 		img {
 			width: 60%;
@@ -477,9 +479,9 @@ form {
  */
 footer {
 	font-size: 90%;
-	color: #999;
+	color: theme(neutralDark);
 	text-align: center;
-	border-top: 0.2em solid theme(primary);
+	// border-top: 0.2em solid theme(primary);
 
 	a {
 		border-bottom: 0;
@@ -487,6 +489,22 @@ footer {
 
 		&:hover {
 			color: theme(primary);
+		}
+	}
+}
+.links {
+	padding-top: 1rem;
+	a {
+		display: block;
+		text-align: center;
+		padding: 0 0.5rem;
+	}
+	@include mq(phone) {
+		a {
+			display: inline-block;
+		}
+		a + a {
+			border-left: thin solid theme(neutralMid);
 		}
 	}
 }

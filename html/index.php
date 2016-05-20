@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Bytes Conference Brighton - A mini-conference on 29th October</title>
+	<title>Bytes Conference Brighton - A mini-conference in Brighton</title>
 	<meta name="description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
 
 	<link rel="shortcut icon" href="/assets/bytes/img/favicon.ico">
@@ -40,23 +40,19 @@
 		<header>
 			<section>
 				<h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1>
-				<p class="featured">Thursday 29th October, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
+				<p class="featured">Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
 				<p class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charities.</p>
-				<?php if(time() > strtotime('10:00am 7th August 2015')) : ?>
-					<a href="http://www.eventbrite.com/e/bytes-conf-tickets-17602896738" class="button">Buy Tickets - £12</a>
-				<?php else: ?>
-					<a href="http://www.eventbrite.com/e/bytes-conf-tickets-17602896738" class="button">Tickets on sale 7th August at 10am</a>
-				<?php endif ?>
+				<?php /*
+				<a href="http://www.eventbrite.com/e/bytes-conf-tickets-17602896738" class="button">Buy Tickets - £12</a> */ ?>
 			</section>
 		</header>
 		<section>
 			<h2>What is Bytes?</h2>
 			<div class="intro">
-				<p>Bytes is a web-industry focused mini-conference to be held at <b>Lighthouse</b>, a hub for creative industries in the centre of Brighton, on <b>Thursday 29th October</b>.</p>
+				<p>Bytes is a web-industry focused mini-conference to be held at <b>Lighthouse</b>, a hub for creative industries in the centre of Brighton</p>
 				<p>If you are just starting out, or an industry professional this affordable mini-conf will help you gain insight from our highly experienced key note speakers, with topics ranging from development and design to workflows and performance tips.</p>
-				<p>Every penny raised will be divided between our two charities - <b>abandofbrothers</b> and <b>drop4drop</b>. By attending this mini-conf you are helping these great causes.</p>
+				<p>Every penny raised will be dontated to charity. By attending this mini-conf you are helping these great causes.</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
-				<p><a href="Bytes_Conf.ics">Add Bytes to your calendar.</a></p>
 			</div>
 		</section>
 		<section id="signup">
@@ -82,6 +78,7 @@
 				</form>
 			</div>
 		</section>
+		<?php /*
 		<div class="divider alt" id="charities">
 			<section>
 				<h2>Who are we raising money for?</h2>
@@ -198,9 +195,10 @@
 					</div>
 				</li>
 			</ul>
-		</section>
+		</section> */ ?>
 		<h2>Where is it?</h2>
 		<div id="map"></div>
+		<?php /*
 		<section id="partners">
 			<h2>With thanks to...</h2>
 			<ul class="partners">
@@ -236,10 +234,12 @@
 				</li>
 			</ul>
 		</section>
-	</main>
+	</main>*/?>
 	<footer>
 		Bytes - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a><br>
-		<a href="mailto:hello@bytesconf.co.uk">Email Us</a>&nbsp; | &nbsp;<a href="http://www.twitter.com/bytesconf">Tweet Us</a>
+		<div class="links">
+			<a href="mailto:hello@bytesconf.co.uk">Email Us</a><a href="http://www.twitter.com/bytesconf">Tweet Us</a><a href="http://2015.bytesconf.co.uk">Bytes in 2015</a>
+		</div>
 	</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
