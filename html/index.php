@@ -7,7 +7,7 @@
 	<main>
 		<header>
 			<section>
-				<h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1>
+				<a href=""><h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1></a>
 				<p class="featured">Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
 				<p class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charities.</p>
 				<?php /*

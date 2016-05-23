@@ -44,12 +44,12 @@ $mq-breakpoints: (
        url('../fonts/GrotaSans-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 @font-face {
-  font-family: 'GrotaSansMedium';
-  src: url('../fonts/GrotaSansMedium-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/GrotaSansMedium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/GrotaSansMedium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/GrotaSansMedium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/GrotaSansMedium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	font-family: 'GrotaSansMedium';
+	src: url('../fonts/GrotaSansMedium-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/GrotaSansMedium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		url('../fonts/GrotaSansMedium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/GrotaSansMedium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+		url('../fonts/GrotaSansMedium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
 
 *,
@@ -82,8 +82,8 @@ a {
 	color: theme(primary);
 	border-bottom: 0.15em solid theme(primary);
 	text-decoration: none;
-
 	&:hover {
+		color: theme(primaryDark);
 		border-bottom-color: theme(primaryDark);
 	}
 }
@@ -151,6 +151,9 @@ b {
 /**
  * Modular
  */
+.content {
+	max-width: 47rem;
+}
 .featured {
 	font-size: 140%;
 	font-weight: 400;
