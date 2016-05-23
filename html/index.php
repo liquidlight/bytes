@@ -1,41 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+	$name = 'Bytes Conference, Brighton';
+	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
+	$description = 'Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities';
 
-	<title>Bytes Conference Brighton - A mini-conference in Brighton</title>
-	<meta name="description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
-
-	<link rel="shortcut icon" href="/assets/bytes/img/favicon.ico">
-	<link rel="apple-touch-icon" sizes="500x500" href="/assets/bytes/img/bytes-favicon.png">
-
-	<meta itemprop="name" content="Bytes Conference, Brighton">
-	<meta itemprop="description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
-	<meta itemprop="image" content="http://www.bytesconf.uk/assets/bytes/img/bytes-favicon.png">
-
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@bytesconf">
-
-	<meta property="og:title" content="Bytes Conference, Brighton"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="http://www.bytesconf.co.uk" />
-	<meta property="og:image" content="http://www.bytesconf.co.uk/assets/bytes/img/bytes-favicon.png"/>
-	<meta property="og:description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities" />
-	<meta property="og:site_name" content="Bytes Conference" />
-
-	<link rel="stylesheet" href="/assets/bytes/css/screen.css">
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-62725695-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-</head>
-<body>
+	include 'includes/header.php'; ?>
 	<main>
 		<header>
 			<section>
@@ -235,15 +203,4 @@
 			</ul>
 		</section>
 	</main>*/?>
-	<footer>
-		Bytes - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a><br>
-		<div class="links">
-			<a href="mailto:hello@bytesconf.co.uk">Email Us</a><a href="http://www.twitter.com/bytesconf">Tweet Us</a><a href="http://2015.bytesconf.co.uk">Bytes in 2015</a>
-		</div>
-	</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="assets/bytes/js/core.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.php';
