@@ -26,5 +26,7 @@
 			<p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they&#39;ll be wearing Bytes branded badges.</p>
 			<p>Conference staff will be happy to help participants contact local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.</p>
 			<p>We expect participants to follow these rules at conference and workshop venues and conference-related social events.</p>
+			<hr>
+			<p>Code of Conduct taken and adapted from <a href="http://confcodeofconduct.com/">confcodeofconduct.com</a></p>
 		</section>
 <?php include 'includes/footer.php';
