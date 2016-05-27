@@ -490,7 +490,12 @@ footer {
 	font-size: 90%;
 	color: theme(neutralDark);
 	text-align: center;
-	// border-top: 0.2em solid theme(primary);
+	p {
+		margin-bottom: 0;
+	}
+	p + p {
+		margin-top: 1.5rem;
+	}
 
 	a {
 		border-bottom: 0;
@@ -502,11 +507,15 @@ footer {
 	}
 }
 .links {
-	padding-top: 1rem;
+	padding: 1rem;
+	background: #f9f9f9;
+	text-align: center;
+	font-size: 80%;
 	a {
 		display: block;
 		text-align: center;
 		padding: 0 0.5rem;
+		border-bottom: 0;
 	}
 	@include mq(phone) {
 		a {
