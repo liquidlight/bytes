@@ -189,6 +189,9 @@ b {
 }
 .intro {
 	color: neutralLightesten(theme(base), 15%);
+	p + & {
+		padding-top: 1rem;
+	}
 	@include mq(tablet) {
 		font-size: 110%;
 		columns: 2;
@@ -505,10 +508,12 @@ footer {
 	p {
 		margin-bottom: 0;
 	}
-	p + p {
+	div {
 		margin-top: 1.5rem;
 	}
-
+	div a {
+		padding: 0 0.5rem;
+	}
 	a {
 		border-bottom: 0;
 		color: theme(primaryDark);
