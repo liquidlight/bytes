@@ -1,5 +1,5 @@
 <footer>
-	<p>Bytes - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a>.</p>
+	<p>Bytes - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a>. on <?php echo $date ?></p>
 	<p><a href="/code-of-conduct.php">Code of Conduct</a> | <a href="/call-for-speakers.php">Call for Speakers</a></p>
 </footer>
 <div class="links">

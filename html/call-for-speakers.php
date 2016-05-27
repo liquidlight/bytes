@@ -8,7 +8,7 @@
 		<header>
 			<section>
 				<a href="/"><h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1></a>
-				<p class="featured">[ENTER DATE HERE]</p>
+				<p class="featured"><?php echo $date ?></p>
 				<p class="featured featured-sub">Bytes is looking for speakers for it's 2016 event - are you interested?</p>
 				<a href="http://goo.gl/forms/VJMSlIHWHsKVDPJG2" class="button">Submit your application</a>
 			</section>

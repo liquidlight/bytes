@@ -1,3 +1,5 @@
+<?php
+	$date = '29th March 2016'; ?>
 <!DOCTYPE html>
 <html>
 <head>
