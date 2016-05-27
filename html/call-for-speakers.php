@@ -15,7 +15,10 @@
 		</header>
 		<section class="content">
 			<p>Bytes is back and better than ever and we want you involved. Have you ever wanted the opportunity to speak or present? <b>This is your chance</b>.</p>
+			<h4>We are looking for 4 keynote speakers</h4>
 			<p>Bytes aims to create a relaxed, low-key atmosphere for newcomers to come and try their hand at giving a talk. The delegates are small in numbers, friendly and will always have a smile for you.</p>
+			<p>As mentioned, we are looking for <b>4</b> speakers, with an extra <b>1 in reserve</b>. If you get selected as the reserve speaker for this year, you will get first refusal for the 2017 Bytes event.</p>
+			<p>Talks should be 20 minutes long, with some extra time at the end for questions and answersers from the attendees.</p>
 			<p>Due to the nature of the event (completely charity focused) we are unfortunately unable to pay you for the talk. We can pay for travel expenses and also there are a few other perks for talking at Bytes:</p>
 			<ul>
 				<li>Ultimate kudos</li>
@@ -27,6 +30,7 @@
 				<li>Some more twitter followers (not guaranteed&hellip;)</li>
 			</ul>
 			<p>So if this tickles your fancy, <a href="http://goo.gl/forms/VJMSlIHWHsKVDPJG2">fill in the form</a> and cross your fingers!</p>
+			<p class="center"><a href="http://goo.gl/forms/VJMSlIHWHsKVDPJG2" class="button">Submit your application</a></p>
 		</section>
 
 
