@@ -1,3 +1,30 @@
+/**
+ * Banner Parralax
+ */
+function scrollBackground(elem) {
+	$.each(elem, function(index, el) {
+
+		var self = $(this);
+		var scroll = $(window).scrollTop();
+
+		if(scroll < 0)
+			scroll = 0;
+
+		self.css({
+			'background-position': 'center ' + Math.round(scroll / 2) + 'px'
+		});
+	});
+}
+if(!$('#mobileNavigation').is(':visible')) {
+	$(window).scroll(function(){
+		scrollBackground($('header'));
+	});
+	$(document).ready(function() {
+		scrollBackground($('header'));
+	});
+}
+
+
 var addError = function(data) {
 	var error = $('.js-error');
 
