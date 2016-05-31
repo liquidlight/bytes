@@ -8,7 +8,7 @@
 		<header>
 			<section>
 				<a href=""><h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1></a>
-				<h3 class="featured"><?php echo $date ?><br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</h3>
+				<h3 class="featured">Thursday <?php echo $date ?>, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</h3>
 				<h4 class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charities.</h4>
 				<a href="/call-for-speakers.php" class="button">Call for Speakers</a>
 			</section>
