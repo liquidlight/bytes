@@ -18,8 +18,8 @@
 			<h4>We are looking for 4 keynote speakers for <?php echo $date ?></h4>
 			<p>Bytes aims to create a relaxed, low-key atmosphere for newcomers to come and try their hand at giving a talk. The delegates are small in number, friendly and will always have a smile for you.</p>
 			<p>As mentioned, we are looking for <b>4</b> speakers, with an extra <b>1 in reserve</b>. If you get selected as the reserve speaker for this year, you will get first refusal for the 2017 Bytes event.</p>
-			<p>Talks should be about 20 minutes long, with some extra time at the end for questions from the attendees.</p>
-			<p>Due to the charity focused nature of the event we are unfortunately unable to pay you for the talk. We can pay for travel expenses and also there are a few other perks for talking at Bytes:</p>
+			<p>Talks should be about 20 minutes long, with some extra time at the end for questions from the attendees. As a speaker you must adhere to the Bytes <a href="/code-of-conduct.php">code of conduct</a>.</p>
+			<p>Due to the charity focused nature of the event we are unfortunately unable to pay you for the talk. We can pay for travel expenses plus there are a few other perks for talking at Bytes:</p>
 			<ul>
 				<li>Ultimate kudos</li>
 				<li>Help raise money for our chosen charities</li>
@@ -27,7 +27,7 @@
 				<li>You go into the Bytes archive as one of the best speakers ever</li>
 				<li>Some cool photos for your social media profiles</li>
 				<li>Lots of people telling you how good you were</li>
-				<li>Some more twitter followers (not guaranteed&hellip;)</li>
+				<li>Some more Twitter followers (not guaranteed&hellip;)</li>
 			</ul>
 			<p>So if this tickles your fancy, <a href="http://goo.gl/forms/VJMSlIHWHsKVDPJG2">fill in the form</a> and cross your fingers! You have until the <b>1st July 2016</b> to submit your talk.</p>
 			<p class="center"><a href="http://goo.gl/forms/VJMSlIHWHsKVDPJG2" class="button">Submit your application</a></p>

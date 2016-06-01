@@ -17,7 +17,7 @@
 			<h2>What is Bytes?</h2>
 			<p class="featured featured-sub">Bytes is back and better than ever and we want you involved. Have you ever wanted the opportunity to speak or present? This is your chance. <a href="/call-for-speakers.php">Submit your talk idea</a> and you could be standing on our stage.
 			<div class="intro">
-				<p>Bytes is a web-industry focused mini-conference to be held at <b>Lighthouse</b>, a hub for creative industries in the centre of Brighton on <b><?php echo $date ?></b></p>
+				<p>Bytes is a web-industry focused mini-conference to be held at <b>Lighthouse</b>, a hub for creative industries in the centre of Brighton on <b><?php echo $date ?></b>.</p>
 				<p>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our highly experienced keynote speakers, with topics ranging from development and design to workflows and performance tips.</p>
 				<p>Every penny raised will be donated to charity. By attending this mini-conf you are helping a great cause. Go you!</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
