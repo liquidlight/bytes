@@ -16,8 +16,18 @@
 	<meta itemprop="description" content="<?php echo $description; ?>">
 	<meta itemprop="image" content="http://www.bytesconf.co.uk/assets/bytes/img/bytes-favicon.png">
 
-	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@bytesconf">
+	<meta name="twitter:description" content="<?php echo $description; ?>">
+	<meta name="twitter:title" content="<?php echo $name; ?>">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:domain" content="www.bytesconf.co.uk" />
+	<meta name="twitter:image" content="http://www.bytesconf.co.uk/assets/bytes/img/logo.png" />
+	<meta name="twitter:url" content="http://www.bytesconf.co.uk" />
+	<meta name="twitter:creator" content="@bytesconf">
+	<meta name="twitter:label1" content="📆 Date" />
+	<meta name="twitter:data1" content="<?php echo $date; ?>" />
+	<meta name="twitter:label2" content="🗺 Location" />
+	<meta name="twitter:data2" content="Lighthouse, Brighton, BN1 4AJ" />
 
 	<meta property="og:title" content="<?php echo $name; ?>"/>
 	<meta property="og:type" content="website"/>
