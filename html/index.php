@@ -22,29 +22,7 @@
 				<p><a href="/Bytes.ics">Add Bytes to your calendar</a></p>
 			</div>
 		</section>
-		<section id="signup">
-			<div class="divider spaced">
-				<h2>Sign up to the mailing list</h2>
-				<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
-					<span class="field">
-						<input type="text" name="name" class="required name" id="name" />
-						<label for="name">
-							<span>Name</span>
-						</label>
-					</span>
-					<span class="field">
-						<input type="email" name="email" class="required email" id="email" />
-						<label for="email">
-							<span>Email Address</span>
-						</label>
-					</span>
-					<span class="field last">
-						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-					</span>
-					<div class="error msg js-error"></div>
-				</form>
-			</div>
-		</section>
+<?php include 'includes/signup.php'; ?>
 		<?php /*
 		<div class="divider alt" id="charities">
 			<section>
@@ -163,8 +141,7 @@
 				</li>
 			</ul>
 		</section> */ ?>
-		<h2>Where is it?</h2>
-		<div id="map"></div>
+<?php include 'includes/map.php'; ?>
 		<?php /*
 		<section id="partners">
 			<h2>With thanks to...</h2>
@@ -200,6 +177,6 @@
 					<a rel="nofollow" href="http://www.komedia.co.uk/brighton/"><img src="/assets/bytes/img/partners/komedia.jpg" alt="Komedia"></a>
 				</li>
 			</ul>
-		</section>
-	</main>*/?>
+		</section>*/?>
+	</main>
 <?php include 'includes/footer.php';
