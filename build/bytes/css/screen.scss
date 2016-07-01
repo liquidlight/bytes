@@ -455,8 +455,8 @@ form {
 		display: inline-block;
 		width: 40%;
 		padding: 1em;
-		max-width: 150px;
-		min-width: 100px;
+		max-width: 9.3rem;
+		min-width: 6.2rem;
 		img {
 			display: block;
 			width: 100%;
@@ -487,11 +487,6 @@ form {
 	}
 }
 
-
-.links {
-	@extend %secret-list;
-}
-
 /**
  * Map
  */
@@ -507,6 +502,7 @@ footer {
 	font-size: 90%;
 	color: theme(neutralDark);
 	text-align: center;
+	border-top: .2em solid #26A3CF;
 	p {
 		margin-bottom: 0;
 	}
@@ -526,6 +522,7 @@ footer {
 	}
 }
 .links {
+	@extend %secret-list;
 	padding: 1rem;
 	background: theme(neutralLight);
 	text-align: center;

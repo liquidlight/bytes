@@ -16,7 +16,7 @@
 			<h2>What is Bytes?</h2>
 			<div class="intro">
 				<p>Bytes is a web-industry focused mini-conference to be held at <b>Lighthouse</b>, a hub for creative industries in the centre of Brighton on <b><?php echo $date ?></b>.</p>
-				<p>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our highly experienced keynote speakers, with topics ranging from development and design to workflows and performance tips.</p>
+				<p>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers, with topics ranging from development and design to workflows and performance tips.</p>
 				<p>Every penny raised will be donated to charity. By attending this mini-conf you are helping a great cause. Go you!</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
 				<p><a href="/Bytes.ics">Add Bytes to your calendar</a></p>
@@ -142,41 +142,22 @@
 			</ul>
 		</section> */ ?>
 <?php include 'includes/map.php'; ?>
-		<?php /*
 		<section id="partners">
 			<h2>With thanks to...</h2>
 			<ul class="partners">
 				<li>
-					<a rel="nofollow" href="http://bisonbeer.co.uk/"><img src="/assets/bytes/img/partners/bison-beer.jpg" alt="Bison Beer"></a>
+					<a rel="nofollow" href="https://abookapart.com/"><img src="/assets/bytes/img/partners/a-book-apart.svg" alt="A Book Apart"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="http://www.bohogelato.co.uk/"><img src="/assets/bytes/img/partners/boho-gelato.jpg" alt="Boho Gelato"></a>
+					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="http://www.drinkinbrighton.co.uk/deadwaxsocial"><img src="/assets/bytes/img/partners/deadwax.jpg" alt="Dead Wax Social"></a>
+					<a rel="nofollow" href="http://www.sitepoint.com/"><img src="/assets/bytes/img/partners/sitepoint.png" alt="Sitepoint"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="http://www.life-water.co.uk/"><img src="/assets/bytes/img/partners/lifewater.jpg" alt="Lifewater"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://brewedinbrighton.co.uk/"><img src="/assets/bytes/img/partners/north-laine.png" alt="North Laine"></a>
-				</li>
-
-			</ul>
-			<ul class="partners">
-				<li>
-					<a rel="nofollow" href="http://bluebirdteaco.com/"><img src="/assets/bytes/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.cybercandy.co.uk/"><img src="/assets/bytes/img/partners/cybercandy.jpg" alt="Cybercandy"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.jpg" alt="Liquid Light"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.komedia.co.uk/brighton/"><img src="/assets/bytes/img/partners/komedia.jpg" alt="Komedia"></a>
+					<a rel="nofollow" href="https://www.smashingmagazine.com/"><img src="/assets/bytes/img/partners/smashing-mag.png" alt="Smashing Magazine"></a>
 				</li>
 			</ul>
-		</section>*/?>
+		</section>
 	</main>
 <?php include 'includes/footer.php';
