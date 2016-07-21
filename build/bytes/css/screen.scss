@@ -376,6 +376,21 @@ form {
 	}
 }
 
+.image-text {
+	display: flex;
+	.icon {
+		width: 25%;
+		min-width: 5rem;
+		svg {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.text {
+		padding-left: 2rem;
+	}
+}
+
 /**
  * Speakers
  */
