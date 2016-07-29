@@ -397,14 +397,25 @@ form {
 .set {
 	@extend %secret-list;
 	@extend %clearfix;
-	margin-left: - 1.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-left: -1.5rem;
 	.block {
 		background: theme(neutralLight);
 		padding: 1.5rem 1.5rem 0.5rem;
+		width: 100%;
+	}
+	.alt .block {
+		background: theme(primary);
+		color: theme(neutralLightest);
 	}
 	> li {
-		padding-left: 1.5rem;
 		margin-bottom: 1.5rem;
+		width: 100%;
+		display: flex;
+		align-items: stretch;
+		padding-left: 1.5rem;
 	}
 	h3 {
 		margin-top: 0;
@@ -412,26 +423,25 @@ form {
 		text-align: left;
 		margin-bottom: 1rem;
 	}
-	.top {
-		display: table;
-		width: 100%;
-		table-layout: fixed;
+	h4 {
+		text-align: left;
+		margin-bottom: 1rem;
+		margin-top: 0;
 	}
-	.top .cell {
-		display: table-cell;
-		vertical-align: top;
-		width: 30%;
-		+ .cell {
-			width: 70%;
-			padding-left: 1.5rem;
-		}
+	.top {
+		display: flex;
+		padding-bottom: 1rem;
+	}
+	.top .cell:first-child {
+		width: 10rem;
+		padding-right: 1.5rem;
+	}
+	.top .cell + .cell {
+		width: calc(100% - 10rem);
 	}
 	img {
 		width: 100%;
 		display: block;
-	}
-	.text {
-		padding-top: 1.5rem;
 	}
 
 	.divider.alt & {
@@ -451,14 +461,17 @@ form {
 			margin: 0 auto;
 		}
 	}
-
+	.outbound {
+		margin-bottom: 1rem;
+		list-style: none;
+		padding: 0;
+		li {
+			margin-bottom: 0.5rem;
+		}
+	}
 	@include mq(tablet) {
 		> li {
 			width: 50%;
-			float: left;
-			&:nth-child(odd) {
-				clear: left;
-			}
 		}
 	}
 }

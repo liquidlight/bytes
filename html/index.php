@@ -37,7 +37,6 @@
 				</div>
 			</section>
 		</div>
-		<?php /*
 		<section id="speakers">
 			<h2>Who's speaking?</h2>
 			<ul class="set">
@@ -45,19 +44,22 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="/assets/bytes/img/speakers/john-ellison.jpg" alt="John Ellison" />
+								<a href="http://www.twitter.com/poshaughnessy">
+									<img src="/assets/bytes/img/speakers/peter.jpg" alt="Peter O'Shaughnessy" />
+								</a>
 							</div>
 							<div class="cell">
-								<h3>John Ellison</h3>
-								<ul class="links">
-									<li><a href="http://www.twitter.com/iamjohnellison">@iamjohnellison</a></li>
-									<li><a href="http://john-ellison.com">john-ellison.com</a></li>
+								<h3>Peter O'Shaughnessy</h3>
+								<ul class="outbound">
+									<li><a href="http://www.twitter.com/poshaughnessy">@poshaughnessy</a></li>
+									<li><a href="http://peteroshaughnessy.com/">peteroshaughnessy.com</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<p>John is a user experience designer passionate about living a great story. He recently embarked on a 90-day journey at Clearleft, writing daily about his experience on his <a href="https://90days.john-ellison.com/">Blog</a>. John is currently working on helping to <a href="http://solvetherefugeecrisis.com/">solve the refugee crisis</a>.</p>
-							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbt/">What is the future that we want to build together?</a></p>
+							<h4>Progressive Web Apps and the biggest browser you’ve probably never thought of</h4>
+							<p>Samsung Internet, the third most popular mobile browser in Europe, is helping to push Progressive Web Apps forwards and the team are contributors to many of the specs.</p>
+							<p>This talk will explore what is possible to achieve with Web APIs today and what’s coming up next, not just for Samsung Internet, but across mobile browsers and beyond.</p>
 						</div>
 					</div>
 				</li>
@@ -65,19 +67,21 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="/assets/bytes/img/speakers/rosa-fox.jpg" alt="Rosa Fox" />
+								<a href="https://twitter.com/webguildseal">
+									<img src="/assets/bytes/img/speakers/lisa.jpg" alt="Lisa Freeman" />
+								</a>
 							</div>
 							<div class="cell">
-								<h3>Rosa Fox</h3>
-								<ul class="links">
-									<li><a href="http://www.twitter.com/rosaemerald">@rosaemerald</a></li>
-									<li><a href="http://www.rosa-fox.com/">rosa-fox.com</a></li>
+								<h3>Lisa Freeman</h3>
+								<ul class="outbound">
+									<li><a href="https://twitter.com/webguildseal">@webguildseal</a></li>
+									<li><a href="http://www.thewebguild.org/">thewebguild.org</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<p>Rosa works remotely for Happy Bear Software as a Ruby developer. She has a background in music computing and co-organises two local events which encourage diversity in the tech industry: <a href="http://codebar.io/brighton">Codebar Brighton</a> and <a href="http://shecodesbtn.co.uk/">She Codes Brighton</a></p>
-							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbx/">Built by everyone</a></p>
+							<h4>Regulation and privacy: what might be coming?</h4>
+							<p>This talk explores the reactions to the EU's ePrivacy review; the process, what we think might be changing and the forthcoming GDPR (General Data Protection Regulation). However, given the referendum results, ePrivacy in the UK might need to have completely fresh rules drawn up.</p>
 						</div>
 					</div>
 				</li>
@@ -85,19 +89,21 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="/assets/bytes/img/speakers/charlotte-jackson.jpg" alt="Charlotte Jackson" />
+								<a href="http://www.twitter.com/grobiwebdesign">
+									<img src="/assets/bytes/img/speakers/graeme.jpg" alt="Graeme Robinson" />
+								</a>
 							</div>
 							<div class="cell">
-								<h3>Charlotte Jackson</h3>
-								<ul class="links">
-									<li><a href="http://www.twitter.com/lottejackson">@lottejackson</a></li>
-									<li><a href="http://www.lottejackson.com">lottejackson.com</a></li>
+								<h3>Graeme Robinson</h3>
+								<ul class="outbound">
+									<li><a href="http://www.twitter.com/grobiwebdesign">@grobiwebdesign</a></li>
+									<li><a href="http://grwebdesign.co.uk/">grwebdesign.co.uk</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<p>Charlotte is a front-end developer at Clearleft. She is passionate about the web and has a keen interest in the education of new developers. She regularly volunteers at meet ups like codebar.</p>
-							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbw/">From pages to patterns</a></p>
+							<h4>Autism and The Web</h4>
+							<p>This talk addresses the challenges faced by users and web developers on the Autistic Spectrum. Graeme will highlight why it's not a bad thing, clear up some misunderstandings about the spectrum and how UX improves learning.</p>
 						</div>
 					</div>
 				</li>
@@ -106,24 +112,56 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="/assets/bytes/img/speakers/will-chidlow.jpg" alt="Will Chidlow" />
+								<a href="http://www.twitter.com/mikestreety">
+									<img src="/assets/bytes/img/speakers/mike.jpg" alt="Mike Street" />
+								</a>
 							</div>
 							<div class="cell">
-								<h3>Will Chidlow</h3>
-								<ul class="links">
-									<li><a href="http://www.twitter.com/terminallywill">@terminallywill</a></li>
+								<h3>Mike Street</h3>
+								<ul class="outbound">
+									<li><a href="http://www.twitter.com/mikestreety">@mikestreety</a></li>
 									<li><a href="http://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<p>Will is a designer at Liquid Light, specialising in making the web look and work better. When not designing, he can be found tinkering with a Raspberry Pi and drinking too much coffee.</p>
-							<p><strong>Keynote</strong>: <a href="http://lanyrd.com/2015/bytesconf/sdrxbr/">The unsung skill</a></p>
+							<h4>The Digital Bucket List for People in the Web</h4>
+							<p>We are all so busy ploughing through CSS and HTML that we forget to sometimes lift our head up and see what else is going on in the world that can benefit us. From side projects to expanding your repertoire, this talk gives you ideas to add to your bucket list to not only make you a better developer, but richer one too.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+									<img src="/assets/bytes/img/speakers/candi.jpg" alt="Candi Underwood" />
+							</div>
+							<div class="cell">
+								<h3>Candi Underwood</h3>
+								<ul class="outbound">
+									<li><a href="http://www.bytesconf.co.uk">bytesconf.co.uk</a></li>
+								</ul>
+								<p>Your MC for the evening, Candi will be introducing our speakers, warming up the crowd and telling bad jokes (jokes not guaranteed).</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="alt">
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+									<img src="/assets/bytes/img/speakers/raffle.jpg" alt="The Raffle" />
+							</div>
+							<div class="cell">
+								<h3>The Raffle!</h3>
+								<p>We've got some great prizes for you to win at Bytes, so make sure you bring your change.</p>
+								<p>Prizes include books from Sitepoint, Smashing Magazine and A Book Apart and a brewery tour from Bedlam Beers!</p>
+							</div>
 						</div>
 					</div>
 				</li>
 			</ul>
-		</section> */ ?>
+		</section>
 <?php include 'includes/map.php'; ?>
 		<section id="partners">
 			<h2>With thanks to...</h2>
