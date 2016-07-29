@@ -1,7 +1,7 @@
 <?php
 	$name = 'Bytes Conference, Brighton';
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
-	$description = 'Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities';
+	$description = 'Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for a local charity';
 
 	include 'includes/header.php'; ?>
 	<main>
@@ -9,7 +9,7 @@
 			<section>
 				<a href=""><h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1></a>
 				<h3 class="featured">Thursday <?php echo $date ?>, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</h3>
-				<h4 class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charities.</h4>
+				<h4 class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charity.</h4>
 			</section>
 		</header>
 		<section>
@@ -134,7 +134,7 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-									<img src="/assets/bytes/img/speakers/candi.jpg" alt="Candi Underwood" />
+								<img src="/assets/bytes/img/speakers/candi.jpg" alt="Candi Underwood" />
 							</div>
 							<div class="cell">
 								<h3>Candi Underwood</h3>
@@ -150,7 +150,7 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-									<img src="/assets/bytes/img/speakers/raffle.jpg" alt="The Raffle" />
+								<img src="/assets/bytes/img/speakers/raffle.jpg" alt="The Raffle" />
 							</div>
 							<div class="cell">
 								<h3>The Raffle!</h3>
