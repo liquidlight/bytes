@@ -142,8 +142,10 @@
 								<ul class="outbound">
 									<li><a href="http://www.bytesconf.co.uk">bytesconf.co.uk</a></li>
 								</ul>
-								<p>Your MC for the evening, Candi will be introducing our speakers, warming up the crowd and telling bad jokes (jokes not guaranteed).</p>
 							</div>
+						</div>
+						<div class="text">
+							<p>Your MC for the evening, Candi will be introducing our speakers, warming up the crowd and telling bad jokes (jokes not guaranteed).</p>
 						</div>
 					</div>
 				</li>

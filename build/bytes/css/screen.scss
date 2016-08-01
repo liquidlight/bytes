@@ -113,6 +113,9 @@ footer {
 	padding: 2rem;
 	max-width: 72rem;
 	margin: 0 auto;
+	@include mq($until: phone) {
+		padding: 1rem;
+	}
 }
 
 h2 {
@@ -384,10 +387,19 @@ form {
 		svg {
 			width: 100%;
 			height: auto;
+			max-width: 10rem;
+			margin: 0 auto 1rem;
+			display: block;
 		}
 	}
 	.text {
 		padding-left: 2rem;
+	}
+	@include mq($until: phone) {
+		display: block;
+		.text {
+			padding-left: 0;
+		}
 	}
 }
 
@@ -469,6 +481,18 @@ form {
 			margin-bottom: 0.5rem;
 		}
 	}
+	@include mq($until: phone) {
+		.top {
+			display: block;
+		}
+		.top .cell + .cell {
+			width: auto;
+		}
+		.top .cell:first-child {
+			margin: 0 auto 1rem;
+			padding-right: 0;
+		}
+	}
 	@include mq(tablet) {
 		> li {
 			width: 50%;
@@ -488,6 +512,12 @@ form {
 		img {
 			display: block;
 			width: 100%;
+		}
+	}
+	@include mq($until: phone) {
+		> li {
+			width: 90%;
+			max-width: 15rem;
 		}
 	}
 	@include mq(tablet) {
