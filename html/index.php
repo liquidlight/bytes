@@ -170,10 +170,13 @@
 			<h2>With thanks to...</h2>
 			<ul class="partners">
 				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+					<a rel="nofollow" href="http://www.bedlambrewery.co.uk/"><img src="/assets/bytes/img/partners/bedlam-brewery.png" alt="Bedlam Brewery"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="http://www.bedlambrewery.co.uk/"><img src="/assets/bytes/img/partners/bedlam-brewery.png" alt="Bedlam Brewery"></a>
+					<a rel="nofollow" href="https://sugru.com/"><img src="/assets/bytes/img/partners/sugru.png" alt="Sugru"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.pharmacie.coffee/"><img src="/assets/bytes/img/partners/pharmacie.png" alt="Pharmacie"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="http://bluebirdteaco.com/uk_en/"><img src="/assets/bytes/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
@@ -183,6 +186,9 @@
 				</li>
 			</ul>
 			<ul class="partners">
+				<li>
+					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>	
 				<li>
 					<a rel="nofollow" href="https://www.smashingmagazine.com/"><img src="/assets/bytes/img/partners/smashing-mag.png" alt="Smashing Magazine"></a>
 				</li>
