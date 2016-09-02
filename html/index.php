@@ -173,13 +173,13 @@
 					<a rel="nofollow" href="http://www.bedlambrewery.co.uk/"><img src="/assets/bytes/img/partners/bedlam-brewery.png" alt="Bedlam Brewery"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="https://sugru.com/"><img src="/assets/bytes/img/partners/sugru.png" alt="Sugru"></a>
+					<a rel="nofollow" href="http://bluebirdteaco.com/uk_en/"><img src="/assets/bytes/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="http://www.pharmacie.coffee/"><img src="/assets/bytes/img/partners/pharmacie.png" alt="Pharmacie"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="http://bluebirdteaco.com/uk_en/"><img src="/assets/bytes/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
+					<a rel="nofollow" href="https://sugru.com/"><img src="/assets/bytes/img/partners/sugru.png" alt="Sugru"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="http://www.tengreenbottles.com/"><img src="/assets/bytes/img/partners/ten-green-bottles.png" alt="Ten Green Bottles"></a>
@@ -187,16 +187,16 @@
 			</ul>
 			<ul class="partners">
 				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
-				</li>	
+					<a rel="nofollow" href="https://abookapart.com/"><img src="/assets/bytes/img/partners/a-book-apart.svg" alt="A Book Apart"></a>
+				</li>
 				<li>
-					<a rel="nofollow" href="https://www.smashingmagazine.com/"><img src="/assets/bytes/img/partners/smashing-mag.png" alt="Smashing Magazine"></a>
+					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="http://www.sitepoint.com/"><img src="/assets/bytes/img/partners/sitepoint.png" alt="Sitepoint"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="https://abookapart.com/"><img src="/assets/bytes/img/partners/a-book-apart.svg" alt="A Book Apart"></a>
+					<a rel="nofollow" href="https://www.smashingmagazine.com/"><img src="/assets/bytes/img/partners/smashing-mag.png" alt="Smashing Magazine"></a>
 				</li>
 			</ul>
 		</section>
