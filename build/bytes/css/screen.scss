@@ -545,6 +545,42 @@ form {
 	}
 }
 
+.schedule {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto 1rem;
+	max-width: 50rem;
+	font-size: 1.2rem;
+
+	h4 {
+		margin: 0 0 0.5rem;
+		text-align: left;
+	}
+	h5 {
+		margin: 0;
+		font-size: 1.1rem;
+	}
+	td {
+		vertical-align: top;
+		padding: 1rem;
+		text-align: left;
+	}
+
+	tr:nth-child(even) td {
+		background: darken(theme(neutralLight), 2%);
+	}
+}
+
+.toggle {
+	dd {
+		display: none;
+		margin: 0;
+	}
+	.isOpen {
+		display: block;
+	}
+}
+
 /**
  * Map
  */

@@ -40,6 +40,7 @@
 		</div>
 		<section id="speakers">
 			<h2>Who's speaking?</h2>
+
 			<ul class="set">
 				<li>
 					<div class="block">
@@ -164,6 +165,103 @@
 					</div>
 				</li>
 			</ul>
+		</section>
+		<section id="schedule">
+			<h2>Schedule</h2>
+			<table class="schedule">
+				<tr>
+					<td>
+						7:00pm
+					</td>
+					<td>
+						Doors open
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7:20pm
+					</td>
+					<td>
+						Bytes 2016 starts
+					</td>
+				</tr>
+				<tr class="keynote">
+					<td>
+						7:30pm
+					</td>
+					<td>
+						<h4>Peter O'Shaughnessy</h4>
+						<h5>Progressive Web Apps and the biggest browser you’ve probably never thought of</h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8:00pm
+					</td>
+					<td>
+						A short presentation from Code Club
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8:15pm
+					</td>
+					<td>
+						Break
+					</td>
+				</tr>
+				<tr class="keynote">
+					<td>
+						8:30pm
+					</td>
+					<td>
+						<h4>Lisa Freeman</h4>
+						<h5>Regulation and privacy: what might be coming?</h5>
+					</td>
+				</tr>
+				<tr class="keynote">
+					<td>
+						9:00pm
+					</td>
+					<td>
+						<h4>Mike Street</h4>
+						<h5>The Digital Bucket List for People in the Web</h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9:30pm
+					</td>
+					<td>
+						Break
+					</td>
+				</tr>
+				<tr class="keynote">
+					<td>
+						9:45pm
+					</td>
+					<td>
+						<h4>Graeme Robinson</h4>
+						<h5>Autism and The Web</h5>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10:15pm
+					</td>
+					<td>
+						Raffle!
+					</td>
+				</tr>
+				<tr>
+					<td>
+						11:00pm
+					</td>
+					<td>
+						Doors close
+					</td>
+				</tr>
+			</table>
 		</section>
 <?php include 'includes/map.php'; ?>
 		<section id="partners">
