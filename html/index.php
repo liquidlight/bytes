@@ -274,6 +274,9 @@
 					<a rel="nofollow" href="http://bluebirdteaco.com/uk_en/"><img src="/assets/bytes/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
 				</li>
 				<li>
+					<a rel="nofollow" href="http://www.bohogelato.co.uk/"><img src="/assets/bytes/img/partners/boho-gelato.jpg" alt="Boho Gelato"></a>
+				</li>
+				<li>
 					<a rel="nofollow" href="http://www.pharmacie.coffee/"><img src="/assets/bytes/img/partners/pharmacie.png" alt="Pharmacie"></a>
 				</li>
 				<li>
