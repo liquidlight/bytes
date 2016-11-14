@@ -283,7 +283,7 @@ form {
 }
 
 .field {
-	@extend %clearfix;
+	clear: fix;
 	position: relative;
 	z-index: 1;
 	display: block;
@@ -408,7 +408,7 @@ form {
  */
 .set {
 	@extend %secret-list;
-	@extend %clearfix;
+	clear: fix;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
