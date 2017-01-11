@@ -12,15 +12,15 @@
 
 	<meta itemprop="name" content="Bytes Conference, Brighton">
 	<meta itemprop="description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities">
-	<meta itemprop="image" content="http://www.bytesconf.uk/assets/bytes/img/bytes-favicon.png">
+	<meta itemprop="image" content="https://www.bytesconf.uk/assets/bytes/img/bytes-favicon.png">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@bytesconf">
 
 	<meta property="og:title" content="Bytes Conference, Brighton"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="http://2015.bytesconf.co.uk" />
-	<meta property="og:image" content="http://2015.bytesconf.co.uk/assets/bytes/img/bytes-favicon.png"/>
+	<meta property="og:url" content="https://2015.bytesconf.co.uk" />
+	<meta property="og:image" content="https://2015.bytesconf.co.uk/assets/bytes/img/bytes-favicon.png"/>
 	<meta property="og:description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities" />
 	<meta property="og:site_name" content="Bytes Conference" />
 
@@ -119,7 +119,7 @@
 							<div class="cell">
 								<h3>John Ellison</h3>
 								<ul class="links">
-									<li><a href="http://www.twitter.com/iamjohnellison">@iamjohnellison</a></li>
+									<li><a href="https://www.twitter.com/iamjohnellison">@iamjohnellison</a></li>
 									<li><a href="http://john-ellison.com">john-ellison.com</a></li>
 								</ul>
 							</div>
@@ -139,7 +139,7 @@
 							<div class="cell">
 								<h3>Rosa Fox</h3>
 								<ul class="links">
-									<li><a href="http://www.twitter.com/rosaemerald">@rosaemerald</a></li>
+									<li><a href="https://www.twitter.com/rosaemerald">@rosaemerald</a></li>
 									<li><a href="http://www.rosa-fox.com/">rosa-fox.com</a></li>
 								</ul>
 							</div>
@@ -159,7 +159,7 @@
 							<div class="cell">
 								<h3>Charlotte Jackson</h3>
 								<ul class="links">
-									<li><a href="http://www.twitter.com/lottejackson">@lottejackson</a></li>
+									<li><a href="https://www.twitter.com/lottejackson">@lottejackson</a></li>
 									<li><a href="http://www.lottejackson.com">lottejackson.com</a></li>
 								</ul>
 							</div>
@@ -180,8 +180,8 @@
 							<div class="cell">
 								<h3>Will Chidlow</h3>
 								<ul class="links">
-									<li><a href="http://www.twitter.com/terminallywill">@terminallywill</a></li>
-									<li><a href="http://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
+									<li><a href="https://www.twitter.com/terminallywill">@terminallywill</a></li>
+									<li><a href="https://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
 								</ul>
 							</div>
 						</div>
@@ -223,7 +223,7 @@
 					<a rel="nofollow" href="http://www.cybercandy.co.uk/"><img src="/assets/bytes/img/partners/cybercandy.jpg" alt="Cybercandy"></a>
 				</li>
 				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.jpg" alt="Liquid Light"></a>
+					<a rel="nofollow" href="https://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.jpg" alt="Liquid Light"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="http://www.komedia.co.uk/brighton/"><img src="/assets/bytes/img/partners/komedia.jpg" alt="Komedia"></a>
@@ -232,12 +232,12 @@
 		</section>
 	</main>
 	<footer>
-		Bytes - a mini-conference by <a href="http://www.liquidlight.co.uk">Liquid Light</a><br>
-		<a href="mailto:hello@bytesconf.co.uk">Email Us</a>&nbsp; | &nbsp;<a href="http://www.twitter.com/bytesconf">Tweet Us</a>
+		Bytes - a mini-conference by <a href="https://www.liquidlight.co.uk">Liquid Light</a><br>
+		<a href="mailto:hello@bytesconf.co.uk">Email Us</a>&nbsp; | &nbsp;<a href="https://www.twitter.com/bytesconf">Tweet Us</a>
 	</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <script src="/assets/bytes/js/core.js"></script>
 </body>
 </html>
