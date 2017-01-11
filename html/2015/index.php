@@ -19,8 +19,8 @@
 
 	<meta property="og:title" content="Bytes Conference, Brighton"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://2015.bytesconf.co.uk" />
-	<meta property="og:image" content="https://2015.bytesconf.co.uk/assets/bytes/img/bytes-favicon.png"/>
+	<meta property="og:url" content="http://2015.bytesconf.co.uk" />
+	<meta property="og:image" content="http://2015.bytesconf.co.uk/assets/bytes/img/bytes-favicon.png"/>
 	<meta property="og:description" content="Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for local charities" />
 	<meta property="og:site_name" content="Bytes Conference" />
 
