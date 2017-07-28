@@ -23,7 +23,6 @@
 				<!-- <p><a href="/Bytes.ics">Add Bytes to your calendar</a> | <a href="https://www.eventbrite.com/e/bytes-tickets-25970938777">Buy tickets</a></p> -->
 			</div>
 		</section>
-<?php include 'includes/signup.php'; ?>
 		<div class="divider alt" id="charity">
 			<section>
 				<h2>Who are we raising money for?</h2>
