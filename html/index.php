@@ -20,10 +20,10 @@
 				<p>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers, with topics ranging from development and design to workflows and performance tips.</p>
 				<p>Every penny raised will be donated to charity. By attending this mini-conf you are helping a great cause. Go you!</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
-				<!-- <p><a href="/Bytes.ics">Add Bytes to your calendar</a> | <a href="https://www.eventbrite.com/e/bytes-tickets-25970938777">Buy tickets</a></p> -->
+				<p><a href="/Bytes.ics">Add Bytes to your calendar</a><!-- | <a href="https://www.eventbrite.com/e/bytes-tickets-25970938777">Buy tickets</a>--></p>
 			</div>
 		</section>
-<?php include 'includes/signup.php'; ?>
+		<?php /*
 		<div class="divider alt" id="charity">
 			<section>
 				<h2>Who are we raising money for?</h2>
@@ -38,6 +38,8 @@
 				</div>
 			</section>
 		</div>
+		*/ ?>
+		<?php /*
 		<section id="speakers">
 			<h2>Who's speaking?</h2>
 
@@ -166,6 +168,8 @@
 				</li>
 			</ul>
 		</section>
+		*/ ?>
+		<?php /*
 		<section id="schedule">
 			<h2>Schedule</h2>
 			<table class="schedule">
@@ -263,41 +267,13 @@
 				</tr>
 			</table>
 		</section>
+		*/ ?>
 <?php include 'includes/map.php'; ?>
 		<section id="partners">
 			<h2>With thanks to...</h2>
 			<ul class="partners">
 				<li>
-					<a rel="nofollow" href="http://www.bedlambrewery.co.uk/"><img src="/assets/bytes/img/partners/bedlam-brewery.png" alt="Bedlam Brewery"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://bluebirdteaco.com/uk_en/"><img src="/assets/bytes/img/partners/bluebird.jpg" alt="Bluebird Tea"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.bohogelato.co.uk/"><img src="/assets/bytes/img/partners/boho-gelato.jpg" alt="Boho Gelato"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.pharmacie.coffee/"><img src="/assets/bytes/img/partners/pharmacie.png" alt="Pharmacie"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="https://sugru.com/"><img src="/assets/bytes/img/partners/sugru.png" alt="Sugru"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.tengreenbottles.com/"><img src="/assets/bytes/img/partners/ten-green-bottles.png" alt="Ten Green Bottles"></a>
-				</li>
-			</ul>
-			<ul class="partners">
-				<li>
-					<a rel="nofollow" href="https://abookapart.com/"><img src="/assets/bytes/img/partners/a-book-apart.svg" alt="A Book Apart"></a>
-				</li>
-				<li>
 					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.sitepoint.com/"><img src="/assets/bytes/img/partners/sitepoint.png" alt="Sitepoint"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="https://www.smashingmagazine.com/"><img src="/assets/bytes/img/partners/smashing-mag.png" alt="Smashing Magazine"></a>
 				</li>
 			</ul>
 		</section>
