@@ -83,7 +83,7 @@ a {
 	border-bottom: 0.15em solid theme(primary);
 	text-decoration: none;
 	&:hover {
-		color: theme(primaryDark);
+		color: theme(base);
 		border-bottom-color: theme(primaryDark);
 	}
 }
@@ -596,7 +596,7 @@ footer {
 	font-size: 90%;
 	color: theme(neutralDark);
 	text-align: center;
-	border-top: .2em solid #26A3CF;
+	border-top: 0.2em solid #26A3CF;
 	p {
 		margin-bottom: 0;
 	}

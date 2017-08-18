@@ -10,7 +10,7 @@
 				<a href=""><h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1></a>
 				<h3 class="featured">Thursday <?php echo $date ?>, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</h3>
 				<h4 class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charity.</h4>
-				<!-- <a href="https://www.eventbrite.com/e/bytes-tickets-25970938777" class="button">Buy Tickets</a> -->
+				<a href="<?php echo $tickets ?>" class="button"><?php echo $ticket_text ?></a>
 			</section>
 		</header>
 		<section>
@@ -20,7 +20,7 @@
 				<p>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers, with topics ranging from development and design to workflows and performance tips.</p>
 				<p>Every penny raised will be donated to charity. By attending this mini-conf you are helping a great cause. Go you!</p>
 				<p>There will also be a chance for you to win some excellent swag - make sure you bring some extra pennies to be in with a chance of walking away with some prizes.</p>
-				<p><a href="/Bytes.ics">Add Bytes to your calendar</a><!-- | <a href="https://www.eventbrite.com/e/bytes-tickets-25970938777">Buy tickets</a>--></p>
+				<p><a href="/Bytes.ics">Add Bytes to your calendar</a> | <a href="<?php echo $tickets ?>"><?php echo $ticket_text ?></a></p>
 			</div>
 		</section>
 		<?php include './includes/signup.php'; ?>
@@ -270,6 +270,13 @@
 		</section>
 		*/ ?>
 <?php include 'includes/map.php'; ?>
+	<?php if($tickets_on_sale) : ?>
+	<section id="tickets">
+		<div style="width:100%; text-align:left;">
+			<iframe src="//eventbrite.com/tickets-external?eid=37126523431&ref=etckt" frameborder="0" height="360" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+		</div>
+	</section>
+	<?php endif; ?>
 		<section id="partners">
 			<h2>With thanks to...</h2>
 			<ul class="partners">
@@ -277,6 +284,7 @@
 					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
 				</li>
 			</ul>
+			<p class="featured featured-sub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2017 Sponsorship">Get in touch</a></p>
 		</section>
 	</main>
 <?php include 'includes/footer.php';

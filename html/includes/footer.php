@@ -1,7 +1,7 @@
 <footer>
 	<p>Bytes - a mini-conference by <a href="https://www.liquidlight.co.uk">Liquid Light</a>. on <?php echo $date ?></p>
 	<div><a href="/code-of-conduct.php">Code of Conduct</a>
-		 <!-- | <a href="https://www.eventbrite.com/e/bytes-tickets-25970938777">Buy Tickets</a> -->
+		 | <a href="<?php echo $tickets ?>"><?php echo $ticket_text ?></a>
 	 </div>
 </footer>
 <div class="links">
