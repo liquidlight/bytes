@@ -8,7 +8,7 @@
 		<header>
 			<section>
 				<a href=""><h1 class="logo"><img src="/assets/bytes/img/logo.png" alt="Bytes Conference, Brighton" /></h1></a>
-				<h3 class="featured">Thursday <?php echo $date ?>, 7pm - 11pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</h3>
+				<h3 class="featured">Thursday <?php echo $date ?>, 7pm - 10:30pm<br>Lighthouse, Kensington Street, Brighton, BN1 4AJ</h3>
 				<h4 class="featured featured-sub">An affordable, web-industry focused mini-conference raising money for charity.</h4>
 				<a href="<?php echo $tickets ?>" class="button"><?php echo $ticket_text ?></a>
 			</section>
@@ -187,7 +187,7 @@
 						7:20pm
 					</td>
 					<td>
-						Bytes 2016 starts
+						Bytes 2017 starts
 					</td>
 				</tr>
 				<tr class="keynote">
@@ -195,8 +195,8 @@
 						7:30pm
 					</td>
 					<td>
-						<h4>Peter O'Shaughnessy</h4>
-						<h5>Progressive Web Apps and the biggest browser you’ve probably never thought of</h5>
+						<h4>Speaker 1</h4>
+						<h5></h5>
 					</td>
 				</tr>
 				<tr>
@@ -204,24 +204,24 @@
 						8:00pm
 					</td>
 					<td>
-						A short presentation from Code Club
+						<h4>Speaker 1</h4>
+						<h5></h5>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						8:15pm
+						8:30pm
 					</td>
 					<td>
-						Break
+						Short talk from [CHARITY]
 					</td>
 				</tr>
 				<tr class="keynote">
 					<td>
-						8:30pm
+						8:45pm
 					</td>
 					<td>
-						<h4>Lisa Freeman</h4>
-						<h5>Regulation and privacy: what might be coming?</h5>
+						Break
 					</td>
 				</tr>
 				<tr class="keynote">
@@ -229,8 +229,8 @@
 						9:00pm
 					</td>
 					<td>
-						<h4>Mike Street</h4>
-						<h5>The Digital Bucket List for People in the Web</h5>
+						<h4>Speaker 3</h4>
+						<h5></h5>
 					</td>
 				</tr>
 				<tr>
@@ -238,21 +238,13 @@
 						9:30pm
 					</td>
 					<td>
-						Break
+						<h4>Speaker 4</h4>
+						<h5></h5>
 					</td>
 				</tr>
 				<tr class="keynote">
 					<td>
-						9:45pm
-					</td>
-					<td>
-						<h4>Graeme Robinson</h4>
-						<h5>Autism and The Web</h5>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						10:15pm
+						10pm
 					</td>
 					<td>
 						Raffle!
@@ -260,7 +252,7 @@
 				</tr>
 				<tr>
 					<td>
-						11:00pm
+						10:30pm
 					</td>
 					<td>
 						Doors close
