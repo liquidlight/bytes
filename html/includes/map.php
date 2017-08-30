@@ -1,2 +1,2 @@
-<h2>Where is it?</h2>
+<h2>How to get here</h2>
 <div id="map"></div>
