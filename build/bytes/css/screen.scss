@@ -33,7 +33,7 @@ $mq-breakpoints: (
 );
 
 // LL Sass Library
-@import "../../../../../ll/basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib";
+@import '../../../../../ll/basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib';
 
 @font-face {
 	font-family: 'GrotaSans';
@@ -60,7 +60,7 @@ $mq-breakpoints: (
 
 body {
 	font-family: 'GrotaSans', sans-serif;
-	font-size: 17px;
+	font-size: 1.06rem;
 	line-height: 1.5;
 	font-weight: 400;
 	background: theme(neutralLightest);
@@ -68,13 +68,13 @@ body {
 	color: theme(base);
 
 	@include mq(tablet) {
-		font-size: 19px;
+		font-size: 1.18rem;
 	}
 }
 
 p {
 	margin: 0 0 1em;
-	letter-spacing: 0.3px;
+	letter-spacing: 0.015em;
 }
 
 a {
@@ -123,7 +123,7 @@ h2 {
 	font-size: 180%;
 	text-align: center;
 	margin-top: 0;
-	letter-spacing: 2px;
+	letter-spacing: 0.015em;
 	@include mq(tablet) {
 		&::before,
 		&::after {
@@ -194,9 +194,6 @@ b {
 }
 .intro {
 	color: neutralLightesten(theme(base), 15%);
-	p + & {
-		padding-top: 1rem;
-	}
 	@include mq(tablet) {
 		font-size: 110%;
 		columns: 2;
@@ -207,6 +204,9 @@ b {
 			page-break-inside: avoid;
 			break-inside: avoid;
 		}
+	}
+	p + & {
+		padding-top: 1rem;
 	}
 }
 .pull-out {
@@ -291,6 +291,17 @@ form {
 	text-align: left;
 	margin-bottom: 2rem;
 
+	@include mq(tablet) {
+		width: 40%;
+		float: left;
+		margin-bottom: 0;
+
+		&.last {
+			width: 20%;
+			background: none;
+		}
+	}
+
 	&.last {
 		margin-bottom: 0;
 	}
@@ -350,17 +361,6 @@ form {
 			background: theme(base);
 		}
 	}
-
-	@include mq(tablet) {
-		width: 40%;
-		float: left;
-		margin-bottom: 0;
-
-		&.last {
-			width: 20%;
-			background: none;
-		}
-	}
 }
 
 .msg {
@@ -381,6 +381,12 @@ form {
 
 .image-text {
 	display: flex;
+	@include mq($until: phone) {
+		display: block;
+		.text {
+			padding-left: 0;
+		}
+	}
 	.icon {
 		width: 33%;
 		min-width: 5rem;
@@ -395,12 +401,6 @@ form {
 	.text {
 		padding-left: 2rem;
 	}
-	@include mq($until: phone) {
-		display: block;
-		.text {
-			padding-left: 0;
-		}
-	}
 }
 
 /**
@@ -413,6 +413,23 @@ form {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	margin-left: -1.5rem;
+	@include mq($until: phone) {
+		.top {
+			display: block;
+		}
+		.top .cell + .cell {
+			width: auto;
+		}
+		.top .cell:first-child {
+			margin: 0 auto 1rem;
+			padding-right: 0;
+		}
+	}
+	@include mq(tablet) {
+		> li {
+			width: 50%;
+		}
+	}
 	.block {
 		background: theme(neutralLight);
 		padding: 1.5rem 1.5rem 0.5rem;
@@ -481,39 +498,11 @@ form {
 			margin-bottom: 0.5rem;
 		}
 	}
-	@include mq($until: phone) {
-		.top {
-			display: block;
-		}
-		.top .cell + .cell {
-			width: auto;
-		}
-		.top .cell:first-child {
-			margin: 0 auto 1rem;
-			padding-right: 0;
-		}
-	}
-	@include mq(tablet) {
-		> li {
-			width: 50%;
-		}
-	}
 }
 
 .partners {
 	@extend %secret-list;
 	text-align: center;
-	> li {
-		display: inline-block;
-		width: 40%;
-		padding: 1em;
-		max-width: 9.3rem;
-		min-width: 6.2rem;
-		img {
-			display: block;
-			width: 100%;
-		}
-	}
 	@include mq($until: phone) {
 		> li {
 			width: 90%;
@@ -543,6 +532,18 @@ form {
 			}
 		}
 	}
+	> li {
+		display: inline-block;
+		width: 40%;
+		padding: 1em;
+		max-width: 9.3rem;
+		min-width: 6.2rem;
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
 }
 
 .schedule {
@@ -596,7 +597,7 @@ footer {
 	font-size: 90%;
 	color: theme(neutralDark);
 	text-align: center;
-	border-top: 0.2em solid #26A3CF;
+	border-top: 0.2em solid theme(primary);
 	p {
 		margin-bottom: 0;
 	}
@@ -621,12 +622,6 @@ footer {
 	background: theme(neutralLight);
 	text-align: center;
 	font-size: 80%;
-	a {
-		display: block;
-		text-align: center;
-		padding: 0 0.5rem;
-		border-bottom: 0;
-	}
 	@include mq(phone) {
 		a {
 			display: inline-block;
@@ -635,4 +630,11 @@ footer {
 			border-left: thin solid theme(neutralMid);
 		}
 	}
+	a {
+		display: block;
+		text-align: center;
+		padding: 0 0.5rem;
+		border-bottom: 0;
+	}
+
 }
