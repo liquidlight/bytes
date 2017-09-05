@@ -519,8 +519,10 @@ form {
 			vertical-align: middle;
 			text-align: center;
 		}
-		img {
+		> li img {
 			width: auto;
+			max-width: 17rem;
+			max-height: 7rem;
 		}
 		a {
 			@include animate(opacity);
@@ -532,6 +534,7 @@ form {
 			}
 		}
 	}
+
 	> li {
 		display: inline-block;
 		width: 40%;
@@ -544,6 +547,9 @@ form {
 		}
 	}
 
+	&.partnersLower > li img {
+		max-height: 3.5rem;
+	}
 }
 
 .schedule {

@@ -282,7 +282,15 @@
 			<h2>With thanks to...</h2>
 			<ul class="partners">
 				<li>
+					<a rel="nofollow" href="http://goodscary.com/"><img src="/assets/bytes/img/partners/goodscary-logo.svg" alt="Good Scary"></a>
+				</li>
+			</ul>
+			<ul class="partners partnersLower">
+				<li>
 					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
 				</li>
 			</ul>
 			<p class="featured featured-sub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2017 Sponsorship">Get in touch</a></p>
