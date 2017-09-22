@@ -49,7 +49,7 @@
 				</div>
 			</section>
 		</div>
-		<?php /*
+
 		<section id="speakers">
 			<h2>Who's speaking?</h2>
 
@@ -58,66 +58,24 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<a href="http://www.twitter.com/poshaughnessy">
-									<img src="/assets/bytes/img/speakers/peter.jpg" alt="Peter O'Shaughnessy" />
+								<a href="https://twitter.com/Alice_Reeves">
+									<img src="/assets/bytes/img/speakers/alice.jpg" alt="Alice Reeves" />
 								</a>
 							</div>
 							<div class="cell">
-								<h3>Peter O'Shaughnessy</h3>
+								<h3>Alice Reeves</h3>
 								<ul class="outbound">
-									<li><a href="http://www.twitter.com/poshaughnessy">@poshaughnessy</a></li>
-									<li><a href="http://peteroshaughnessy.com/">peteroshaughnessy.com</a></li>
+									<li><a href="https://twitter.com/Alice_Reeves">@alice_Reeves</a></li>
+									<li><a href="https://thejoyfulweb.com">thejoyfulweb.com</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<h4>Progressive Web Apps and the biggest browser you’ve probably never thought of</h4>
-							<p>Samsung Internet, the third most popular mobile browser in Europe, is helping to push Progressive Web Apps forwards and the team are contributors to many of the specs.</p>
-							<p>This talk will explore what is possible to achieve with Web APIs today and what’s coming up next, not just for Samsung Internet, but across mobile browsers and beyond.</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="block">
-						<div class="top">
-							<div class="cell">
-								<a href="https://twitter.com/webguildseal">
-									<img src="/assets/bytes/img/speakers/lisa.jpg" alt="Lisa Freeman" />
-								</a>
-							</div>
-							<div class="cell">
-								<h3>Lisa Freeman</h3>
-								<ul class="outbound">
-									<li><a href="https://twitter.com/webguildseal">@webguildseal</a></li>
-									<li><a href="http://www.thewebguild.org/">thewebguild.org</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text">
-							<h4>Regulation and privacy: what might be coming?</h4>
-							<p>This talk explores the reactions to the EU's ePrivacy review; the process, what we think might be changing and the forthcoming GDPR (General Data Protection Regulation). However, given the referendum results, ePrivacy in the UK might need to have completely fresh rules drawn up.</p>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="block">
-						<div class="top">
-							<div class="cell">
-								<a href="http://www.twitter.com/grobiwebdesign">
-									<img src="/assets/bytes/img/speakers/graeme.jpg" alt="Graeme Robinson" />
-								</a>
-							</div>
-							<div class="cell">
-								<h3>Graeme Robinson</h3>
-								<ul class="outbound">
-									<li><a href="http://www.twitter.com/grobiwebdesign">@grobiwebdesign</a></li>
-									<li><a href="http://grwebdesign.co.uk/">grwebdesign.co.uk</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text">
-							<h4>Autism and The Web</h4>
-							<p>This talk addresses the challenges faced by users and web developers on the Autistic Spectrum. Graeme will highlight why it's not a bad thing, clear up some misunderstandings about the spectrum and how UX improves learning.</p>
+							<h4>How To Set Your Business Up For Social Media Success</h4>
+							<p>In this talk, Alice will provide her most important tips for setting yourself and your business up for social media success. While it's incredibly easy to set up a social media account (after all, even your Nan can do it) it's surprising how many businesses miss out these simple but key steps for optimising, integrating, and signalling to their social media presence. Alice will cover off the most common things that get overlooked by businesses when setting up their social media, and share the changes you can make to your social media right now to have the biggest impact.</p>
+
+							<h4 class="toggleAction">About Alice</h4>
+							<p class="toggleTarget">Alice is Director of <a href="https://thejoyfulweb.com">The Joyful Web</a>, a social media and content marketing agency that works with purposeful, value-driven brands who want to genuinely connect with their customers online. Until the end of 2016, Alice was Social Media Director at international marketing agency Jellyfish where she developed social media strategies for a huge range of industries from finance and pharmaceuticals, to global sports brands and up-and-coming tech startups. Outside of work, she enjoys running, yoga, wine, gin, pyjamas, dinosaurs, and Doctor Who in no particular order. Alice is also founder of <a href="https://belongcon.com">BelongCon</a>, author of the <a href="http://www.truthandtails.com">Truth & Tails</a> series of children's books, and a gluten-free food blogger. </p>
 						</div>
 					</div>
 				</li>
@@ -126,39 +84,92 @@
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<a href="http://www.twitter.com/mikestreety">
-									<img src="/assets/bytes/img/speakers/mike.jpg" alt="Mike Street" />
+								<a href="http://www.twitter.com/matsaukeo">
+									<img src="/assets/bytes/img/speakers/matt.jpg" alt="Matt Keogh" />
 								</a>
 							</div>
 							<div class="cell">
-								<h3>Mike Street</h3>
+								<h3>Matt Keogh</h3>
 								<ul class="outbound">
-									<li><a href="http://www.twitter.com/mikestreety">@mikestreety</a></li>
+									<li><a href="http://www.twitter.com/matsaukeo">@matsaukeo</a></li>
 									<li><a href="http://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<h4>The Digital Bucket List for People in the Web</h4>
-							<p>We are all so busy ploughing through CSS and HTML that we forget to sometimes lift our head up and see what else is going on in the world that can benefit us. From side projects to expanding your repertoire, this talk gives you ideas to add to your bucket list to not only make you a better developer, but richer one too.</p>
+							<h4>This much I know: 15 years of designing in 20 minutes.</h4>
+							<p>Is there life on Mars? Will Brexit happen? I don’t know. But hopefully after 15 years of designing websites, I know a few things about becoming a better designer which I’d like to share.</p>
+
+							<h4 class="toggleAction">About Matt</h4>
+							<p class="toggleTarget">Matt Keogh is a senior designer for Liquid Light and a fan of whitespace and typography. Matt’s design eye has been adding a little “pizzazz” to the internet for over 15 years. Matt’s family keep him entertained and out of trouble when he’s not staring at a screen.</p>
 						</div>
 					</div>
 				</li>
+
 				<li>
 					<div class="block">
 						<div class="top">
 							<div class="cell">
-								<img src="/assets/bytes/img/speakers/candi.jpg" alt="Candi Underwood" />
+								<a href="http://www.twitter.com/ambrwlsn90">
+									<img src="/assets/bytes/img/speakers/amber.jpg" alt="Amber Wilson" />
+								</a>
 							</div>
 							<div class="cell">
-								<h3>Candi Underwood</h3>
+								<h3>Amber Wilson</h3>
+								<ul class="outbound">
+									<li><a href="http://www.twitter.com/ambrwlsn90">@ambrwlsn90</a></li>
+									<li><a href="https://amberwilson.co.uk">amberwilson.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							<h4>Psychology and the Web</h4>
+							<p>Amber has found that the skills and experiences she picked up studying and working within Psychology have guided her as a developer - sometimes in surprising ways, always in useful ways, and in some ways she has yet to discover. She is excited to bring along her unique perspective on Web development through the eyes of a discipline she knows so well. She'll talk to us about how folk that work on the Web can be aware of other disciplines that surround us, embrace their lessons, and harness these to build both a stronger Web and stronger bonds with each other.</p>
+
+							<h4 class="toggleAction">About Amber</h4>
+							<p class="toggleTarget">Amber is a budding designer continually getting excited about everything to do with the Web. With her background pursuing a Master's degree in Child Psychology, she'll bring a unique perspective on both where we've come from and where we'll go.</p>
+						</div>
+					</div>
+				</li>
+
+
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<a href="http://www.twitter.com/davshoward">
+									<img src="/assets/bytes/img/speakers/mike.jpg" alt="Davs Howard" />
+								</a>
+							</div>
+							<div class="cell">
+								<h3>Davs Howard</h3>
+								<ul class="outbound">
+									<li><a href="http://www.twitter.com/davshoward">@davshoward</a></li>
+									<li><a href="https://davshoward.com/">davshoward.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<img src="/assets/bytes/img/speakers/mindi.jpg" alt="Mike and Candi" />
+							</div>
+							<div class="cell">
+								<h3>Mike & Candi</h3>
 								<ul class="outbound">
 									<li><a href="http://www.bytesconf.co.uk">bytesconf.co.uk</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
-							<p>Your MC for the evening, Candi will be introducing our speakers, warming up the crowd and telling bad jokes (jokes not guaranteed).</p>
+							<p>Your MCs for the evening, Mike and Candi are like the Ant and Dec of the web world. Introductions, jokes and general professional hilarity will ensue.</p>
 						</div>
 					</div>
 				</li>
@@ -178,7 +189,6 @@
 				</li>
 			</ul>
 		</section>
-		*/ ?>
 		<?php /*
 		<section id="schedule">
 			<h2>Schedule</h2>

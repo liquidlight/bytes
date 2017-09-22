@@ -61,7 +61,7 @@ $mq-breakpoints: (
 body {
 	font-family: 'GrotaSans', sans-serif;
 	font-size: 1.06rem;
-	line-height: 1.5;
+	line-height: 1.55;
 	font-weight: 400;
 	background: theme(neutralLightest);
 	min-width: 16em;
@@ -643,4 +643,46 @@ footer {
 		border-bottom: 0;
 	}
 
+}
+
+
+/**
+ * Toggle
+ */
+.toggleAction {
+	transition: color 0.2s ease;
+	cursor: pointer;
+	color: theme(primary);
+
+	&::after {
+		content: '';
+		transition: transform 0.2s ease;
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border: 0.5rem solid transparent;
+		border-left-color: currentColor;
+		margin-left: 0.75rem;
+		transform-origin: 25% 50%;
+	}
+
+	&:hover {
+		color: theme(primaryDark);
+		&::after {
+			transform: translateX(0.25rem);
+		}
+	}
+
+	&.isActive {
+		color: theme(base);
+		&::after {
+			transform: rotate(90deg);
+		}
+	}
+
+}
+.toggleTarget {
+	display: none;
+	margin-bottom: 0;
+	padding-bottom: 1rem;
 }

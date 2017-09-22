@@ -1,14 +1,20 @@
 /**
  * Banner Parralax
  */
+
+$('.toggleAction').on('click', function() {
+	$(this).toggleClass('isActive').next('.toggleTarget').slideToggle();
+});
+
+
 function scrollBackground(elem) {
-	$.each(elem, function(index, el) {
+	$.each(elem, function() {
 
 		var self = $(this);
 		var scroll = $(window).scrollTop();
 
 		if(scroll < 0)
-		scroll = 0;
+			scroll = 0;
 
 		self.css({
 			'background-position': 'center ' + Math.round(scroll / 2) + 'px'
@@ -29,10 +35,10 @@ var addError = function(data) {
 	var error = $('.js-error');
 
 	error.fadeOut(500, function(){
-		error.text(data).fadeIn()
+		error.text(data).fadeIn();
 	});
 
-}
+};
 $('.js-error').hide();
 $('form').on('submit', function(e){
 	e.preventDefault();
@@ -68,7 +74,7 @@ $('form').on('submit', function(e){
 					self.remove();
 					parent.html('<div class="success msg">Thanks for signing up to the mailing list!</div>');
 					$('.success').fadeIn();
-				})
+				});
 			}
 		}
 	});
