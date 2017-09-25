@@ -65,7 +65,7 @@
 							<div class="cell">
 								<h3>Alice Reeves</h3>
 								<ul class="outbound">
-									<li><a href="https://twitter.com/Alice_Reeves">@alice_Reeves</a></li>
+									<li><a href="https://twitter.com/Alice_Reeves">@alice_reeves</a></li>
 									<li><a href="https://thejoyfulweb.com">thejoyfulweb.com</a></li>
 								</ul>
 							</div>
@@ -76,32 +76,6 @@
 
 							<h4 class="toggleAction">About Alice</h4>
 							<p class="toggleTarget">Alice is Director of <a href="https://thejoyfulweb.com">The Joyful Web</a>, a social media and content marketing agency that works with purposeful, value-driven brands who want to genuinely connect with their customers online. Until the end of 2016, Alice was Social Media Director at international marketing agency Jellyfish where she developed social media strategies for a huge range of industries from finance and pharmaceuticals, to global sports brands and up-and-coming tech startups. Outside of work, she enjoys running, yoga, wine, gin, pyjamas, dinosaurs, and Doctor Who in no particular order. Alice is also founder of <a href="https://belongcon.com">BelongCon</a>, author of the <a href="http://www.truthandtails.com">Truth & Tails</a> series of children's books, and a gluten-free food blogger. </p>
-						</div>
-					</div>
-				</li>
-
-				<li>
-					<div class="block">
-						<div class="top">
-							<div class="cell">
-								<a href="http://www.twitter.com/matsaukeo">
-									<img src="/assets/bytes/img/speakers/matt.jpg" alt="Matt Keogh" />
-								</a>
-							</div>
-							<div class="cell">
-								<h3>Matt Keogh</h3>
-								<ul class="outbound">
-									<li><a href="http://www.twitter.com/matsaukeo">@matsaukeo</a></li>
-									<li><a href="http://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="text">
-							<h4>This much I know: 15 years of designing in 20 minutes.</h4>
-							<p>Is there life on Mars? Will Brexit happen? I don’t know. But hopefully after 15 years of designing websites, I know a few things about becoming a better designer which I’d like to share.</p>
-
-							<h4 class="toggleAction">About Matt</h4>
-							<p class="toggleTarget">Matt Keogh is a senior designer for Liquid Light and a fan of whitespace and typography. Matt’s design eye has been adding a little “pizzazz” to the internet for over 15 years. Matt’s family keep him entertained and out of trouble when he’s not staring at a screen.</p>
 						</div>
 					</div>
 				</li>
@@ -132,25 +106,54 @@
 					</div>
 				</li>
 
+				<li>
+					<div class="block">
+						<div class="top">
+							<div class="cell">
+								<a href="http://www.twitter.com/matsaukeo">
+									<img src="/assets/bytes/img/speakers/matt.jpg" alt="Matt Keogh" />
+								</a>
+							</div>
+							<div class="cell">
+								<h3>Matt Keogh</h3>
+								<ul class="outbound">
+									<li><a href="http://www.twitter.com/matsaukeo">@matsaukeo</a></li>
+									<li><a href="http://www.liquidlight.co.uk">liquidlight.co.uk</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="text">
+							<h4>This much I know: 15 years experience in 20 minutes.</h4>
+							<p>Is there life on Mars? Will Brexit happen? Matt doesn't know. But after 15 years of designing websites, he knows a few things about becoming a better designer which he’d like to share.</p>
+
+							<h4 class="toggleAction">About Matt</h4>
+							<p class="toggleTarget">Matt Keogh is a senior designer for Liquid Light and a fan of whitespace and typography. Matt’s design eye has been adding a little “pizzazz” to the internet for over 15 years. Matt’s family keep him entertained and out of trouble when he’s not staring at a screen.</p>
+						</div>
+					</div>
+				</li>
 
 				<li>
 					<div class="block">
 						<div class="top">
 							<div class="cell">
 								<a href="http://www.twitter.com/davshoward">
-									<img src="/assets/bytes/img/speakers/mike.jpg" alt="Davs Howard" />
+									<img src="/assets/bytes/img/speakers/davs.jpg" alt="Davs Howard" />
 								</a>
 							</div>
 							<div class="cell">
 								<h3>Davs Howard</h3>
 								<ul class="outbound">
 									<li><a href="http://www.twitter.com/davshoward">@davshoward</a></li>
-									<li><a href="https://davshoward.com/">davshoward.com</a></li>
+									<li><a href="https://majordigital.com/">majordigital.com</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="text">
+							<h4>From front-to-back: the life of "full-stack" developer</h4>
+							<p>The term "full-stack" is an interesting term in the modern web dev world - often seen as a 'Jack of all trades, master of none' in an industry striving for excellence. This talk will dive into the life of someone who spans multiple disciplines, the struggles they face and the components of their personality and skill set that they consider vital to a fulfilling role.</p>
 
+							<h4 class="toggleAction">About Davs</h4>
+							<p class="toggleTarget">Head of Digital at Major Digital. Always player one. Cornetto lover. Meat popsicle. </p>
 						</div>
 					</div>
 				</li>
