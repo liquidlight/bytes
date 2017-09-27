@@ -124,7 +124,7 @@
 						</div>
 						<div class="text">
 							<h4>This much I know: 15 years experience in 20 minutes.</h4>
-							<p>Is there life on Mars? Will Brexit happen? Matt doesn't know. But after 15 years of designing websites, he knows a few things about becoming a better designer which he’d like to share.</p>
+							<p>Is there life on Mars? Will Brexit happen? Matt doesn't know either. But after 15 years of designing websites, he knows a few things about becoming a better designer which he’d like to share.</p>
 
 							<h4 class="toggleAction">About Matt</h4>
 							<p class="toggleTarget">Matt Keogh is a senior designer for Liquid Light and a fan of whitespace and typography. Matt’s design eye has been adding a little “pizzazz” to the internet for over 15 years. Matt’s family keep him entertained and out of trouble when he’s not staring at a screen.</p>
