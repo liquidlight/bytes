@@ -98,7 +98,7 @@
 						</div>
 						<div class="text">
 							<h4>Psychology and the Web</h4>
-							<p>Amber has found that the skills and experiences she picked up studying and working within Psychology have guided her as a developer - sometimes in surprising ways, always in useful ways, and in some ways she has yet to discover. She is excited to bring along her unique perspective on Web development through the eyes of a discipline she knows so well. She'll talk to us about how folk that work on the Web can be aware of other disciplines that surround us, embrace their lessons, and harness these to build both a stronger Web and stronger bonds with each other.</p>
+							<p>Amber has found that the skills and experiences she picked up studying and working within Psychology have guided her as a developer - sometimes in surprising ways, always in useful ways, and in some ways, she has yet to discover. She is excited to bring along her unique perspective on Web development through the eyes of a discipline she knows so well. She'll talk to us about how folk that work on the Web can be aware of other disciplines that surround us, embrace their lessons, and harness these to build both a stronger Web and stronger bonds with each other.</p>
 
 							<h4 class="toggleAction">About Amber</h4>
 							<p class="toggleTarget">Amber is a budding designer continually getting excited about everything to do with the Web. With her background pursuing a Master's degree in Child Psychology, she'll bring a unique perspective on both where we've come from and where we'll go.</p>
