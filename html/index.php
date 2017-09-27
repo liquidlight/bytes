@@ -158,7 +158,7 @@
 					</div>
 				</li>
 
-				<li>
+				<li class="full">
 					<div class="block">
 						<div class="top">
 							<div class="cell">
@@ -176,7 +176,7 @@
 						</div>
 					</div>
 				</li>
-				<li class="alt">
+				<!-- <li class="alt">
 					<div class="block">
 						<div class="top">
 							<div class="cell">
@@ -189,7 +189,7 @@
 							</div>
 						</div>
 					</div>
-				</li>
+				</li> -->
 			</ul>
 		</section>
 		<?php /*
