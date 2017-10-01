@@ -2,7 +2,7 @@
 	$date = '16th November 2017';
 	$tickets_on_sale = (time() > strtotime('10:00am 1st September 2017'));
 	$tickets = ($tickets_on_sale) ? '#tickets' : 'https://www.eventbrite.com/e/bytes-conf-2017-tickets-37126523431';
-	$ticket_text = ($tickets_on_sale) ? 'Early bird tickets on sale!' : 'Tickets on sale 1st Sept'; ?>
+	$ticket_text = ($tickets_on_sale) ? 'Tickets on sale!' : 'Tickets on sale 1st Sept'; ?>
 <!DOCTYPE html>
 <html>
 <head>
