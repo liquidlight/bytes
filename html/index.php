@@ -295,12 +295,24 @@
 			<h2>With thanks to...</h2>
 			<ul class="partners">
 				<li>
+					<a rel="nofollow" href="https://www.brewdog.com/"><img src="/assets/bytes/img/partners/brewdog.svg" alt="Brewdog"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://builtbybuffalo.com/"><img src="/assets/bytes/img/partners/buffalo-logo.svg" alt="Buffalo"></a>
+				</li>
+				<li>
 					<a rel="nofollow" href="http://goodscary.com/"><img src="/assets/bytes/img/partners/goodscary-logo.svg" alt="Good Scary"></a>
 				</li>
 			</ul>
 			<ul class="partners partnersLower">
 				<li>
 					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.laserzone.co.uk/"><img src="/assets/bytes/img/partners/laserzone.png" alt="Laserzone"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="https://www.oreilly.com/"><img src="/assets/bytes/img/partners/orm.jpg" alt="O'Reilly"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
