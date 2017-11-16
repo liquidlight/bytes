@@ -507,6 +507,7 @@ form {
 .partners {
 	@extend %secret-list;
 	text-align: center;
+	margin-bottom: 1rem;
 	@include mq($until: phone) {
 		> li {
 			width: 90%;
@@ -554,6 +555,11 @@ form {
 	&.partnersLower > li img {
 		max-height: 3.5rem;
 	}
+}
+.partners.partnersPlatinum > li,
+.partners.partnersPlatinum > li img {
+	max-width: none;
+	width: auto;
 }
 
 .schedule {

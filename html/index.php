@@ -292,6 +292,11 @@
 	<?php endif; ?>
 		<section id="partners">
 			<h2>With thanks to...</h2>
+			<ul class="partners partnersPlatinum">
+				<li>
+					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>
+			</ul>
 			<ul class="partners">
 				<li>
 					<a rel="nofollow" href="https://www.brewdog.com/"><img src="/assets/bytes/img/partners/brewdog.svg" alt="Brewdog"></a>
@@ -305,7 +310,7 @@
 			</ul>
 			<ul class="partners partnersLower">
 				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+					<a rel="nofollow" href="http://www.bozboz.co.uk/"><img src="/assets/bytes/img/partners/bozboz.svg" alt="Bozboz"></a>
 				</li>
 				<li>
 					<a rel="nofollow" href="http://www.laserzone.co.uk/"><img src="/assets/bytes/img/partners/laserzone.png" alt="Laserzone"></a>
