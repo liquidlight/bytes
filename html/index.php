@@ -149,7 +149,7 @@
 							</div>
 						</div>
 						<div class="text">
-							<h4>From front-to-back: the life of "full-stack" developer</h4>
+							<h4>The truth about "full-stack"</h4>
 							<p>The term "full-stack" is an interesting term in the modern web dev world - often seen as a 'Jack of all trades, master of none' in an industry striving for excellence. This talk will dive into the life of someone who spans multiple disciplines, the struggles they face and the components of their personality and skill set that they consider vital to a fulfilling role.</p>
 
 							<h4 class="toggleAction">About Davs</h4>
@@ -192,7 +192,7 @@
 				</li> -->
 			</ul>
 		</section>
-		<?php /*
+
 		<section id="schedule">
 			<h2>Schedule</h2>
 			<table class="schedule">
@@ -217,8 +217,8 @@
 						7:30pm
 					</td>
 					<td>
-						<h4>Speaker 1</h4>
-						<h5></h5>
+						<h4>Davs Howard</h4>
+						<h5>The truth about "full-stack"</h5>
 					</td>
 				</tr>
 				<tr>
@@ -226,8 +226,8 @@
 						8:00pm
 					</td>
 					<td>
-						<h4>Speaker 1</h4>
-						<h5></h5>
+						<h4>Amber Wilson</h4>
+						<h5>Psychology and the Web</h5>
 					</td>
 				</tr>
 				<tr>
@@ -235,7 +235,7 @@
 						8:30pm
 					</td>
 					<td>
-						Short talk from [CHARITY]
+						Short talk from Codebar
 					</td>
 				</tr>
 				<tr class="keynote">
@@ -251,8 +251,8 @@
 						9:00pm
 					</td>
 					<td>
-						<h4>Speaker 3</h4>
-						<h5></h5>
+						<h4>Alice Reeves</h4>
+						<h5>How To Set Your Business Up For Social Media Success</h5>
 					</td>
 				</tr>
 				<tr>
@@ -260,8 +260,8 @@
 						9:30pm
 					</td>
 					<td>
-						<h4>Speaker 4</h4>
-						<h5></h5>
+						<h4>Matt Keogh</h4>
+						<h5>This much I know: 15 years experience in 20 minutes.</h5>
 					</td>
 				</tr>
 				<tr class="keynote">
@@ -282,7 +282,6 @@
 				</tr>
 			</table>
 		</section>
-		*/ ?>
 <?php include 'includes/map.php'; ?>
 	<?php if($tickets_on_sale) : ?>
 	<section id="tickets">
