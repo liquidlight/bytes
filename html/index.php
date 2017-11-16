@@ -293,8 +293,17 @@
 		<section id="partners">
 			<h2>With thanks to...</h2>
 			<ul class="partners partnersPlatinum">
+
+			</ul>
+			<ul class="partners partnersLower">
+				<li>
+					<a rel="nofollow" href="https://www.oreilly.com/"><img src="/assets/bytes/img/partners/orm.jpg" alt="O'Reilly"></a>
+				</li>
 				<li>
 					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
 				</li>
 			</ul>
 			<ul class="partners">
@@ -313,13 +322,10 @@
 					<a rel="nofollow" href="http://www.bozboz.co.uk/"><img src="/assets/bytes/img/partners/bozboz.svg" alt="Bozboz"></a>
 				</li>
 				<li>
+					<a rel="nofollow" href="http://www.confwall.co.uk/"><img src="/assets/bytes/img/partners/confwall.png" alt="Confwall"></a>
+				</li>
+				<li>
 					<a rel="nofollow" href="http://www.laserzone.co.uk/"><img src="/assets/bytes/img/partners/laserzone.png" alt="Laserzone"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="https://www.oreilly.com/"><img src="/assets/bytes/img/partners/orm.jpg" alt="O'Reilly"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
 				</li>
 			</ul>
 			<p class="featured featured-sub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2017 Sponsorship">Get in touch</a></p>
