@@ -89,9 +89,13 @@ a {
 }
 header {
 	text-align: center;
-	background: url('../img/header-bg.jpg') top center;
+	background: url('../img/header-bg.jpg') center;
 	background-size: cover;
 	position: relative;
+	min-height: 50vh;
+	display: flex;
+	align-items: center;
+
 	&::before {
 		content: '';
 		position: absolute;
@@ -99,7 +103,7 @@ header {
 		bottom: 0;
 		right: 0;
 		left: 0;
-		background: rgba(theme(neutralLightest), 0.8);
+		background: rgba(theme(neutralDarkest), 0.6);
 		z-index: 1;
 	}
 
@@ -162,6 +166,9 @@ b {
 .center {
 	text-align: center;
 }
+.right {
+	text-align: right;
+}
 .content {
 	max-width: 47rem;
 }
@@ -193,7 +200,7 @@ b {
 	padding: 1.5rem;
 }
 .intro {
-	color: neutralLightesten(theme(base), 15%);
+	color: lighten(theme(base), 15%);
 	@include mq(tablet) {
 		font-size: 110%;
 		columns: 2;
@@ -209,6 +216,16 @@ b {
 		padding-top: 1rem;
 	}
 }
+.thin {
+	color: lighten(theme(base), 15%);
+	max-width: 40rem;
+	margin: 0 auto;
+	font-size: 1.2rem;
+	strong {
+		color: theme(neutralDarkest);
+	}
+}
+
 .pull-out {
 	margin-top: 2rem;
 	border-top: 1px solid theme(neutralMid);
@@ -401,6 +418,21 @@ form {
 	.text {
 		padding-left: 2rem;
 	}
+}
+
+.video {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-top: 56%;
+	margin-bottom: 1em;
+}
+.video > iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /**

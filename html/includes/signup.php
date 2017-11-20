@@ -1,6 +1,6 @@
 <section id="signup">
 	<div class="divider spaced">
-		<h2>Keep up to date</h2>
+		<h2>Sign up to be kept in the loop!</h2>
 		<form action="signup-process.php" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
 			<span class="field">
 				<input type="text" name="name" class="required name" id="name" />
