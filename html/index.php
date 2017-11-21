@@ -15,20 +15,20 @@
 			<h4>Thanks to all that came & made Bytes Conf 2017 amazing!</h4>
 			<div class="thin">
 				<p>We would like to thank every single person who was involved in making Bytes Conf 2017 fantastic. From the fascinating talks to the brilliant prizes, Bytes Conf was excellent.</p>
-				<p>With all the ticket sales and raffle money, we managed to raise a staggering <strong>£XXX</strong> for Codebar. Thank you!!</P>
-				<p>If you would like to read a full round-up of the conf, you can <a href="https://www.liquidlight.co.uk/blog/article/bytes-conf-16th-november-2017/">read the Liquid Light blog post</a>. There are also all of the <a href="https://flic.kr/s/aHskxktQRV">photos online</a> for your perusal.</p>
-				<p>Make sure you <a href="#signup">sign up to the newsletter</a> to be first to hear about the next Bytes Conf - you won't want to miss it!</p>
+				<p>With all the ticket sales and raffle money, we managed to raise <strong>at least £500</strong> for codebar (final number to be confirmed). Thank you!!</P>
+				<p>If you want to have a look at the pictures for they event, you can do so <a href="https://flic.kr/s/aHskxktQRV">on Flickr</a>.</p>
+				<p>The videos for the event will be online soon. Make sure you <a href="#signup">sign up to the newsletter</a> to be first to hear about them, along with details about the next Bytes Conf!</p>
 				<p>Thanks again and we'll see you next year.</p>
-				<p class="right">~ Mike and Candi</p>
+				<p>~ Mike and Candi</p>
 			</div>
 		</section>
 		<?php include 'includes/signup.php'; ?>
-		<section>
+		<?php /* <section>
 			<h2>The videos from 2017</h2>
 			<div class="video">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPs419gH1FQJXk8q13pTMin4GLICfqz5z" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
-		</section>
+		</section> */?>
 
 		<section id="partners">
 			<h2>With thanks to...</h2>
