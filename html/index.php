@@ -23,12 +23,12 @@
 			</div>
 		</section>
 		<?php include 'includes/signup.php'; ?>
-		<?php /* <section>
+		<section>
 			<h2>The videos from 2017</h2>
 			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPs419gH1FQJXk8q13pTMin4GLICfqz5z" frameborder="0" gesture="media" allowfullscreen></iframe>
+				<iframe width="1024" height="576" src="https://www.youtube.com/embed/videoseries?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
-		</section> */?>
+		</section>
 
 		<section id="partners">
 			<h2>With thanks to...</h2>
