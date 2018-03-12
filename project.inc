@@ -39,19 +39,5 @@ return ZyncHelper::arrayMergeRecursive(
 			
 		),
 
-		'actions' => array(
-
-			// Push the website assets
-			'push' => array(
-				'paths' => array(
-					'html' => array(
-						'exclude' => array(
-						),
-					),
-				),
-			),
-
-		),
-
 	)
 );
