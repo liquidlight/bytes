@@ -13,6 +13,17 @@
 				<!-- <a href="<?php echo $tickets ?>" class="button"><?php echo $ticket_text ?></a> -->
 			</section>
 		</header>
+
+		<div class="divider alt">
+			<section>
+				<div class="thin" style="color: #fff; text-align: center;">
+					<h3>How did we do?</h3>
+					<p>Want to read about how we did in 2017? How much money we raised and watch the videos?</p>
+					<p><a class="button" href="/the-morning-after">Read all about it</a></p>
+				</div>
+			</section>
+		</div>
+
 		<section>
 			<h2>More about Bytes</h2>
 			<div class="intro">
