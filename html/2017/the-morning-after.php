@@ -1,0 +1,76 @@
+<?php
+	$name = 'Bytes Conference, Brighton';
+	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
+	$description = 'Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for a local charity';
+
+	include 'includes/header.php'; ?>
+	<main>
+		<header class="morningAfterHeader">
+			<section>
+				<a href=""><h1 class="logo"><img src="/assets/bytes/img/logo-white.png" alt="Bytes Conference, Brighton" /></h1></a>
+			</section>
+		</header>
+		<section>
+			<h2>Bytes Conf 2017</h2>
+			<h4>Thanks to all that came & made Bytes Conf 2017 amazing!</h4>
+			<div class="thin">
+				<p>We would like to thank every single person who was involved in making Bytes Conf 2017 fantastic. From the fascinating talks to the brilliant prizes, Bytes Conf was excellent.</p>
+				<p>With all the ticket sales and raffle money, we managed to raise <strong>at least £500</strong> for codebar (final number to be confirmed). Thank you!!</P>
+				<p>If you want to pretend you were there, or relive the fantastic conf you can:</p>
+				<p class="center"><a class="button" href="https://www.youtube.com/watch?v=V2ywBPmEs1E&list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX">Watch the videos</a> and <a class="button" href="https://flic.kr/s/aHskxktQRV">See the photos</a></p>
+				<p>Make sure you <a href="#signup">sign up to the newsletter</a> to be first to hear details about the next Bytes Conf!</p>
+				<p>Thanks again and we'll see you next year.</p>
+				<p>~ Mike and Candi</p>
+			</div>
+		</section>
+		<?php include 'includes/signup.php'; ?>
+		<section>
+			<h2>The videos from 2017</h2>
+			<div class="video">
+				<iframe width="1024" height="576" src="https://www.youtube.com/embed/videoseries?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" frameborder="0" gesture="media" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section id="partners">
+			<h2>With thanks to...</h2>
+			<ul class="partners partnersPlatinum">
+
+			</ul>
+			<ul class="partners partnersLower">
+				<li>
+					<a rel="nofollow" href="https://www.oreilly.com/"><img src="/assets/bytes/img/partners/orm.jpg" alt="O'Reilly"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
+				</li>
+			</ul>
+			<ul class="partners">
+				<li>
+					<a rel="nofollow" href="https://www.brewdog.com/"><img src="/assets/bytes/img/partners/brewdog.svg" alt="Brewdog"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://builtbybuffalo.com/"><img src="/assets/bytes/img/partners/buffalo-logo.svg" alt="Buffalo"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://goodscary.com/"><img src="/assets/bytes/img/partners/goodscary-logo.svg" alt="Good Scary"></a>
+				</li>
+			</ul>
+			<ul class="partners partnersLower">
+				<li>
+					<a rel="nofollow" href="http://www.bozboz.co.uk/"><img src="/assets/bytes/img/partners/bozboz.svg" alt="Bozboz"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.confwall.co.uk/"><img src="/assets/bytes/img/partners/confwall.png" alt="Confwall"></a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.laserzone.co.uk/"><img src="/assets/bytes/img/partners/laserzone.png" alt="Laserzone"></a>
+				</li>
+			</ul>
+			<p class="featured featured-sub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2017 Sponsorship">Get in touch</a></p>
+		</section>
+
+	</main>
+<?php include 'includes/footer.php';

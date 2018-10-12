@@ -103,8 +103,16 @@ header {
 		bottom: 0;
 		right: 0;
 		left: 0;
-		background: rgba(theme(neutralDarkest), 0.6);
+		background: rgba(theme(neutralLightest), 0.8);
 		z-index: 1;
+	}
+
+	&.morningAfterHeader {
+		background-image: url('../img/header-bg-morning-after.jpg');
+
+		&::before {
+			background: rgba(theme(neutralDarkest), 0.6);
+		}
 	}
 
 	section {
