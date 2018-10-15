@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	flex: 0 1 auto;
+	box-sizing: inherit;
+}
+
+::selection {
+	background: lighten(theme(primary), 15%);
+}
+
+body {
+	font-family: $baseFont;
+	background: theme(neutralLightest);
+	color: theme(base);
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+img {
+	height: auto;
+}
+
+iframe {
+	height: auto;
+}

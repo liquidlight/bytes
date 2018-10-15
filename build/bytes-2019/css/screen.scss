@@ -1,0 +1,20 @@
+// LL Sass Library
+@import '../../../../../ll/basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib';
+
+
+@import 'partials/variables';
+
+// Base
+@import 'partials/base/document';
+@import 'partials/base/fonts';
+@import 'partials/base/typography';
+
+// Structure
+@import 'partials/structure/header';
+@import 'partials/structure/nav';
+@import 'partials/structure/wrapper';
+@import 'partials/structure/footer';
+
+// Components
+@import 'partials/components/hero';
+@import 'partials/components/box';

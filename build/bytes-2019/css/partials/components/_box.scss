@@ -1,0 +1,22 @@
+/**
+ * Hightlight Box
+ */
+.highlightBox {
+	background-color: theme(tertiaryLight);
+	max-width: layout(maxWidth);
+	width: 100%;
+	margin: 0 auto;
+	padding: var(--gutterLarge);
+	text-align: center;
+	color: theme(neutralDark);
+	clip-path: polygon(
+		5% 0,
+		95% 5%,
+		100% 100%,
+		0 100%
+	);
+
+	header + & {
+		margin-top: -10rem;
+	}
+}

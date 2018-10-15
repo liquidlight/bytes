@@ -8,7 +8,6 @@
 	<a href="http://2017.bytesconf.co.uk">Bytes in 2017</a><a href="http://2016.bytesconf.co.uk">Bytes in 2016</a><a href="http://2015.bytesconf.co.uk">Bytes in 2015</a>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="assets/bytes/js/core.js"></script>
+<script src="assets/bytes-2019/js/core.js"></script>
 </body>
 </html>

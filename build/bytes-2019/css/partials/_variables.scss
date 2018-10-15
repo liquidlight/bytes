@@ -1,0 +1,81 @@
+// Colors
+$theme: (
+	base: #686868,
+
+	primary: #FF3C82,
+	primaryLight: #FFEEF9,
+	secondary: #402B56,
+	tertiary: #20A994,
+	tertiaryLight: #E2FFFB,
+
+	required: #D81F2A,
+
+	neutralDark: #4B4B4B,
+	neutralMid: #E8E8E8,
+	neutralLight: #F5F5F5,
+	neutralLightest: #FFF,
+);
+
+// Typography
+$baseFont: 'bytesFont', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Layout
+$mq-breakpoints: (
+	phone: 27em,
+	tablet: 47em,
+	desktop: 65em,
+	tv: 80em
+);
+
+
+$typography: (
+	h1: (
+		base: (
+			font-size: 4.125rem,
+			line-height: 1.2
+		)
+	),
+	h2: (
+		base: (
+			font-size: 3rem,
+			font-weight: bold,
+			color: theme(secondary)
+		)
+	),
+	h3: (
+		base: (
+			font-size: 1.5rem
+		)
+	),
+	h4: (
+		base: (
+			font-size: 1.21rem
+		)
+	),
+	h5: (
+		base: (
+			font-size: 1rem
+		)
+	)
+);
+
+
+:root {
+	--duct: 1rem;
+	--ductNegative: calc(var(--duct) * -1);
+
+	--gutter: 1rem;
+	--gutterBottom: 0.1rem;
+	--gutterNegative: calc(var(--gutter) * -1);
+
+	--gutterMed: calc(var(--gutter) * 2);
+	--gutterMedBottom: calc(var(--gutterMed) - 1rem);
+	--gutterMedNegative: calc(var(--gutterMed) * -1);
+
+	--gutterLarge: calc(var(--gutter) * 4);
+	--gutterLargeNegative: calc(var(--gutterLarge) * -1);
+}
+
+$layout: (
+	maxWidth: 65rem
+);

@@ -1,0 +1,13 @@
+h1 {
+	@include typography(h1);
+}
+
+p {
+	font-size: 1.435rem;
+}
+
+p.featured {
+	font-size: 1.75rem;
+	font-weight: bold;
+	line-height: 1.4;
+}
