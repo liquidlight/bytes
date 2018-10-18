@@ -1,0 +1,48 @@
+table {
+	background-color: theme(neutralLight);
+	border: 0;
+	border-collapse: collapse;
+	padding: 1rem;
+
+	h3 {
+		margin: 0 0 0.25rem;
+	}
+
+	p {
+		font-size: 1.25rem;
+		margin: 0;
+	}
+
+	td {
+		padding: 2rem;
+		display: block;
+
+		@include mq(phone) {
+			padding: 2rem;
+			display: table-cell;
+		}
+
+		&:first-of-type {
+			font-weight: bold;
+			color: theme(tertiary);
+			font-size: 1.4375rem;
+			padding-bottom: 0.5rem;
+
+			@include mq(phone) {
+				padding-bottom: 2rem;
+			}
+		}
+
+		&:last-of-type {
+			padding-top: 0;
+
+			@include mq(phone) {
+				padding-top: 2rem;
+			}
+		}
+	}
+
+	tr:nth-child(even) td {
+		background-color: theme(neutralMid);
+	}
+}

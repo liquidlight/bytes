@@ -1,13 +1,53 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0 0 1.5rem;
+
+	a {
+		color: inherit;
+	}
+}
+
 h1 {
 	@include typography(h1);
 }
 
+h2 {
+	@include typography(h2);
+	text-align: center;
+	margin-bottom: var(--gutterMed);
+}
+
+h3 {
+	@include typography(h3);
+}
+
+h4 {
+	@include typography(h4);
+}
+
 p {
-	font-size: 1.435rem;
+	@include mq(phone) {
+		font-size: 1.2rem;
+	}
+
+	@include mq(desktop) {
+		font-size: 1.435rem;
+	}
 }
 
 p.featured {
-	font-size: 1.75rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	line-height: 1.4;
+
+	@include mq(phone) {
+		font-size: 1.4rem;
+	}
+
+	@include mq(desktop) {
+		font-size: 1.75rem;
+	}
 }

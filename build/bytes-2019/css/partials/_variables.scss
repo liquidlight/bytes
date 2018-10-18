@@ -31,15 +31,34 @@ $mq-breakpoints: (
 $typography: (
 	h1: (
 		base: (
-			font-size: 4.125rem,
+			font-size: 9vw,
 			line-height: 1.2
+		),
+		phone: (
+			font-size: 7vw
+		),
+		tablet: (
+			font-size: 6vw
+		),
+		desktop: (
+			font-size: 4.125rem,
 		)
 	),
 	h2: (
 		base: (
-			font-size: 3rem,
+			font-size: 8.5vw,
 			font-weight: bold,
+			line-height: 1.2,
 			color: theme(secondary)
+		),
+		phone: (
+			font-size: 7vw
+		),
+		tablet: (
+			font-size: 5.2vw
+		),
+		desktop: (
+			font-size: 3rem
 		)
 	),
 	h3: (
@@ -64,7 +83,7 @@ $typography: (
 	--duct: 1rem;
 	--ductNegative: calc(var(--duct) * -1);
 
-	--gutter: 1rem;
+	--gutter: 1.5rem;
 	--gutterBottom: 0.1rem;
 	--gutterNegative: calc(var(--gutter) * -1);
 
@@ -77,5 +96,6 @@ $typography: (
 }
 
 $layout: (
-	maxWidth: 65rem
+	maxWidth: 65rem,
+	maxWidthThin: 57rem
 );

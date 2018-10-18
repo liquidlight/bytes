@@ -1,0 +1,22 @@
+.callout {
+	max-width: 61rem;
+	margin: var(--gutterLarge) auto;
+	text-align: center;
+	position: relative;
+	padding: 4rem 2rem 0.1rem;
+
+	&::before {
+		content: '';
+		clip-path: polygon(32% 0, 72% 17%, 92% 77%, 40% 100%, 14% 46%);
+		width: 100%;
+		height: 100%;
+		background-color: theme(tertiaryLight);
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	h2 {
+		position: relative;
+	}
+}

@@ -25,7 +25,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: var(--gutter);
+	padding: var(--gutterMed) calc(#{var(--gutterMed)} + 1rem);
 	position: absolute;
 	width: 100%;
 	position: relative;
@@ -40,6 +40,7 @@ header {
 	justify-content: center;
 	color: theme(neutralLightest);
 	height: 100%;
-	margin: 0 auto;
+	margin: -6.25rem auto 0;
+	padding: 0 2rem;
 	position: relative;
 }

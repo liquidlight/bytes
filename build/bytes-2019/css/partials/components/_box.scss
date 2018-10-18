@@ -6,7 +6,7 @@
 	max-width: layout(maxWidth);
 	width: 100%;
 	margin: 0 auto;
-	padding: var(--gutterLarge);
+	padding: 2rem 3rem;
 	text-align: center;
 	color: theme(neutralDark);
 	clip-path: polygon(
@@ -16,7 +16,15 @@
 		0 100%
 	);
 
+	@include mq(phone) {
+		padding: 3rem 4rem;
+	}
+
 	header + & {
-		margin-top: -10rem;
+		margin-top: -25vh;
+
+		@include mq(phone) {
+			margin-top: -10rem;
+		}
 	}
 }

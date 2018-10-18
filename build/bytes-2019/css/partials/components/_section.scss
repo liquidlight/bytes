@@ -1,0 +1,164 @@
+section {
+	margin-bottom: var(--gutterLarge);
+}
+
+.sectionTextImage {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 5rem;
+	position: relative;
+
+	&::after {
+		width: 3rem;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><circle cx="2" cy="2" r="2" fill="#FFEEF9"/></svg>');
+		background-repeat: repeat;
+
+		@include mq(tablet) {
+			content: '';
+		}
+	}
+
+	h2 {
+		text-align: left;
+		margin-bottom: var(--gutter);
+	}
+
+	img {
+		width: 100%;
+		@include mq(tablet) {
+			clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
+		}
+	}
+
+	figure {
+		display: block;
+		position: relative;
+		height: 100%;
+		max-width: 55rem;
+
+		&::before {
+			position: absolute;
+			width: calc(100% + 3rem);
+			height: 100%;
+			background-color: theme(primaryLight);
+			clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
+			bottom: -1.5rem;
+			left: 0;
+
+			@include mq(tablet) {
+				content: '';
+			}
+		}
+	}
+
+	> * {
+		@include mq(tablet) {
+			width: 50%;
+		}
+	}
+}
+
+.sectionTextImage .content {
+	padding: 5vh 1.5rem 5vh 2rem;
+	position: relative;
+	z-index: 1;
+
+	&::before {
+		content: '';
+		width: 60%;
+		height: 100%;
+		background-color: theme(primaryLight);
+		display: block;
+		clip-path: polygon(40% 0, 100% 3%, 100% 100%, 0 100%);
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		@include mq(tablet) {
+			display: none;
+		}
+	}
+	+ figure {
+		margin-left: auto;
+
+		&::before {
+			clip-path: polygon(40% 0, 100% 3%, 100% 100%, 0 95%);
+			left: auto;
+			right: 0;
+		}
+
+		img {
+			@include mq(tablet) {
+				clip-path: polygon(40% 0, 100% 3%, 100% 100%, 0 95%);
+			}
+		}
+	}
+}
+
+.sectionTextImage figure:first-of-type {
+	order: 2;
+
+	@include mq(tablet) {
+		order: 1;
+	}
+
+	+ .content {
+		order: 1;
+
+		@include mq(tablet) {
+			order: 2;
+		}
+
+		&::before {
+			clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
+			right: auto;
+			left: 0;
+		}
+	}
+}
+
+.sectionTextImage .shapeOutside {
+	shape-outside: polygon(100% 0, 100% 100%, 0 100%);
+	float: right;
+	width: 10vw;
+	height: 20rem;
+	display: none;
+
+	@include mq(desktop) {
+		display: block;
+	}
+}
+
+.sectionTextImage .contentInner {
+	max-width: 50rem;
+	margin: 0 auto;
+	position: relative;
+
+	@include mq(desktop) {
+		transform: translateX(5vw);
+	}
+}
+
+.sectionTextImage.alt {
+	&::after {
+		left: auto;
+		right: 0;
+	}
+}
+
+// Section colours
+.sectionTertiary {
+	&::after {
+		background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><circle cx="2" cy="2" r="2" fill="#E2FFFB"/></svg>');
+	}
+
+	.content::before,
+	figure::before {
+		background-color: theme(tertiaryLight);
+	}
+}

@@ -8,6 +8,7 @@
 @import 'partials/base/document';
 @import 'partials/base/fonts';
 @import 'partials/base/typography';
+@import 'partials/base/table';
 
 // Structure
 @import 'partials/structure/header';
@@ -16,5 +17,9 @@
 @import 'partials/structure/footer';
 
 // Components
-@import 'partials/components/hero';
 @import 'partials/components/box';
+@import 'partials/components/callout';
+@import 'partials/components/hero';
+@import 'partials/components/schedule';
+@import 'partials/components/section';
+@import 'partials/components/speakers';
