@@ -5,7 +5,7 @@
 	background-color: theme(tertiaryLight);
 	max-width: layout(maxWidth);
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 2.5rem;
 	padding: 2rem 3rem;
 	text-align: center;
 	color: theme(neutralDark);
@@ -16,8 +16,13 @@
 		0 100%
 	);
 
+
 	@include mq(phone) {
 		padding: 3rem 4rem;
+	}
+
+	@include mq(tablet) {
+		margin-bottom: 5rem;
 	}
 
 	header + & {

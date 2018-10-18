@@ -39,7 +39,7 @@
 	<meta property="og:description" content="<?php echo $description; ?>" />
 	<meta property="og:site_name" content="<?php echo $name; ?>" />
 
-	<link rel="stylesheet" href="/assets/bytes-2019/css/screen.css">
+	<link rel="stylesheet" href="/assets/bytes-2019/css/screen.css?192">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -90,7 +90,7 @@ for (const link of scheduleLinks) {
 	link.addEventListener('click', e => {
 		e.preventDefault();
 		const speaker = link.dataset.speaker,
-			el = document.querySelector(`.speakerTrigger[data-speaker-name='${speaker}']`);
+			el = document.getElementById(speaker);
 
 		getContent(speaker);
 		setActive(el);

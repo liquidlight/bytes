@@ -1,0 +1,7 @@
+.logo {
+	order: 2;
+
+	@include mq(tablet) {
+		order: 1;
+	}
+}

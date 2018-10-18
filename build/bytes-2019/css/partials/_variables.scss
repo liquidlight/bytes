@@ -3,6 +3,7 @@ $theme: (
 	base: #686868,
 
 	primary: #FF3C82,
+	primaryDark: #b12156,
 	primaryLight: #FFEEF9,
 	secondary: #402B56,
 	tertiary: #20A994,
@@ -31,7 +32,7 @@ $mq-breakpoints: (
 $typography: (
 	h1: (
 		base: (
-			font-size: 9vw,
+			font-size: 8vw,
 			line-height: 1.2
 		),
 		phone: (
@@ -46,7 +47,7 @@ $typography: (
 	),
 	h2: (
 		base: (
-			font-size: 8.5vw,
+			font-size: 7vw,
 			font-weight: bold,
 			line-height: 1.2,
 			color: theme(secondary)
@@ -63,6 +64,9 @@ $typography: (
 	),
 	h3: (
 		base: (
+			font-size: 6vw
+		),
+		phone: (
 			font-size: 1.5rem
 		)
 	),

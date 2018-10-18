@@ -9,8 +9,11 @@ table {
 	}
 
 	p {
-		font-size: 1.25rem;
 		margin: 0;
+
+		@include mq(tablet) {
+			font-size: 1.25rem;
+		}
 	}
 
 	td {
@@ -25,10 +28,10 @@ table {
 		&:first-of-type {
 			font-weight: bold;
 			color: theme(tertiary);
-			font-size: 1.4375rem;
 			padding-bottom: 0.5rem;
 
 			@include mq(phone) {
+				font-size: 1.4375rem;
 				padding-bottom: 2rem;
 			}
 		}

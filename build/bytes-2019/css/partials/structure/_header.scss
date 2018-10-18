@@ -1,5 +1,7 @@
 header {
 	height: 100vh;
+	min-height: 40rem;
+	max-height: 60rem;
 	background: url('../img/hero-bg.jpg') center no-repeat;
 	background-size: cover;
 	clip-path: polygon(
@@ -15,20 +17,36 @@ header {
 		top: 0;
 		left: 0;
 		height: 100%;
+		min-height: 40rem;
 		width: 100%;
 		background: linear-gradient(45deg, #00DBDE, #FC00FF);
 		opacity: 0.8;
+	}
+
+	@include mq(tablet) {
+		background-attachment: fixed;
 	}
 }
 
 .head {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
-	padding: var(--gutterMed) calc(#{var(--gutterMed)} + 1rem);
+	justify-content: center;
+	padding: 1.5rem 0.5rem;
 	position: absolute;
 	width: 100%;
 	position: relative;
+	z-index: 1;
+
+	@include mq(phone) {
+		padding: 3rem 0.5rem;
+	}
+
+	@include mq(tablet) {
+		padding: 3rem 4rem;
+		justify-content: space-between;
+	}
 }
 
 .headerIntro {
@@ -40,7 +58,11 @@ header {
 	justify-content: center;
 	color: theme(neutralLightest);
 	height: 100%;
-	margin: -6.25rem auto 0;
+	margin: -13rem auto 0;
 	padding: 0 2rem;
 	position: relative;
+
+	@include mq(tablet) {
+		margin-top: -10rem;
+	}
 }

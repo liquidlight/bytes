@@ -1,3 +1,33 @@
+.navigation {
+	order: 1;
+	width: 100%;
+	margin-bottom: var(--gutterMed);
+
+	@include mq(tablet) {
+		order: 2;
+		width: auto;
+		margin-bottom: 0;
+	}
+}
+
+.navigation a {
+	color: theme(neutralLightest);
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+
+	@include mq(phone) {
+		padding: 0.5rem 1.5rem;
+	}
+}
+
+.navigation ul {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .navigation li {
 	display: inline-block;
 }

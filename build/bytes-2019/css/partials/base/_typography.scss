@@ -2,12 +2,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+p {
 	margin: 0 0 1.5rem;
-
-	a {
-		color: inherit;
-	}
 }
 
 h1 {
@@ -18,14 +15,30 @@ h2 {
 	@include typography(h2);
 	text-align: center;
 	margin-bottom: var(--gutterMed);
+
+	a {
+		color: inherit;
+	}
 }
 
 h3 {
 	@include typography(h3);
+
+	a {
+		color: inherit;
+	}
 }
 
 h4 {
 	@include typography(h4);
+}
+
+a {
+	color: theme(primary);
+
+	&:hover {
+		color: theme(primaryDark);
+	}
 }
 
 p {
@@ -34,7 +47,7 @@ p {
 	}
 
 	@include mq(desktop) {
-		font-size: 1.435rem;
+		font-size: 1.25rem;
 	}
 }
 

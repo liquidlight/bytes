@@ -1,12 +1,15 @@
 section {
-	margin-bottom: var(--gutterLarge);
+	margin-bottom: 2.5rem;
+
+	@include mq(tablet) {
+		margin-bottom: 5rem;
+	}
 }
 
 .sectionTextImage {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	margin-top: 5rem;
 	position: relative;
 
 	&::after {
@@ -20,6 +23,12 @@ section {
 
 		@include mq(tablet) {
 			content: '';
+		}
+	}
+
+	p {
+		@include mq(desktop) {
+			font-size: 1.435rem;
 		}
 	}
 

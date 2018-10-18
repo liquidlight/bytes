@@ -35,7 +35,12 @@
 			<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Tickets are only £35 and every penny raised will be donated to a charity supporting our industry.</p>
 			<p>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
 			<p><strong>23-01-2019</strong></p>
-			<a href="#" class="btn">Buy tickets</a>
+			<a href="#" class="btn">
+				<div class="btnShapeWrapper">
+					<div class="btnShape"></div>
+				</div>
+				<span>Buy tickets</span>
+			</a>
 		</div>
 
 		<section class="sectionTextImage">
@@ -81,220 +86,25 @@
 			<h2>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers.</h2>
 		</section>
 
-		<section id="speakers" class="speakers">
-			<dl class="speakersList">
-				<!-- Lisa Freeman -->
-				<dt class="speakerItem">
-					<div id="lisa-freeman" class="speakerTrigger">
-						<img src='http://placekitten.com/400/400' alt=''/>
-						<span>Lisa Freeman</span>
-					</div>
-				</dt>
-				<dd class="speakerPanel">
-					<div class="speakerPanelInner" data-speaker-content="lisa-freeman">
-						<div class="speakerContent">
-							<h2>Lisa Freeman</h2>
-							<h3>Regulation and privacy: what might be coming?</h3>
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
+		<?php include 'includes/speakers.php'; ?>
 
-							<ul>
-								<li><a href="#">@TwitterHandle</a></li>
-								<li><a href="#">www.heynicesite.com</a></li>
-							</ul>
-						</div>
-
-						<figure class="speakerImage">
-							<img src='http://placekitten.com/500/500' alt=''/>
-						</figure>
-					</div>
-				</dd>
-
-				<!-- Matt Keogh -->
-				<dt class="speakerItem">
-					<div id="matt-keogh" class="speakerTrigger">
-						<img src='http://placekitten.com/410/410' alt=''/>
-						<span>Matt Keogh</span>
-					</div>
-				</dt>
-				<dd class="speakerPanel">
-					<div class="speakerPanelInner" data-speaker-content="matt-keogh">
-						<div class="speakerContent">
-							<h2>Matt Keogh</h2>
-							<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
-
-							<ul>
-								<li><a href="#">@TwitterHandle</a></li>
-								<li><a href="#">www.heynicesite.com</a></li>
-							</ul>
-						</div>
-
-						<figure class="speakerImage">
-							<img src='http://placekitten.com/520/520' alt=''/>
-						</figure>
-					</div>
-				</dd>
-
-				<!-- Mike Street -->
-				<dt class="speakerItem">
-					<div id="mike-street" class="speakerTrigger">
-						<img src='http://placekitten.com/420/420' alt=''/>
-						<span>Mike Street</span>
-					</div>
-				</dt>
-				<dd class="speakerPanel">
-					<div class="speakerPanelInner" data-speaker-content="mike-street">
-						<div class="speakerContent">
-							<h2>Mike Street</h2>
-							<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-							<p>Lorem ipsum amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
-							<p>Lorem ipsum consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
-
-							<ul>
-								<li><a href="#">@TwitterHandle</a></li>
-								<li><a href="#">www.heynicesite.com</a></li>
-							</ul>
-						</div>
-
-						<figure class="speakerImage">
-							<img src='http://placekitten.com/530/530' alt=''/>
-						</figure>
-					</div>
-				</dd>
-
-				<!-- Candice Underwood -->
-				<dt class="speakerItem">
-					<div id="candice-underwood" class="speakerTrigger">
-						<img src='http://placekitten.com/425/425' alt=''/>
-						<span>Candice Underwood</span>
-					</div>
-				</dt>
-				<dd class="speakerPanel">
-					<div class="speakerPanelInner" data-speaker-content="candice-underwood">
-						<div class="speakerContent">
-							<h2>Candice Underwood</h2>
-							<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-							<p>Lorem ipsum amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
-							<p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam explicabo perferendis quibusdam, eaque at deleniti alias excepturi! Eveniet ducimus sunt aperiam nulla ratione voluptate, delectus rem recusandae iure reiciendis atque! consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
-
-							<ul>
-								<li><a href="#">@TwitterHandle</a></li>
-								<li><a href="#">www.heynicesite.com</a></li>
-							</ul>
-						</div>
-
-						<figure class="speakerImage">
-							<img src='http://placekitten.com/535/535' alt=''/>
-						</figure>
-					</div>
-				</dd>
-
-				<!-- Al Taylor -->
-				<dt class="speakerItem">
-					<div id="al-taylor" class="speakerTrigger">
-						<img src='http://placekitten.com/430/430' alt=''/>
-						<span>Al Taylor</span>
-					</div>
-				</dt>
-				<dd class="speakerPanel">
-					<div class="speakerPanelInner" data-speaker-content="al-taylor">
-						<div class="speakerContent">
-							<h2>Al Taylor</h2>
-							<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-							<p>Lorem ipsum amet consectetur adipisi. Lectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
-							<p>Lorem ipsr, adipisicing elit. Quam explicabo perferendis quibusdam, eaque at deleniti alias excepturi! Eveniet ducimus sunt aperiam nulla ratione voluptate, delectus rem recusandae iure reiciendis atque! consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
-
-							<ul>
-								<li><a href="#">@TwitterHandle</a></li>
-								<li><a href="#">www.heynicesite.com</a></li>
-							</ul>
-						</div>
-
-						<figure class="speakerImage">
-							<img src='http://placekitten.com/535/535' alt=''/>
-						</figure>
-					</div>
-				</dd>
-
-
-			</dl>
-
-			<div class="speakerDetails">
-				<div class="jsSpeakerDetails speakerPanelInner wrapper"></div>
-			</div>
-		</section>
-
-		<section id="schedule" class="schedule">
-			<div class="wrapperThin">
-				<h2>The schedule</h2>
-
-				<table>
-					<tr>
-						<td>7:00pm</td>
-						<td><p>Doors Open</p></td>
-					</tr>
-					<tr>
-						<td>7:30pm</td>
-						<td>
-							<h3><a href="#speakers" data-speaker="lisa-freeman" class="jsLinkToSpeaker">Lisa Freeman</a></h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur voluptatibus saepe placeat asperiores sequi incidunt. Nostrum tenetur ab dolores voluptatum consequuntur incidunt molestiae eos sapiente nobis consectetur? Sed, impedit?</p>
-						</td>
-					</tr>
-					<tr>
-						<td>8:15pm</td>
-						<td>
-							<p>Break</p>
-						</td>
-					</tr>
-					<tr>
-						<td>8:30pm</td>
-						<td>
-							<h3><a href="#speakers" data-speaker="matt-keogh" class="jsLinkToSpeaker">Matt Keogh</a></h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora amet deserunt veniam quos saepe a minima facere. Repudiandae odit recusandae veritatis minima quis.</p>
-						</td>
-					</tr>
-					<tr>
-						<td>9:00pm</td>
-						<td>
-							<h3><a href="#">Mike Street</a></h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora amet deserunt veniam quos saepe a minima facere. Repudiandae odit recusandae veritatis minima quis.</p>
-						</td>
-					</tr>
-					<tr>
-						<td>9:30pm</td>
-						<td>
-							<p>Break</p>
-						</td>
-					</tr>
-					<tr>
-						<td>9:45pm</td>
-						<td>
-							<h3><a href="#">Graeme Robinson</a></h3>
-							<p>Autism and the Web</p>
-						</td>
-					</tr>
-					<tr>
-						<td>10:15pm</td>
-						<td>
-							<p>Raffle</p>
-						</td>
-					</tr>
-					<tr>
-						<td>10:45pm</td>
-						<td>
-							<p>Break</p>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</section>
+		<?php include 'includes/schedule.php'; ?>
 
 		<section id="map" class="maps">
 			<h2>Where to find us</h2>
 			<img src='https://placehold.it/1600x500' alt=''/>
 		</section>
 
+		<div class="highlightBox">
+			<h2>Why not join us?</h2>
+			<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Every penny raised will be donated to a charity supporting our industry.</p>
+			<a href="#" class="btn">
+				<div class="btnShapeWrapper">
+					<div class="btnShape"></div>
+				</div>
+				<span>Buy tickets</span>
+			</a>
+		</div>
 
 		<section id="partners">
 			<h2>With thanks to...</h2>
@@ -309,29 +119,8 @@
 					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
 				</li>
 			</ul>
-			<ul class="partners">
-				<li>
-					<a rel="nofollow" href="https://www.brewdog.com/"><img src="/assets/bytes/img/partners/brewdog.svg" alt="Brewdog"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://builtbybuffalo.com/"><img src="/assets/bytes/img/partners/buffalo-logo.svg" alt="Buffalo"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://goodscary.com/"><img src="/assets/bytes/img/partners/goodscary-logo.svg" alt="Good Scary"></a>
-				</li>
-			</ul>
-			<ul class="partners partnersLower">
-				<li>
-					<a rel="nofollow" href="http://www.bozboz.co.uk/"><img src="/assets/bytes/img/partners/bozboz.svg" alt="Bozboz"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.confwall.co.uk/"><img src="/assets/bytes/img/partners/confwall.png" alt="Confwall"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="http://www.laserzone.co.uk/"><img src="/assets/bytes/img/partners/laserzone.png" alt="Laserzone"></a>
-				</li>
-			</ul>
-			<p class="featured featured-sub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2017 Sponsorship">Get in touch</a></p>
+
+			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a></p>
 		</section>
 
 	</main>
