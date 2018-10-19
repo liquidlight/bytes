@@ -1,5 +1,5 @@
 .speakers {
-	padding: 0.25rem;
+	padding: 1rem;
 
 	@include mq(tablet) {
 		padding: 2rem;
@@ -17,7 +17,7 @@
 
 	dt {
 		flex: 1;
-		padding: 0.25rem;
+		padding: 0 0.125rem;
 
 		@include mq(tablet) {
 			padding: 0;
@@ -87,14 +87,17 @@
 }
 
 .speakerDetails {
+	background-color: theme(neutralLight);
+	padding: 1rem;
+
 	@include mq(tablet) {
-		padding: var(--gutterLarge);
-		background-color: theme(neutralMid);
+		padding: 5rem;
 	}
 }
 
 .speakerPanelInner {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 
 	padding: 1rem;
@@ -111,16 +114,23 @@
 }
 
 .speakerContent {
+	width: 100%;
 	@include mq(tablet) {
 		width: 60%;
 	}
 }
 
 .speakerImage {
-	padding-left: var(--gutterLarge);
-	display: none;
+	width: 100%;
+	text-align: center;
 
 	@include mq(tablet) {
 		display: block;
+		padding-left: 2rem;
+		width: 40%;
+	}
+
+	@include mq(desktop) {
+		padding-left: 6rem;
 	}
 }

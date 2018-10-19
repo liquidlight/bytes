@@ -6,7 +6,7 @@
 	max-width: layout(maxWidth);
 	width: 100%;
 	margin: 0 auto 2.5rem;
-	padding: 2rem 3rem;
+	padding: 3rem;
 	text-align: center;
 	color: theme(neutralDark);
 	clip-path: polygon(
@@ -15,7 +15,6 @@
 		100% 100%,
 		0 100%
 	);
-
 
 	@include mq(phone) {
 		padding: 3rem 4rem;

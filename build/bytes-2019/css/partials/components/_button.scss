@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	max-width: 12rem;
 	color: theme(neutralDark);
+	font-size: 1.2rem;
 	font-weight: bold;
 	padding: 1rem 3rem;
 	text-decoration: none;
@@ -41,7 +42,7 @@
 
 .btnShapeWrapper {
 	perspective: 100px;
-	transform-style: preserve-3d;
+	// transform-style: preserve-3d;
 }
 
 .btnShape {
