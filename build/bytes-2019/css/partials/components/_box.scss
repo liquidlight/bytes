@@ -3,12 +3,13 @@
  */
 .highlightBox {
 	background-color: theme(tertiaryLight);
-	max-width: layout(maxWidth);
+	max-width: 70rem;
 	width: 100%;
 	margin: 0 auto 2.5rem;
-	padding: 3rem;
+	padding: 3rem 5rem;
 	text-align: center;
 	color: theme(neutralDark);
+	position: relative;
 	clip-path: polygon(
 		5% 0,
 		95% 5%,
@@ -24,6 +25,10 @@
 		margin-bottom: 5rem;
 	}
 
+	@include mq(desktopLarge) {
+		background: none;
+	}
+
 	header + & {
 		margin-top: -25vh;
 
@@ -31,4 +36,24 @@
 			margin-top: -10rem;
 		}
 	}
+}
+
+.highlightBoxContent {
+	position: relative;
+	padding: 0 2rem;
+	opacity: 0;
+	animation: fadeIn 0.7s 0.8s ease forwards;
+
+	@include mq(desktopLarge) {
+		padding: 0 6rem;
+	}
+}
+
+.highlightBoxShape {
+	position: absolute;
+	top: -2rem;
+	left: 0;
+	width: 100%;
+	fill: theme(tertiaryLight);
+	transform: scale(1.1);
 }

@@ -3,6 +3,9 @@
 
 @import 'partials/variables';
 
+// Utils
+@import 'partials/utils/keyframes';
+
 // Base
 @import 'partials/base/document';
 @import 'partials/base/fonts';
@@ -25,3 +28,4 @@
 @import 'partials/components/schedule';
 @import 'partials/components/section';
 @import 'partials/components/speakers';
+

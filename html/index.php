@@ -26,21 +26,26 @@
 			</div>
 
 			<div class="headerIntro wrapper">
-				<h1 class="heading"><?= $description ?></h1>
+				<h1 class="heading" id="target"><?= $description ?></h1>
 				<p>23.01.2019 - Only £15</p>
 			</div>
 		</header>
 
 		<div class="highlightBox">
-			<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Tickets are only £35 and every penny raised will be donated to a charity supporting our industry.</p>
-			<p>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
-			<p><strong>23-01-2019</strong></p>
-			<a href="#" class="btn">
-				<div class="btnShapeWrapper">
-					<div class="btnShape"></div>
-				</div>
-				<span>Buy tickets</span>
-			</a>
+			<svg class="highlightBoxShape" viewBox="0 0 1032 462">
+				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
+			</svg>
+			<div class="highlightBoxContent">
+				<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Tickets are only £35 and every penny raised will be donated to a charity supporting our industry.</p>
+				<p>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
+				<p><strong>23-01-2019</strong></p>
+				<a href="#" class="btn">
+					<div class="btnShapeWrapper">
+						<div class="btnShape"></div>
+					</div>
+					<span>Buy tickets</span>
+				</a>
+			</div>
 		</div>
 
 		<section class="sectionTextImage">
