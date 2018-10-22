@@ -64,3 +64,14 @@ p.featured {
 		font-size: 1.75rem;
 	}
 }
+
+
+/**
+ * Splitting
+ */
+.splitting.words.isVisible .word {
+	animation: slideIn 0.6s ease both;
+	display: inline-flex;
+	animation-delay: calc(40ms * var(--word-index));
+	opacity: 0;
+}

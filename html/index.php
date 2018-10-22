@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="headerIntro wrapper">
-				<h1 class="heading" id="target"><?= $description ?></h1>
+				<h1 class="jsHeading heading"><?= $description ?></h1>
 				<p>23.01.2019 - Only £15</p>
 			</div>
 		</header>
@@ -48,47 +48,53 @@
 			</div>
 		</div>
 
-		<section class="sectionTextImage">
+		<section class="jsTextImg sectionTextImage">
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2>All proceeds support our industries community</h2>
+					<h2 class="jsHeading">All proceeds support our industries community</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, aut facere delectus temporibus minus ad cupiditate aliquam veritatis? Velit amet natus harum aliquid mollitia aut omnis tempore dolorum fugiat!</p>
 				</div>
 			</div>
-			<figure>
+			<figure class="rellax">
+				<span class="figureShadow"></span>
 				<img src="/assets/bytes-2019/img/placeholder.jpg" alt="Placeholder">
 			</figure>
 		</section>
 
-		<section class="sectionTextImage sectionTertiary alt">
+		<section class="jsTextImg sectionTextImage sectionTertiary alt">
 			<figure>
+				<span class="figureShadow"></span>
 				<img src="/assets/bytes-2019/img/placeholder.jpg" alt="Placeholder">
 			</figure>
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2>Four forward-thinking talks</h2>
+					<h2 class="jsHeading">Four forward-thinking talks</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, aut facere delectus temporibus minus ad cupiditate aliquam veritatis? Velit amet natus harum aliquid mollitia aut omnis tempore dolorum fugiat!</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="sectionTextImage">
+		<section class="jsTextImg sectionTextImage">
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2>Laid back atmosphere & raffle!</h2>
+					<h2 class="jsHeading">Laid back atmosphere & raffle!</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, aut facere delectus temporibus minus ad cupiditate aliquam veritatis? Velit amet natus harum aliquid mollitia aut omnis tempore dolorum fugiat!</p>
 				</div>
 			</div>
 			<figure>
+				<span class="figureShadow"></span>
 				<img src="/assets/bytes-2019/img/placeholder.jpg" alt="Placeholder">
 			</figure>
 		</section>
 
 		<section class="callout">
-			<h2>If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers.</h2>
+			<svg class="calloutShape" viewBox="0 0 792 482">
+				<polygon class="calloutPolygon" points="177 58 553 110 724 318 366 425 68 227"></polygon>
+			</svg>
+			<h2 class="jsHeading">If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers.</h2>
 		</section>
 
 		<?php include 'includes/speakers.php'; ?>
@@ -96,12 +102,12 @@
 		<?php include 'includes/schedule.php'; ?>
 
 		<section id="map" class="maps">
-			<h2>Where to find us</h2>
+			<h2 class="jsHeading">Where to find us</h2>
 			<img src='https://placehold.it/1600x500' alt=''/>
 		</section>
 
 		<div class="highlightBox">
-			<h2>Why not join us?</h2>
+			<h2 class="jsHeading">Why not join us?</h2>
 			<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Every penny raised will be donated to a charity supporting our industry.</p>
 			<a href="#" class="btn">
 				<div class="btnShapeWrapper">
@@ -112,7 +118,7 @@
 		</div>
 
 		<section id="partners">
-			<h2>With thanks to...</h2>
+			<h2 class="jsHeading">With thanks to...</h2>
 			<ul class="partners partnersLower">
 				<li>
 					<a rel="nofollow" href="https://www.oreilly.com/"><img src="/assets/bytes/img/partners/orm.jpg" alt="O'Reilly"></a>

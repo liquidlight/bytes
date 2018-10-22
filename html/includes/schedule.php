@@ -1,6 +1,6 @@
 <section id="schedule" class="schedule">
 	<div class="wrapperThin">
-		<h2>The schedule</h2>
+		<h2 class="jsHeading">The schedule</h2>
 
 		<table>
 			<tr>

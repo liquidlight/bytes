@@ -10,7 +10,7 @@
 		<dd class="speakerPanel">
 			<div class="speakerPanelInner" data-speaker-content="lisa-freeman">
 				<div class="speakerContent">
-					<h2>Lisa Freeman</h2>
+					<h2 class="jsHeading">Lisa Freeman</h2>
 					<h3>Regulation and privacy: what might be coming?</h3>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
 
@@ -36,7 +36,7 @@
 		<dd class="speakerPanel">
 			<div class="speakerPanelInner" data-speaker-content="matt-keogh">
 				<div class="speakerContent">
-					<h2>Matt Keogh</h2>
+					<h2 class="jsHeading">Matt Keogh</h2>
 					<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
@@ -63,7 +63,7 @@
 		<dd class="speakerPanel">
 			<div class="speakerPanelInner" data-speaker-content="mike-street">
 				<div class="speakerContent">
-					<h2>Mike Street</h2>
+					<h2 class="jsHeading">Mike Street</h2>
 					<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
 					<p>Lorem ipsum amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
 					<p>Lorem ipsum consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
@@ -90,7 +90,7 @@
 		<dd class="speakerPanel">
 			<div class="speakerPanelInner" data-speaker-content="candice-underwood">
 				<div class="speakerContent">
-					<h2>Candice Underwood</h2>
+					<h2 class="jsHeading">Candice Underwood</h2>
 					<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
 					<p>Lorem ipsum amet consectetur adipisicing elit. Delectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
 					<p>Lorem ipsum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam explicabo perferendis quibusdam, eaque at deleniti alias excepturi! Eveniet ducimus sunt aperiam nulla ratione voluptate, delectus rem recusandae iure reiciendis atque! consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>
@@ -117,7 +117,7 @@
 		<dd class="speakerPanel">
 			<div class="speakerPanelInner" data-speaker-content="al-taylor">
 				<div class="speakerContent">
-					<h2>Al Taylor</h2>
+					<h2 class="jsHeading">Al Taylor</h2>
 					<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
 					<p>Lorem ipsum amet consectetur adipisi. Lectus dolore distinctio odit ipsum culpa rerum, sequi tenetur, expedita beatae laboriosam perspiciatis harum eos obcaecati! Officiis ratione quo cum atque a!</p>
 					<p>Lorem ipsr, adipisicing elit. Quam explicabo perferendis quibusdam, eaque at deleniti alias excepturi! Eveniet ducimus sunt aperiam nulla ratione voluptate, delectus rem recusandae iure reiciendis atque! consequatur porro dolor quod aut in. Repellat obcaecati praesentium voluptatem ea veritatis laborum. Modi laboriosam ipsum sapiente, molestias quasi nisi placeat.</p>

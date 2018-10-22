@@ -44,31 +44,38 @@ section {
 		}
 	}
 
-	figure {
-		display: block;
-		position: relative;
-		height: 100%;
-		max-width: 55rem;
-
-		&::before {
-			position: absolute;
-			width: calc(100% + 3rem);
-			height: 100%;
-			background-color: theme(primaryLight);
-			clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
-			bottom: -1.5rem;
-			left: 0;
-
-			@include mq(tablet) {
-				content: '';
-			}
-		}
-	}
-
 	> * {
 		@include mq(tablet) {
 			width: 50%;
 		}
+	}
+}
+
+.sectionTextImage figure {
+	display: block;
+	position: relative;
+	height: 100%;
+	max-width: 55rem;
+}
+
+.figureShadow {
+	position: absolute;
+	width: calc(100% + 3rem);
+	height: 100%;
+	background-color: theme(primaryLight);
+	clip-path: polygon(40% 0, 100% 3%, 100% 100%, 0 95%);
+	bottom: -1.5rem;
+	right: 0;
+	display: none;
+
+	@include mq(tablet) {
+		display: block;
+	}
+
+	.sectionTextImage.alt & {
+		clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
+		left: 0;
+		right: auto;
 	}
 }
 
@@ -92,14 +99,9 @@ section {
 			display: none;
 		}
 	}
+
 	+ figure {
 		margin-left: auto;
-
-		&::before {
-			clip-path: polygon(40% 0, 100% 3%, 100% 100%, 0 95%);
-			left: auto;
-			right: 0;
-		}
 
 		img {
 			@include mq(tablet) {
@@ -131,6 +133,7 @@ section {
 	}
 }
 
+// dots
 .sectionTextImage .shapeOutside {
 	shape-outside: polygon(100% 0, 100% 100%, 0 100%);
 	float: right;
