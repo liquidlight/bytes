@@ -1,30 +1,32 @@
 header {
 	height: 100vh;
 	min-height: 40rem;
-	max-height: 60rem;
-	background: url('../img/hero-bg.jpg') center no-repeat;
-	background-size: cover;
-	clip-path: polygon(
-		0 0,
-		100% 0,
-		100% 90%,
-		0 100%
-	);
+	transform: scaleY(1);
+	opacity: 1;
+	animation: headerSlideIn 1s cubic-bezier(1, 0, 0, 1) both;
+	transform-origin: top center;
 
-	&::before {
+	&::before,
+	&::after {
 		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;
 		height: 100%;
-		min-height: 40rem;
 		width: 100%;
-		background: linear-gradient(45deg, #00DBDE, #FC00FF);
-		opacity: 0.8;
 	}
 
-	@include mq(tablet) {
-		// background-attachment: fixed;
+	&::before {
+		background: url('../img/hero-bg.jpg') center no-repeat;
+		background-size: cover;
+		opacity: 0;
+		animation: fadeIn 1s 0.8s ease forwards;
+	}
+
+	&::after {
+		min-height: 40rem;
+		background: linear-gradient(45deg, #00DBDE, #FC00FF);
+		opacity: 0.8;
 	}
 }
 
@@ -38,6 +40,8 @@ header {
 	width: 100%;
 	position: relative;
 	z-index: 1;
+	animation: fadeIn 0.4s 0.8s linear forwards;
+	opacity: 0;
 
 	@include mq(phone) {
 		padding: 3rem 0.5rem;
@@ -61,6 +65,7 @@ header {
 	margin: -13rem auto 0;
 	padding: 0 2rem;
 	position: relative;
+	z-index: 1;
 
 	@include mq(tablet) {
 		margin-top: -10rem;

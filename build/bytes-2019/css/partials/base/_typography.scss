@@ -65,13 +65,19 @@ p.featured {
 	}
 }
 
+p.confDates {
+	font-size: 2.06rem;
+	font-weight: bold;
+	opacity: 0;
+	animation: slideDown 0.4s 1.5s ease forwards;
+}
 
 /**
  * Splitting
  */
 .splitting.words.isVisible .word {
-	animation: slideIn 0.6s ease both;
+	animation: slideIn 0.5s 0.5s ease both;
 	display: inline-flex;
-	animation-delay: calc(40ms * var(--word-index));
+	animation-delay: calc(0.5s + 0.08s * var(--word-index));
 	opacity: 0;
 }

@@ -4,4 +4,29 @@
 	@include mq(tablet) {
 		order: 1;
 	}
+
+	width: 14rem;
+	display: block;
+}
+
+.logoWordConf {
+	opacity: 0;
+}
+
+.logoDot {
+	transform-origin: center;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.logoBgShape {
+	transform-origin: center;
+	opacity: 0;
+	transform: scaleX(0);
+}
+
+.logoFgShape {
+	transform-origin: center;
+	transform: scaleX(0.2);
+	opacity: 0;
 }

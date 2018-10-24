@@ -1,6 +1,5 @@
 import anime from '../libs/anime';
 import Splitting from "../libs/splitting";
-// import Rellax from "../libs/rellax";
 import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/typo3/ext/ll_fe/Library/ScrollReveal/4.x/js/core';
 
 (() => {
@@ -18,7 +17,9 @@ import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/t
 		easing: 'easeOutElastic',
 		duration: 1200,
 		elasticity: 300,
+		opacity: [0,1],
 		round: 1,
+		delay: 1200
 	});
 
 	let calloutPolygon = anime({
@@ -34,6 +35,81 @@ import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/t
 		round: 1,
 	});
 
+
+	var logoTimeLine = anime.timeline({
+		easing: 'easeOutExpo',
+		duration: 1200,
+		delay: 1000
+	});
+
+	logoTimeLine
+		.add({
+			targets: '.logoWordBytes',
+			translateX: [20, 0],
+			opacity: [0, 1]
+		})
+		.add({
+			targets: '.logoWordConf',
+			translateX: [50, 77],
+			offset: 100,
+			opacity: 1
+		})
+		.add({
+			targets: '.logoDot',
+			scale: 1,
+			opacity: 1,
+			offset: '-=500'
+		})
+		.add({
+			targets: '.logoFgShape',
+			points: [
+				{ value: '0 59 0 6 216 6 216 59' },
+				{ value: '0 59 13 6 203 6 216 61' }
+			],
+			offset: 200,
+			easing: 'easeOutElastic',
+			elasticity: 400,
+			opacity: [0, 1],
+			scaleX: [0.7, 1]
+		})
+		.add({
+			targets: '.logoBgShape',
+			rotate: [{ value: '6deg' }, { value: 0 }],
+			scale: [{ value: 0.6 }, { value: 1 }],
+			opacity: [
+				{
+					value: 0
+				}, {
+					value: 1,
+					duration: 300,
+					easing: 'linear',
+					delay: 50
+				}
+			],
+			offset: 300,
+			easing: 'easeOutElastic',
+		});
+
+	const logo = document.querySelector('.jsLogo')
+
+	function animateLogo(el, rotation) {
+		anime.remove(el);
+		anime({
+			targets: el,
+			rotate: rotation
+		});
+	}
+
+	logo.addEventListener('mouseenter', () => {
+		animateLogo('.logoFgShape', '2deg');
+		animateLogo('.logoBgShape', '-2deg');
+	}, false);
+
+	logo.addEventListener('mouseleave', () => {
+		animateLogo('.logoFgShape', '0');
+		animateLogo('.logoBgShape', '0');
+	}, false);
+
 	/**
 	 * Splitting
 	 */
@@ -42,28 +118,6 @@ import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/t
 		target: target,
 		by: 'words'
 	});
-
-	/**
-	 * Rellax
-	 */
-
-	// const rellax = new Rellax('figure img', {
-	// 	speed: 0.5,
-	// 	center: true,
-	// 	wrapper: null,
-	// 	round: true,
-	// 	vertical: true,
-	// 	horizontal: false
-	// });
-
-	// new Rellax('.figureShadow', {
-	// 	speed: 0.5,
-	// 	center: true,
-	// 	wrapper: null,
-	// 	round: true,
-	// 	vertical: true,
-	// 	horizontal: false
-	// });
 
 	/**
 	 * Scroll Reveal Options
