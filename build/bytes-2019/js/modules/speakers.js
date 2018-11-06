@@ -4,15 +4,19 @@ export default (() => {
 
 	const triggers = document.querySelectorAll('.speakerTrigger'),
 		panels = document.querySelectorAll('.speakerPanelInner'),
+		panelContainer = document.querySelector('.jsSpeakerContainer'),
 		panelContent = document.querySelector('.jsSpeakerDetails'),
 		scheduleLinks = document.querySelectorAll('.jsLinkToSpeaker');
-
 
 	/**
 	 * Injects speaker content in panel
 	 * @param {Object} panel - Speaker content
 	 */
 	function injectContent(panel) {
+		setTimeout(() => {
+			panelContainer.classList.remove('isLoading');
+		}, 2000);
+
 		panelContent.innerHTML = panel.innerHTML;
 	}
 
@@ -29,8 +33,14 @@ export default (() => {
 	 * Get the content from cached panels
 	 * @param {String} speaker name
 	 * @param {Boolean} update Wether it should update URL or not
+	 * @param {Boolean} firstLoad First time running function
 	 */
-	function getContent(name, update = true) {
+	function getContent(name, update = true, firstLoad = false) {
+
+		if (!firstLoad) {
+			panelContainer.classList.add('isLoading');
+		}
+
 		for (const panel of panels) {
 			const panelName = panel.dataset.speakerContent;
 
@@ -101,19 +111,19 @@ export default (() => {
 	}
 
 
-	document.addEventListener('DOMContentLoaded', function () {
+	document.addEventListener('DOMContentLoaded', function() {
 
 		// Set first speaker as active
 		const speaker = triggers[0].id;
 		setActive(triggers[0]);
-		getContent(speaker, false);
+		getContent(speaker, false, true);
 
 		// Scroll to speaker if exists
 		for (const speaker of triggers) {
 			if (window.location.hash.indexOf(speaker.id) > -1) {
 				const el = document.getElementById(speaker.id);
 				if (el) {
-					getContent(speaker.id);
+					getContent(speaker.id, true, true);
 					setActive(el);
 					scrollIt(el);
 				}

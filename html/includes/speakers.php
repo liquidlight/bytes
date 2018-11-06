@@ -137,7 +137,7 @@
 
 	</dl>
 
-	<div class="speakerDetails">
+	<div class="jsSpeakerContainer speakerDetails">
 		<div class="jsSpeakerDetails speakerPanelInner wrapper"></div>
 	</div>
 </section>

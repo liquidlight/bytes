@@ -214,7 +214,7 @@
 	</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAowaipwKQ7aUnX07VbBiuq0PseTDsuq5A"></script>
 <script src="/assets/bytes/js/core.js"></script>
 </body>
 </html>

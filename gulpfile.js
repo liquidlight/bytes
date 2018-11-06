@@ -1,6 +1,8 @@
 global.config = {
 	'flags': {
-		'hasBabel': true
+		'hasBabel': true,
+		'hasPostcssVariablesEnabled': false,
+		'hasPostcssCalcEnabled': false
 	}
 };
 
