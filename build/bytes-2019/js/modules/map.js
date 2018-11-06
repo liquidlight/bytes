@@ -13,11 +13,11 @@ window.googleMapsOnLoad = function() {
 	var mapActive = false;
 	function addMarker(lat, lng, info, image, width, height) {
 		if(!width) {
-			width = 32;
+			width = 47;
 		}
 
 		if(!height) {
-			height = 65;
+			height = 71;
 		}
 
 		var pt = new google.maps.LatLng(lat, lng);
@@ -64,7 +64,7 @@ window.googleMapsOnLoad = function() {
 	// The map, centered at Uluru
 	var map = new window.google.maps.Map(
 		document.getElementById('jsMap'), {
-			center: new google.maps.LatLng(50.825464, -0.138279),
+			center: new google.maps.LatLng(50.8292619, -0.1460886),
 			zoom: 15,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			panControl: true,
@@ -73,14 +73,15 @@ window.googleMapsOnLoad = function() {
 			zoomControlOptions: {
 				position: google.maps.ControlPosition.RIGHT_CENTER
 			},
-			styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#333333"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#eeeeee"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#26A3CF"},{"visibility":"on"}]}]
+			styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#333333"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#E8E8E8"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#36ace5"},{"visibility":"on"}]}]
 		}
 	);
 
-	var icon = '/assets/bytes/img/marker.png';
-	addMarker(50.826238,-0.138210,'<strong>The Lighthouse</strong><br />28 Kensington Street<br />Brighton and Hove<br />BN1 4AJ', '/assets/bytes/img/marker-bytes.png', 71, 103);
-	addMarker(50.828649,-0.141149,'<strong>Brighton Train Station</strong>', icon);
-	addMarker(50.825711,-0.141476,'<strong>NCP</strong><br />Church Street<br />Brighton<br />BN1 1US', icon);
-	addMarker(50.831459,-0.137277,'<strong>London Road Parking</strong><br />Providence Place,<br />Brighton<br />BN1 4GE', icon);
+	var icon = '/assets/bytes-2019/img/marker.png';
+	addMarker(50.826238,-0.138210,'<strong>The Lighthouse</strong><br />28 Kensington Street<br />Brighton and Hove<br />BN1 4AJ', '/assets/bytes-2019/img/marker-bytes.png', 73, 110);
+	addMarker(50.828649,-0.141149,'<strong>Brighton Train Station</strong>', '/assets/bytes-2019/img/marker-train.png');
+	addMarker(50.835210,-0.171036, '<strong>Hove Train Station</strong>', '/assets/bytes-2019/img/marker-train.png');
+	addMarker(50.825711,-0.141476,'<strong>NCP</strong><br />Church Street<br />Brighton<br />BN1 1US', '/assets/bytes-2019/img/marker-car.png');
+	addMarker(50.831459,-0.137277,'<strong>London Road Parking</strong><br />Providence Place,<br />Brighton<br />BN1 4GE', '/assets/bytes-2019/img/marker-car.png');
 
 }

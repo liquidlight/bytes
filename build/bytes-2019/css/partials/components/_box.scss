@@ -6,7 +6,7 @@
 	max-width: 70rem;
 	width: 100%;
 	margin: 0 auto 2.5rem;
-	padding: 3rem 5rem;
+	padding: 3rem 1rem;
 	text-align: center;
 	color: theme(neutralDark);
 	position: relative;
@@ -45,7 +45,7 @@
 	animation: fadeIn 0.7s 2.1s ease forwards;
 
 	@include mq(desktopLarge) {
-		padding: 0 6rem;
+		padding: 3rem 6rem;
 	}
 }
 
@@ -56,4 +56,27 @@
 	width: 100%;
 	fill: theme(tertiaryLight);
 	transform: scale(1.1);
+}
+
+.brandedDot {
+	position: relative;
+	display: inline;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 0.25em;
+		right: -0.25em;
+		width: 0.2em;
+		height: 0.2em;
+		background-color: theme(primary);
+		border-radius: 50%;
+		// transform: translateX(0.25rem);
+
+		@include mq(tablet) {
+			width: 0.15em;
+			height: 0.15em;
+		}
+
+	}
 }

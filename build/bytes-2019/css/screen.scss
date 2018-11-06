@@ -1,4 +1,5 @@
 // LL Sass Library
+$typo-reset: 'v4';
 @import '../../../../../ll/basesite/html/typo3/ext/ll_fe/Default/Build/sass/ll/lib';
 
 @import 'partials/variables';
@@ -25,8 +26,8 @@
 @import 'partials/components/hero';
 @import 'partials/components/logo';
 @import 'partials/components/partners';
-@import 'partials/components/schedule';
+// @import 'partials/components/schedule';
 @import 'partials/components/section';
-@import 'partials/components/speakers';
+// @import 'partials/components/speakers';
 @import 'partials/components/map';
 

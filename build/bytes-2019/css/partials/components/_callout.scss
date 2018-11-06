@@ -1,11 +1,12 @@
 .callout {
 	max-width: 61rem;
-	margin: var(--gutterLarge) auto;
+	margin: var(--gutterLarge) auto 12rem;
 	text-align: center;
 	position: relative;
 	padding: 4rem 2rem 0.1rem;
 
-	h2 {
+	h2,
+	p {
 		position: relative;
 	}
 }

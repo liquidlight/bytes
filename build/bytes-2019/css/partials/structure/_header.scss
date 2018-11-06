@@ -3,6 +3,12 @@ header {
 	min-height: 40rem;
 	opacity: 1;
 	transform-origin: top center;
+	clip-path: polygon(
+		0 0,
+		100% 0,
+		100% 90%,
+		0 100%
+	);
 
 	&::before,
 	&::after {
@@ -68,5 +74,23 @@ header {
 
 	@include mq(tablet) {
 		margin-top: -10rem;
+	}
+}
+
+.headerIntro h1 span:last-of-type {
+	&::after {
+		content: '';
+		display: inline-block;
+		vertical-align: baseline;
+		width: 0.2em;
+		height: 0.2em;
+		background-color: theme(primary);
+		border-radius: 50%;
+		margin-left: 0.1em;
+
+		@include mq(tablet) {
+			width: 0.15em;
+			height: 0.15em;
+		}
 	}
 }

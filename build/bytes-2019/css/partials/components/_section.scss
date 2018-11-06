@@ -2,7 +2,7 @@ section {
 	margin-bottom: 2.5rem;
 
 	@include mq(tablet) {
-		margin-bottom: 5rem;
+		margin-bottom: 10rem;
 	}
 }
 
@@ -71,18 +71,16 @@ section {
 	@include mq(tablet) {
 		display: block;
 	}
-
-	.sectionTextImage.alt & {
-		clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
-		left: 0;
-		right: auto;
-	}
 }
 
 .sectionTextImage .content {
-	padding: 5vh 1.5rem 5vh 2rem;
+	padding: 5vh 2rem;
 	position: relative;
 	z-index: 1;
+
+	@include mq(tablet) {
+		padding: 5vh 5rem;
+	}
 
 	&::before {
 		content: '';
@@ -142,24 +140,49 @@ section {
 	display: none;
 
 	@include mq(desktop) {
-		display: block;
+		// display: block;
 	}
 }
 
 .sectionTextImage .contentInner {
 	max-width: 50rem;
-	margin: 0 auto;
 	position: relative;
 
 	@include mq(desktop) {
-		transform: translateX(5vw);
+		float: right;
 	}
 }
+
+/**
+ * Alternative
+ */
 
 .sectionTextImage.alt {
 	&::after {
 		left: auto;
 		right: 0;
+	}
+
+	h2 {
+		text-align: right;
+	}
+}
+
+.sectionTextImage.alt .figureShadow {
+	clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
+	left: 0;
+	right: auto;
+	background-color: theme(tertiaryLight);
+}
+.sectionTextImage.alt .contentInner {
+	text-align: right;
+
+	@include mq(desktop) {
+		transform: none;
+	}
+
+	.shapeOutside {
+		display: none;
 	}
 }
 

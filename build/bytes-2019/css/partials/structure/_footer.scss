@@ -3,3 +3,9 @@ footer {
 	text-align: center;
 	padding: var(--gutter);
 }
+
+footer .links a {
+	display: inline-block;
+	margin: 0.25rem 0.5rem;
+	text-decoration: none;
+}

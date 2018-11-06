@@ -1,7 +1,7 @@
 <?php
 	$name = 'Bytes Conference, Brighton';
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
-	$description = 'Bytes is a Brighton based, affordable mini-conference for web enthusiasts.';
+	$description = 'Bytes is a Brighton based, affordable, evening mini-conference for web enthusiasts';
 
 	include 'includes/header.php'; ?>
 	<main>
@@ -34,8 +34,10 @@
 
 				<nav class="navigation">
 					<ul>
+						<?php /*
 						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="#schedule">Schedule</a></li>
+						*/ ?>
 						<li><a href="#tickets">Buy Tickets</a></li>
 					</ul>
 				</nav>
@@ -43,7 +45,8 @@
 
 			<div class="headerIntro wrapper">
 				<h1 class="jsHeading heading"><?= $description ?></h1>
-				<p class="confDates">23.01.2019 - Only £15</p>
+				<p class="confDates">07.03.2019 - Tickets from £11.50</p>
+				<p class="confDates">Lighthouse, Brighton</p>
 			</div>
 		</header>
 
@@ -52,9 +55,11 @@
 				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
 			</svg>
 			<div class="highlightBoxContent">
-				<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Tickets are only £35 and every penny raised will be donated to a charity supporting our industry.</p>
-				<p>Lighthouse, Kensington Street, Brighton, BN1 4AJ</p>
-				<p><strong>23-01-2019</strong></p>
+				<p class="featured"><?= $address ?></p>
+				<p>Join us in central Brighton on 7th March 2019 for an evening mini-conference feature
+					four fantastic keynote speakers (plus one wild raffle)! Every penny raised will be donated to a
+					chosen charity.</p>
+				<p class="featured"><?= $date ?></p>
 				<a href="#" class="btn">
 					<div class="btnShapeWrapper">
 						<div class="btnShape"></div>
@@ -68,8 +73,11 @@
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2 class="jsHeading">All proceeds support our industries community</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, aut facere delectus temporibus minus ad cupiditate aliquam veritatis? Velit amet natus harum aliquid mollitia aut omnis tempore dolorum fugiat!</p>
+					<h2 class="jsHeading">Four forward thinking talks</h2>
+					<p>The evening will provide a series of diverse talks from all corners of the web industry,
+						covering topics ranging from development and design, through to marketing and performance tips.
+						As we aim to support our industry, we like to give local and upcoming speakers a chance to shine
+						alongside more seasoned public speakers and always aim for diversity.</p>
 				</div>
 			</div>
 			<figure class="rellax">
@@ -86,8 +94,10 @@
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2 class="jsHeading">Four forward-thinking talks</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, aut facere delectus temporibus minus ad cupiditate aliquam veritatis? Velit amet natus harum aliquid mollitia aut omnis tempore dolorum fugiat!</p>
+					<h2 class="jsHeading">All proceeds support our chosen local charity</h2>
+					<p>It’s super important to us to support our local community and so all of our profits are donated
+						to a selected local charity. Last year we're proud to say we raised over £600 for Codebar, a
+						non-profit initiative who aim to promote diversity within the tech industry.</p>
 				</div>
 			</div>
 		</section>
@@ -96,8 +106,12 @@
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2 class="jsHeading">Laid back atmosphere & raffle!</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla, aut facere delectus temporibus minus ad cupiditate aliquam veritatis? Velit amet natus harum aliquid mollitia aut omnis tempore dolorum fugiat!</p>
+					<h2 class="jsHeading">Laid back atmosphere & raffle</h2>
+					<p>We like to think we're a little less serious than other conferences and aim to keep the evening
+						as laid back as possible. Grab a free drink, relax and make friends with some industry locals.
+						At the end of the night, we run a raffle with swag donated by our generous sponsors. Previous
+						prizes have included a keg of beer, copious amounts of books, LaserZone tickets and a pair of
+						socks to name a few!</p>
 				</div>
 			</div>
 			<figure>
@@ -110,12 +124,13 @@
 			<svg class="calloutShape" viewBox="0 0 792 482">
 				<polygon class="calloutPolygon" points="177 58 553 110 724 318 366 425 68 227"></polygon>
 			</svg>
-			<h2 class="jsHeading">If you are just starting out, or an industry professional, this affordable mini-conf will help you gain insight from our four keynote speakers.</h2>
+			<h2 class="brandedDot">If you are just starting out, or an industry professional, this affordable mini-conf
+				will help you gain insight from our four keynote speakers</h2>
 		</section>
 
-		<?php include 'includes/speakers.php'; ?>
+		<?php // include 'includes/speakers.php'; ?>
 
-		<?php include 'includes/schedule.php'; ?>
+		<?php // include 'includes/schedule.php'; ?>
 
 		<section id="map" class="maps">
 			<h2 class="jsHeading">Where to find us</h2>
@@ -123,27 +138,26 @@
 		</section>
 
 		<div class="highlightBox">
-			<h2 class="jsHeading">Why not join us?</h2>
-			<p class="featured">Join us at Lighthouse, a hub for creative industries in the centre of Brighton on 22nd March 2019. Every penny raised will be donated to a charity supporting our industry.</p>
-			<a href="#" class="btn">
-				<div class="btnShapeWrapper">
-					<div class="btnShape"></div>
-				</div>
-				<span>Buy tickets</span>
-			</a>
+			<svg class="highlightBoxShape" viewBox="0 0 1032 462">
+				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
+			</svg>
+			<div class="highlightBoxContent">
+				<h2>Why not join us?</h2>
+				<p class="featured">Get your tickets now. We’ll see you on 7th March!</p>
+				<a href="#" class="btn">
+					<div class="btnShapeWrapper">
+						<div class="btnShape"></div>
+					</div>
+					<span>Buy tickets</span>
+				</a>
+			</div>
 		</div>
 
 		<section id="partners">
 			<h2 class="jsHeading">With thanks to...</h2>
 			<ul class="partners partnersLower">
 				<li>
-					<a rel="nofollow" href="https://www.oreilly.com/"><img src="/assets/bytes/img/partners/orm.jpg" alt="O'Reilly"></a>
-				</li>
-				<li>
 					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
-				</li>
-				<li>
-					<a rel="nofollow" href="https://www.packtpub.com/"><img src="/assets/bytes/img/partners/packt.png" alt="Packt Publishing"></a>
 				</li>
 			</ul>
 
