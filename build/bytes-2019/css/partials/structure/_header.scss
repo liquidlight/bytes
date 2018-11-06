@@ -1,9 +1,7 @@
 header {
 	height: 100vh;
 	min-height: 40rem;
-	transform: scaleY(1);
 	opacity: 1;
-	animation: headerSlideIn 1s cubic-bezier(1, 0, 0, 1) both;
 	transform-origin: top center;
 
 	&::before,
@@ -20,13 +18,14 @@ header {
 		background: url('../img/hero-bg.jpg') center no-repeat;
 		background-size: cover;
 		opacity: 0;
-		animation: fadeIn 1s 0.8s ease forwards;
+		animation: fadeIn 0.6s 0.8s ease forwards;
 	}
 
 	&::after {
 		min-height: 40rem;
 		background: linear-gradient(45deg, #00DBDE, #FC00FF);
-		opacity: 0.8;
+		opacity: 0;
+		animation: fadeInEighty 0.6s 0.8s ease forwards;
 	}
 }
 

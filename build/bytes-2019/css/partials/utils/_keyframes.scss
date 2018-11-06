@@ -4,6 +4,13 @@
 	}
 }
 
+@keyframes fadeInEighty {
+	to {
+		opacity: 0.8
+	}
+}
+
+
 @keyframes slideIn {
 	from {
 		transform: translateY(1rem);
@@ -23,12 +30,5 @@
 	to {
 		transform: translateY(0);
 		opacity: 1;
-	}
-}
-
-@keyframes headerSlideIn {
-	from {
-		opacity: 0;
-		transform: scaleY(0);
 	}
 }
