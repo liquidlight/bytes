@@ -171,7 +171,7 @@
 			<h2 class="jsHeading">With thanks to...</h2>
 			<ul class="partners partnersLower">
 				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img class="jsLazyImage" data-src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
 				</li>
 			</ul>
 
