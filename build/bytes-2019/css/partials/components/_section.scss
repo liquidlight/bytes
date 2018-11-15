@@ -51,14 +51,14 @@ section {
 	}
 }
 
-.sectionTextImage figure {
+.sectionTextImage .picture {
 	display: block;
 	position: relative;
 	height: 100%;
 	max-width: 55rem;
 }
 
-.figureShadow {
+.pictureShadow {
 	position: absolute;
 	width: calc(100% + 3rem);
 	height: 100%;
@@ -98,7 +98,7 @@ section {
 		}
 	}
 
-	+ figure {
+	+ .picture {
 		margin-left: auto;
 
 		img {
@@ -109,7 +109,7 @@ section {
 	}
 }
 
-.sectionTextImage figure:first-of-type {
+.sectionTextImage .picture:first-of-type {
 	order: 2;
 
 	@include mq(tablet) {
@@ -168,7 +168,7 @@ section {
 	}
 }
 
-.sectionTextImage.alt .figureShadow {
+.sectionTextImage.alt .pictureShadow {
 	clip-path: polygon(0 5%, 50% 0, 100% 100%, 0 100%);
 	left: 0;
 	right: auto;
@@ -193,7 +193,7 @@ section {
 	}
 
 	.content::before,
-	figure::before {
+	.picture::before {
 		background-color: theme(tertiaryLight);
 	}
 }

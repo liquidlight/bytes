@@ -1,7 +1,7 @@
 <?php
 	$name = 'Bytes Conference, Brighton';
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
-	$description = 'Bytes is a Brighton based, affordable, evening mini-conference for web enthusiasts';
+	$description = 'Bytes is an affordable, evening mini-conference for web enthusiasts';
 
 	include 'includes/header.php'; ?>
 	<main>
@@ -80,17 +80,41 @@
 						alongside more seasoned public speakers and always aim for diversity.</p>
 				</div>
 			</div>
-			<figure class="rellax">
-				<span class="figureShadow"></span>
-				<img src="/assets/bytes-2019/img/placeholder.jpg" alt="Placeholder">
-			</figure>
+			<div class="picture">
+				<span class="pictureShadow"></span>
+				<picture>
+					<source type="image/webp"
+							srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.webp 450w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.webp 700w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.webp 1000w"
+							/>
+					<source srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg 450w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.jpg 700w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.jpg 1000w"
+							/>
+					<img src="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg"
+					alt="Placeholder" />
+				</picture>
+			</div>
 		</section>
 
 		<section class="jsTextImg sectionTextImage sectionTertiary alt">
-			<figure>
-				<span class="figureShadow"></span>
-				<img src="/assets/bytes-2019/img/placeholder.jpg" alt="Placeholder">
-			</figure>
+			<div class="picture">
+				<span class="pictureShadow"></span>
+				<picture>
+					<source type="image/webp"
+							srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.webp 450w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.webp 700w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.webp 1000w"
+							/>
+					<source srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg 450w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.jpg 700w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.jpg 1000w"
+							/>
+					<img src="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg"
+					alt="Placeholder" />
+				</picture>
+			</div>
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
@@ -114,10 +138,22 @@
 						socks to name a few!</p>
 				</div>
 			</div>
-			<figure>
-				<span class="figureShadow"></span>
-				<img src="/assets/bytes-2019/img/placeholder.jpg" alt="Placeholder">
-			</figure>
+			<div class="picture">
+				<span class="pictureShadow"></span>
+				<picture>
+					<source type="image/webp"
+							srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.webp 450w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.webp 700w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.webp 1000w"
+							/>
+					<source srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg 450w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.jpg 700w,
+									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.jpg 1000w"
+							/>
+					<img src="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg"
+					alt="Placeholder" />
+				</picture>
+			</div>
 		</section>
 
 		<section class="callout">

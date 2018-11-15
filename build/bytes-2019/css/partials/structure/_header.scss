@@ -75,6 +75,10 @@ header {
 	@include mq(tablet) {
 		margin-top: -10rem;
 	}
+
+	&.wrapper {
+		max-width: 58rem;
+	}
 }
 
 .headerIntro h1 span:last-of-type {
