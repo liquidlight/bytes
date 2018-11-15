@@ -82,38 +82,14 @@
 			</div>
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<picture>
-					<source type="image/webp"
-							srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.webp 450w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.webp 700w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.webp 1000w"
-							/>
-					<source srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg 450w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.jpg 700w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.jpg 1000w"
-							/>
-					<img src="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg"
-					alt="Placeholder" />
-				</picture>
+				<?php include 'includes/placeholder-image.php'; ?>
 			</div>
 		</section>
 
 		<section class="jsTextImg sectionTextImage sectionTertiary alt">
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<picture>
-					<source type="image/webp"
-							srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.webp 450w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.webp 700w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.webp 1000w"
-							/>
-					<source srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg 450w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.jpg 700w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.jpg 1000w"
-							/>
-					<img src="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg"
-					alt="Placeholder" />
-				</picture>
+				<?php include 'includes/placeholder-image.php'; ?>
 			</div>
 			<div class="content">
 				<div class="contentInner">
@@ -140,19 +116,7 @@
 			</div>
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<picture>
-					<source type="image/webp"
-							srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.webp 450w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.webp 700w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.webp 1000w"
-							/>
-					<source srcset="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg 450w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_700w_q70.jpg 700w,
-									/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_1000w_q70.jpg 1000w"
-							/>
-					<img src="/assets/bytes-2019/img/placeholder/nicholas-green-324622-unsplash__cloudinary_450w_q70.jpg"
-					alt="Placeholder" />
-				</picture>
+				<?php include 'includes/placeholder-image.php'; ?>
 			</div>
 		</section>
 
