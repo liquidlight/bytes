@@ -1,4 +1,4 @@
-import './libs/intersection-observer';
+// import './libs/intersection-observer';
 
 // import './modules/speakers';
 import './modules/animations';

@@ -1,10 +1,12 @@
 /**
- * Lazy load
+ * Image Lazy load
  */
 
 export default (() => {
 
 	// Get all of the images that are marked up to lazy load
+	let imageObserver;
+
 	const images = document.querySelectorAll('.jsLazyImage');
 
 	const config = {
@@ -13,10 +15,7 @@ export default (() => {
 		threshold: 0.01
 	};
 
-	/**
-	 * Replace the data-src attribute with the value of the data-src attribute
-	 * @param {Object} image
-	 */
+	// Replace the data-src attribute with the value of the data-src attribute
 	let preloadImage = (element) => {
 		if (element.dataset && element.dataset.src) {
 			element.src = element.dataset.src;
@@ -26,15 +25,9 @@ export default (() => {
 		}
 	};
 
-	/**
-	 * Intersection Observer API
-	 */
-
-	function onIntersection(entries) {
-
+	let onIntersection = (entries) => {
 		// Loop through the entries
 		entries.forEach(entry => {
-
 			// Are we in viewport?
 			if (entry.intersectionRatio > 0) {
 				// Stop watching and load the image
@@ -44,9 +37,13 @@ export default (() => {
 		});
 	}
 
-	// The observer for the images on the page
-	let imageObserver = new IntersectionObserver(onIntersection, config);
-
-	images.forEach(image => imageObserver.observe(image));
+	// eslint-disable-next-line no-negated-condition
+	if (!('IntersectionObserver' in window)) {
+		Array.from(images).forEach(image => preloadImage(image));
+	} else {
+		// The observer for the images on the page
+		imageObserver = new IntersectionObserver(onIntersection, config);
+		images.forEach(image => imageObserver.observe(image));
+	}
 
 })();
