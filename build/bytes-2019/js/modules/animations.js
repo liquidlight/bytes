@@ -1,5 +1,5 @@
 import anime from '../libs/anime';
-import Splitting from "../libs/splitting";
+import Splitting from '../libs/splitting';
 import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/typo3/ext/ll_fe/Library/ScrollReveal/4.x/js/core';
 
 (() => {

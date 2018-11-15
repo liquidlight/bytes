@@ -6,6 +6,20 @@
 	include 'includes/header.php'; ?>
 	<main>
 		<header>
+			<picture class="headerImage">
+				<source type="image/webp"
+					srcset="/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w400_q50.webp 400w,
+					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w800_q50.webp 800w,
+					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w1400_q50.webp 1200w"
+					sizes="100vw" />
+				<source type="image/jpg"
+					srcset="/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w400_q50.jpg 400w,
+					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w800_q50.jpg 800w,
+					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w1400_q50.jpg 1200w"
+					sizes="100vw" />
+				<img src="/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w1400_q50.jpg" alt="Bytes Conference - Audience 2017">
+			</picture>
+
 			<div class="head">
 				<a href="/" class="jsLogo logo">
 					<svg viewBox="0 0 260 80">
