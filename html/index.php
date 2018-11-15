@@ -52,7 +52,7 @@
 						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="#schedule">Schedule</a></li>
 						*/ ?>
-						<li><a href="#tickets">Buy Tickets</a></li>
+						<li><a href="#tickets" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
 				</nav>
 			</div>

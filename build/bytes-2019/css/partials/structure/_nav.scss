@@ -31,3 +31,43 @@
 .navigation li {
 	display: inline-block;
 }
+
+.navigation .tickets {
+	position: relative;
+
+	&:hover {
+
+		&::after {
+			opacity: 1;
+			transform: none;
+		}
+
+		span {
+			transform: translateX(-0.5rem);
+		}
+	}
+
+	&::after {
+		content: '';
+		background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#FFF" fill-rule="nonzero" d="M10.5 0l2.2 2.2L5 9.9 6.1 11l7.7-7.7L16 5.5V0h-5.5zM10 12H2V4h4l2-2H0v12h12V6l-2 2v4z"/></svg>');
+		background-origin: content-box;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		width: 0.8rem;
+		height: 0.8rem;
+		display: inline-block;
+		box-sizing: content-box;
+		transform: translateX(-0.5rem);
+		opacity: 0;
+		transition-property: transform, opacity;
+		transition: 0.2s ease;
+		position: absolute;
+		top: 1rem;
+	}
+
+	span {
+		display: inline-block;
+		transition: transform 0.2s ease;
+	}
+}

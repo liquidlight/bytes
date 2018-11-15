@@ -4,7 +4,7 @@
 .highlightBox {
 	background-color: theme(tertiaryLight);
 	max-width: 70rem;
-	width: 100%;
+	width: calc(100% - 3rem);
 	margin: 0 auto 2.5rem;
 	padding: 3rem 1rem;
 	text-align: center;
@@ -22,6 +22,7 @@
 	}
 
 	@include mq(tablet) {
+		width: 100%;
 		margin-bottom: 5rem;
 	}
 
