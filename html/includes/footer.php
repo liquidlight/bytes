@@ -8,7 +8,6 @@
 	</div>
 </footer>
 
-<script src="assets/bytes-2019/js/core.js?sfjsd3"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAowaipwKQ7aUnX07VbBiuq0PseTDsuq5A&callback=googleMapsOnLoad"></script>
+<script src="assets/bytes-2019/js/core.js?283j3"></script>
 </body>
 </html>

@@ -1,9 +1,5 @@
 // Initialize and add the map
 
-// export default (() => {
-
-// })();
-
 window.googleMapsOnLoad = function() {
 
 	var center = null;
@@ -85,3 +81,31 @@ window.googleMapsOnLoad = function() {
 	addMarker(50.831459,-0.137277,'<strong>London Road Parking</strong><br />Providence Place,<br />Brighton<br />BN1 4GE', '/assets/bytes-2019/img/marker-car.png');
 
 }
+
+function google_maps_lazyload(api_key) {
+	'use strict';
+
+	if (api_key) {
+		const options = {
+			rootMargin: '100px',
+			threshold: 0
+		}
+
+		const map = document.getElementById('jsMap');
+
+		let observer = new IntersectionObserver(function(entries, self) {
+			// Intersecting with Edge workaround https://calendar.perfplanet.com/2017/progressive-image-loading-using-intersection-observer-and-sqip/#comment-102838
+			var isIntersecting = typeof entries[0].isIntersecting === 'boolean' ? entries[0].isIntersecting : entries[0].intersectionRatio > 0
+			if (isIntersecting) {
+				let mapsJS = document.createElement('script')
+				mapsJS.src = 'https://maps.googleapis.com/maps/api/js?callback=googleMapsOnLoad&key=' + api_key
+				document.getElementsByTagName('head')[0].appendChild(mapsJS)
+				self.unobserve(map)
+			}
+		}, options);
+
+		observer.observe(map)
+	}
+}
+
+google_maps_lazyload('AIzaSyAowaipwKQ7aUnX07VbBiuq0PseTDsuq5A')
