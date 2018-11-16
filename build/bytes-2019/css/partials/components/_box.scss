@@ -31,11 +31,11 @@
 	}
 
 	header + & {
-		margin-top: -25vh;
+		margin-top: -10rem;
 
-		@include mq(phone) {
-			margin-top: -10rem;
-		}
+		// @include mq(phone) {
+		// 	margin-top: -10rem;
+		// }
 	}
 }
 
