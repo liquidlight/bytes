@@ -1,4 +1,8 @@
 .googlemap {
-	height: 40rem;
+	height: 20rem;
 	width: 100%;
+
+	@include mq(phone) {
+		height: 40rem;
+	}
 }

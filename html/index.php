@@ -8,16 +8,16 @@
 		<header>
 			<picture class="headerImage">
 				<source type="image/webp"
-					srcset="/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w400_q50.webp 400w,
-					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w800_q50.webp 800w,
-					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w1400_q50.webp 1200w"
+					srcset="/assets/bytes-2019/img/hero/w400_q50.webp 400w,
+					/assets/bytes-2019/img/hero/w800_q50.webp 800w,
+					/assets/bytes-2019/img/hero/w1400_q50.webp 1200w"
 					sizes="100vw" />
 				<source type="image/jpg"
-					srcset="/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w400_q50.jpg 400w,
-					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w800_q50.jpg 800w,
-					/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w1400_q50.jpg 1200w"
+					srcset="/assets/bytes-2019/img/hero/w400_q50.jpg 400w,
+					/assets/bytes-2019/img/hero/w800_q50.jpg 800w,
+					/assets/bytes-2019/img/hero/w1400_q50.jpg 1200w"
 					sizes="100vw" />
-				<img src="/assets/bytes-2019/img/hero-bg__cloudinary_grayscale_w1400_q50.jpg" alt="Bytes Conference - Audience 2017">
+				<img src="/assets/bytes-2019/img/hero/w1400_q50.jpg" alt="Bytes Conference - Audience 2017">
 			</picture>
 
 			<div class="head">
@@ -96,14 +96,16 @@
 			</div>
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<?php include 'includes/placeholder-image.php'; ?>
+				<?php // include 'includes/placeholder-image.php'; ?>
+				<img src="/assets/bytes-2019/img/speakers/w1000.jpg" alt="">
 			</div>
 		</section>
 
 		<section class="jsTextImg sectionTextImage sectionTertiary alt">
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<?php include 'includes/placeholder-image.php'; ?>
+				<?php// include 'includes/placeholder-image.php'; ?>
+				<img src="/assets/bytes-2019/img/charity/w1000.jpg" alt="">
 			</div>
 			<div class="content">
 				<div class="contentInner">
@@ -130,7 +132,8 @@
 			</div>
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<?php include 'includes/placeholder-image.php'; ?>
+				<?php //include 'includes/placeholder-image.php'; ?>
+				<img src="/assets/bytes-2019/img/raffle/w1000.jpg" alt="">
 			</div>
 		</section>
 
