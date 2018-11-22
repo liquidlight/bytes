@@ -5,7 +5,7 @@
 	$tickets = ($tickets_on_sale) ? '#tickets' : 'https://www.eventbrite.com/e/bytes-conf-2017-tickets-37126523431';
 	$ticket_text = ($tickets_on_sale) ? 'Tickets on sale!' : 'Tickets on sale 1st Sept'; ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

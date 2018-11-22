@@ -1,6 +1,5 @@
 import anime from '../libs/anime';
 import Splitting from '../libs/splitting';
-import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/typo3/ext/ll_fe/Library/ScrollReveal/4.x/js/core';
 
 (() => {
 
@@ -113,36 +112,47 @@ import ScrollReveal from '../../../../../../../../../usr/local/share/typo3/8.7/t
 	/**
 	 * Splitting
 	 */
-	const target = document.querySelectorAll('.jsHeading');
+	const headings = document.querySelectorAll('.jsHeading');
 	const results = Splitting({
-		target: target,
+		target: headings,
 		by: 'words'
 	});
 
 	/**
-	 * Scroll Reveal Options
+	 * Heading reveal
 	 */
-	const srOptions = {
-		mobile: false,
-		origin: 'bottom',
-		distance: '2rem',
-		duration: 350,
-		delay: 100,
-		scale: 1,
-		easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)'
+	let headingObserver;
+
+	const config = {
+		// If the image gets within 50px in the Y axis, start the download.
+		rootMargin: '0px 0px',
+		threshold: 0.01
 	};
 
-	const animatedElements = {
-		// Boxes
-		'.jsHeading': {
-			delay: 200,
-			distance: 0,
-			beforeReveal: el => el.classList.add('isVisible')
-		}
-	};
+	// Add isVisible class to element
+	let showHeading = element => element.classList.add('isVisible');
 
-	for (const element of Object.keys(animatedElements)) {
-		ScrollReveal(srOptions).reveal(element, animatedElements[element]);
+	let onHeadingIntersection = (entries) => {
+		// Loop through the entries
+		entries.forEach(entry => {
+			// Are we in viewport?
+			if (entry.intersectionRatio > 0) {
+				// Stop watching and load the image
+				showHeading(entry.target);
+				headingObserver.unobserve(entry.target);
+			}
+		});
 	}
+
+	// eslint-disable-next-line no-negated-condition
+	if (!('IntersectionObserver' in window)) {
+		// Adds isVisible class straight away
+		Array.from(headings).forEach(el => showHeading(el));
+	} else {
+		// The observer for the headings on the page
+		headingObserver = new IntersectionObserver(onHeadingIntersection, config);
+		headings.forEach(heading => headingObserver.observe(heading));
+	}
+
 
 })();

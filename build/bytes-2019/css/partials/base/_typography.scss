@@ -35,9 +35,11 @@ h4 {
 
 a {
 	color: theme(primary);
+	text-decoration: none;
 
 	&:hover {
 		color: theme(primaryDark);
+		text-decoration: underline;
 	}
 }
 
@@ -48,6 +50,10 @@ p {
 
 	@include mq(desktop) {
 		font-size: 1.25rem;
+	}
+
+	a {
+		color: theme(primaryA11y);
 	}
 }
 
@@ -62,6 +68,21 @@ p.featured {
 
 	@include mq(desktop) {
 		font-size: 1.75rem;
+	}
+
+	a {
+		color: theme(primary);
+	}
+}
+
+p.featured.small {
+	font-size: 1.1rem;
+
+	@include mq(tablet) {
+		font-size: 1.15rem;
+	}
+	@include mq(desktop) {
+		font-size: 1.25rem;
 	}
 }
 
@@ -85,8 +106,12 @@ p.confDates {
  * Splitting
  */
 .splitting.words.isVisible .word {
-	animation: slideIn 0.5s 0.5s ease both;
+	animation: slideIn 0.5s 0.25s ease both;
 	display: inline-block;
-	animation-delay: calc(0.5s + 0.08s * var(--word-index));
+	animation-delay: calc(0.25s + 0.05s * var(--word-index));
 	opacity: 0;
+
+	.headerIntro & {
+		animation-delay: calc(0.5s + 0.08s * var(--word-index));
+	}
 }

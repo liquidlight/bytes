@@ -8,6 +8,6 @@
 	</div>
 </footer>
 
-<script src="assets/bytes-2019/js/core.js?2s83j3"></script>
+<script src="assets/bytes-2019/js/core.js?2s3aj3"></script>
 </body>
 </html>
