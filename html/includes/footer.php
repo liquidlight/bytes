@@ -8,6 +8,7 @@
 	</div>
 </footer>
 
+<script>if (navigator.serviceWorker && !navigator.serviceWorker.controller) { navigator.serviceWorker.register('/sw.js'); }</script>
 <script src="assets/bytes-2019/js/core.js?2s3aj3"></script>
 </body>
 </html>

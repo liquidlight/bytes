@@ -94,21 +94,31 @@
 						As we aim to support our industry, we like to give local and upcoming speakers a chance to shine
 						alongside more seasoned public speakers and always aim for diversity.
 						<a href="https://www.youtube.com/playlist?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" target="_blank">
-						View last years talks</a></p>
+						Watch the talks from last year</a></p>
 				</div>
 			</div>
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<?php // include 'includes/placeholder-image.php'; ?>
-				<img src="/assets/bytes-2019/img/speakers/w1000.jpg" alt="">
+				<img class="jsLazyImage"
+					data-srcset="/assets/bytes-2019/img/speakers/bytes2017-334--q85-w450.jpg 450w,
+							/assets/bytes-2019/img/speakers/bytes2017-334--q85-w700.jpg 700w,
+							/assets/bytes-2019/img/speakers/bytes2017-334--q85-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/speakers/bytes2017-334--q85-w450.jpg"
+					src="/assets/bytes-2019/img/speakers/bytes2017-334--q80-w50.jpg"
+					alt="Bytes conf 2017"/>
 			</div>
 		</section>
 
 		<section class="jsTextImg sectionTextImage sectionTertiary alt">
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<?php// include 'includes/placeholder-image.php'; ?>
-				<img src="/assets/bytes-2019/img/charity/w1000.jpg" alt="">
+				<img class="jsLazyImage"
+					data-srcset="/assets/bytes-2019/img/charity/bytes2016-4119--q80-w450.jpg 450w,
+							/assets/bytes-2019/img/charity/bytes2016-4119--q80-w700.jpg 700w,
+							/assets/bytes-2019/img/charity/bytes2016-4119--q80-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/charity/bytes2016-4119--q80-w450.jpg"
+					src="/assets/bytes-2019/img/charity/bytes2016-4119--q80-w50.jpg"
+					alt="Charity on Bytes conf 2016"/>
 			</div>
 			<div class="content">
 				<div class="contentInner">
@@ -137,8 +147,13 @@
 			</div>
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<?php //include 'includes/placeholder-image.php'; ?>
-				<img src="/assets/bytes-2019/img/raffle/w1000.jpg" alt="">
+				<img class="jsLazyImage"
+					data-srcset="/assets/bytes-2019/img/raffle/bytes2017-60--q80-w450.jpg 450w,
+							/assets/bytes-2019/img/raffle/bytes2017-60--q80-w700.jpg 700w,
+							/assets/bytes-2019/img/raffle/bytes2017-60--q80-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/raffle/bytes2017-60--q80-w450.jpg"
+					src="/assets/bytes-2019/img/raffle/bytes2017-60--q80-w50.jpg"
+					alt="Bytes conf 2017"/>
 			</div>
 		</section>
 
