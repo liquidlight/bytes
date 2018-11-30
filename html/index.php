@@ -2,6 +2,7 @@
 	$name = 'Bytes Conference, Brighton';
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
 	$description = 'Bytes is an affordable, evening mini-conference for web enthusiasts';
+	$tickets_url = 'https://www.eventbrite.com/e/bytes-conf-2019-tickets-53101432815';
 
 	include 'includes/header.php'; ?>
 	<main>
@@ -53,7 +54,7 @@
 						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="#schedule">Schedule</a></li>
 						*/ ?>
-						<li><a href="#tickets" class="tickets"><span>Buy Tickets</span></a></li>
+						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -75,7 +76,7 @@
 					four fantastic keynote speakers (plus one wild raffle)! Every penny raised will be donated to a
 					chosen charity.</p>
 				<p class="featured small"><?= $date ?></p>
-				<a href="#" class="btn">
+				<a href="<?= $tickets_url ?>" class="btn">
 					<div class="btnShapeWrapper">
 						<div class="btnShape"></div>
 					</div>
@@ -94,7 +95,7 @@
 						As we aim to support our industry, we like to give local and upcoming speakers a chance to shine
 						alongside more seasoned public speakers and always aim for diversity.
 						<a href="https://www.youtube.com/playlist?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" target="_blank">
-						Watch the talks from last year</a></p>
+						Watch the talks from last year</a>.</p>
 				</div>
 			</div>
 			<div class="picture">
@@ -181,7 +182,7 @@
 			<div class="highlightBoxContent">
 				<h2>Why not join us?</h2>
 				<p class="featured">Get your tickets now. We’ll see you on 7th March!</p>
-				<a href="#" class="btn">
+				<a href="<?= $tickets_url ?>" class="btn">
 					<div class="btnShapeWrapper">
 						<div class="btnShape"></div>
 					</div>
