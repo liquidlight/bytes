@@ -6,7 +6,8 @@ section {
 	}
 }
 
-.sectionTextImage {
+.sectionTextImage,
+.sectionText {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -44,11 +45,26 @@ section {
 		}
 	}
 
+
+}
+
+.sectionTextImage {
 	> * {
 		@include mq(tablet) {
 			width: 50%;
 		}
 	}
+}
+
+.sectionText {
+	padding: var(--gutter);
+	max-width: layout(maxWidthThin);
+	margin: 0 auto;
+
+	// .contentInner {
+	// 	padding-left: var(--gutter);
+	// 	background: theme(neutralLightest);
+	// }
 }
 
 .sectionTextImage .picture {
@@ -73,6 +89,7 @@ section {
 	}
 }
 
+.sectionText .content,
 .sectionTextImage .content {
 	padding: 5vh 2rem;
 	position: relative;
