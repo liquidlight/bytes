@@ -9,6 +9,10 @@ export default (() => {
 
 	const images = document.querySelectorAll('.jsLazyImage');
 
+	if(!images.length) {
+		return;
+	}
+
 	const config = {
 		// If the image gets within 50px in the Y axis, start the download.
 		rootMargin: '50px 0px',
