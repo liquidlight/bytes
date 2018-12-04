@@ -199,7 +199,7 @@
 				</li>
 			</ul>
 
-			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a></p>
+			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a><br><a href="#">Download the press pack</a></p>
 		</section>
 
 	</main>
