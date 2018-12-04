@@ -94,7 +94,7 @@
 						covering topics ranging from development and design, through to marketing and performance tips.
 						As we aim to support our industry, we like to give local and upcoming speakers a chance to shine
 						alongside more seasoned public speakers and always aim for diversity.
-						<a href="https://www.youtube.com/playlist?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" target="_blank">
+						<a href="https://www.youtube.com/playlist?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" target="_blank" rel="noreferrer">
 						Watch the talks from last year</a>.</p>
 				</div>
 			</div>
@@ -142,7 +142,7 @@
 						At the end of the night, we run a raffle with swag donated by our generous sponsors. Previous
 						prizes have included a keg of beer, copious amounts of books, LaserZone tickets and a pair of
 						socks to name a few! Check out the
-						<a href="https://www.flickr.com/photos/bytesconf/sets/72157666468263319/" target="_blank">photos
+						<a href="https://www.flickr.com/photos/bytesconf/sets/72157666468263319/" target="_blank" rel="noreferrer">photos
 						from last year</a>.</p>
 				</div>
 			</div>

@@ -16,6 +16,8 @@
 	<link rel="shortcut icon" href="/assets/bytes-2019/img/favicon.ico">
 	<link rel="apple-touch-icon" sizes="500x500" href="/assets/bytes-2019/img/favicon.png">
 
+	<meta name="theme-color" content="#FF3C82"/>
+
 	<meta itemprop="name" content="<?php echo $name; ?>">
 	<meta itemprop="description" content="<?php echo $description; ?>">
 	<meta itemprop="image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/favicon.png">
