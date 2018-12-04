@@ -114,11 +114,11 @@
 			<div class="picture">
 				<span class="pictureShadow"></span>
 				<img class="jsLazyImage"
-					data-srcset="/assets/bytes-2019/img/charity/bytes2016-4119--q80-w450.jpg 450w,
-							/assets/bytes-2019/img/charity/bytes2016-4119--q80-w700.jpg 700w,
-							/assets/bytes-2019/img/charity/bytes2016-4119--q80-w1000.jpg 1000w"
-					data-src="/assets/bytes-2019/img/charity/bytes2016-4119--q80-w450.jpg"
-					src="/assets/bytes-2019/img/charity/bytes2016-4119--q80-w50.jpg"
+					data-srcset="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg 450w,
+							/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w700.jpg 700w,
+							/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg"
+					src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w50.jpg"
 					alt="Charity on Bytes conf 2016"/>
 			</div>
 			<div class="content">
@@ -126,8 +126,8 @@
 					<div class="shapeOutside"></div>
 					<h2 class="jsHeading">All proceeds support our chosen local charity</h2>
 					<p>It’s super important to us to support our local community and so all of our profits are donated
-						to a selected local charity. Last year we're proud to say we raised over £600 for Codebar, a
-						non-profit initiative who aim to promote diversity within the tech industry.</p>
+						to a selected local charity. Last year we're proud to say we raised over <strong>£600</strong>
+						for Codebar, a non-profit initiative who aim to promote diversity within the tech industry.</p>
 				</div>
 			</div>
 		</section>
@@ -199,7 +199,7 @@
 				</li>
 			</ul>
 
-			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a><br><a href="#">Download the press pack</a></p>
+			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a><br><a href="/assets/bytes-2019/files/bytes-conf-2019-press-document.pdf">Download the press pack</a></p>
 		</section>
 
 	</main>
