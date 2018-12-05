@@ -4,6 +4,11 @@
 	text-align: center;
 	position: relative;
 	padding: 4rem 2rem 0.1rem;
+	overflow: hidden;
+
+	@include mq(tablet) {
+		overflow: visible;
+	}
 
 	h2,
 	p {

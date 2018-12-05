@@ -32,18 +32,17 @@
 
 	header + & {
 		margin-top: -10rem;
-
-		// @include mq(phone) {
-		// 	margin-top: -10rem;
-		// }
 	}
 }
 
 .highlightBoxContent {
 	position: relative;
 	padding: 0 2rem;
-	opacity: 0;
-	animation: fadeIn 0.7s 2.1s ease forwards;
+
+	header + .highlightBox & {
+		opacity: 0;
+		animation: fadeIn 0.7s 1.9s ease forwards;
+	}
 
 	@include mq(desktopLarge) {
 		padding: 3rem 6rem;
@@ -72,12 +71,23 @@
 		height: 0.2em;
 		background-color: theme(primary);
 		border-radius: 50%;
-		// transform: translateX(0.25rem);
 
 		@include mq(tablet) {
 			width: 0.15em;
 			height: 0.15em;
 		}
 
+	}
+}
+
+.jsHighlightJoinUs.hasStarted {
+	.highlightBoxContent {
+		animation: fadeIn 0.7s 0.8s ease forwards;
+	}
+}
+
+.jsHighlightJoinUs {
+	.highlightBoxContent {
+		opacity: 0;
 	}
 }

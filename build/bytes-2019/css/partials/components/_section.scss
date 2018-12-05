@@ -66,7 +66,12 @@ section {
 	display: block;
 	position: relative;
 	height: 100%;
+	width: 100%;
 	max-width: 55rem;
+
+	@include mq(tablet) {
+		width: 50%;
+	}
 
 	figcaption {
 		position: absolute;

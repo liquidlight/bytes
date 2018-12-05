@@ -162,7 +162,7 @@
 		</section>
 
 		<section class="callout">
-			<svg class="calloutShape" viewBox="0 0 792 482">
+			<svg class="jsCallout calloutShape" viewBox="0 0 792 482">
 				<polygon class="calloutPolygon" points="177 58 553 110 724 318 366 425 68 227"></polygon>
 			</svg>
 			<h2 class="brandedDot">If you are just starting out, or an industry professional, this affordable mini-conf
@@ -178,7 +178,7 @@
 			<div id="jsMap" class="googlemap"></div>
 		</section>
 
-		<div class="highlightBox">
+		<div class="jsHighlightJoinUs highlightBox">
 			<svg class="highlightBoxShape" viewBox="0 0 1032 462">
 				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
 			</svg>
@@ -198,7 +198,7 @@
 			<h2 class="jsHeading">With thanks to...</h2>
 			<ul class="partners partnersLower">
 				<li>
-					<a rel="nofollow" href="http://www.liquidlight.co.uk/"><img class="jsLazyImage" data-src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+					<a rel="nofollow" href="https://www.liquidlight.co.uk/"><img class="jsLazyImage" data-src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
 				</li>
 			</ul>
 
