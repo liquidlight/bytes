@@ -88,6 +88,8 @@
 
 .jsHighlightJoinUs {
 	.highlightBoxContent {
-		opacity: 0;
+		@include mq(desktop) {
+			opacity: 0;
+		}
 	}
 }
