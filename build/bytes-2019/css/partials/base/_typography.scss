@@ -106,12 +106,16 @@ p.confDates {
  * Splitting
  */
 .splitting.words.isVisible .word {
-	animation: slideIn 0.5s 0.25s ease both;
-	display: inline-block;
-	animation-delay: calc(0.25s + 0.05s * var(--word-index));
-	opacity: 0;
+	@include mq(tablet) {
+		animation: slideIn 0.5s 0.25s ease both;
+		display: inline-block;
+		animation-delay: calc(0.25s + 0.05s * var(--word-index));
+		opacity: 0;
+	}
 
 	.headerIntro & {
-		animation-delay: calc(0.5s + 0.08s * var(--word-index));
+		@include mq(tablet) {
+			animation-delay: calc(0.5s + 0.08s * var(--word-index));
+		}
 	}
 }

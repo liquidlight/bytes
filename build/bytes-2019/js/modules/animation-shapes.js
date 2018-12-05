@@ -37,32 +37,41 @@ import anime from '../libs/anime';
 		}
 	});
 
-	let shapesObs = new IntersectionObserver((entries) => {
-		entries.forEach(entry => {
-			const target = entry.target;
-
-			if (entry.intersectionRatio > 0) {
-
-				if(target.classList.contains('jsCallout')) {
-					calloutPolygon.restart();
-					shapesObs.unobserve(target);
-				}
-
-				if (target.classList.contains('jsHighlightJoinUs')) {
-					boxPolygon.restart();
-					boxPolygon.begin = () => {
-						document.querySelector('.jsHighlightJoinUs').classList.add('hasStarted');
-					}
-					shapesObs.unobserve(target);
-				}
-			}
-		});
-	});
-
 	const shapeElements = document.querySelectorAll(['.jsCallout', '.jsHighlightJoinUs']);
-	shapeElements.forEach(el => {
-		shapesObs.observe(el);
-	});
+
+	// eslint-disable-next-line no-negated-condition
+	if ('IntersectionObserver' in window) {
+
+		let shapesObs = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				const target = entry.target;
+
+				if (entry.intersectionRatio > 0) {
+
+					if (target.classList.contains('jsCallout')) {
+						calloutPolygon.restart();
+						shapesObs.unobserve(target);
+					}
+
+					if (target.classList.contains('jsHighlightJoinUs')) {
+						boxPolygon.restart();
+						boxPolygon.begin = () => {
+							document.querySelector('.jsHighlightJoinUs').classList.add('hasStarted');
+						}
+						shapesObs.unobserve(target);
+					}
+				}
+			});
+		});
+
+		shapeElements.forEach(el => {
+			shapesObs.observe(el);
+		});
+	}
+
+	/**
+	 * Logo Animation
+	 */
 
 	var logoTimeLine = anime.timeline({
 		easing: 'easeOutExpo',

@@ -9,6 +9,6 @@
 </footer>
 
 <script>if (navigator.serviceWorker && !navigator.serviceWorker.controller) { navigator.serviceWorker.register('/sw.js'); }</script>
-<script src="assets/bytes-2019/js/core.js?2XL3hP3"></script>
+<script src="assets/bytes-2019/js/core.js?2aZYm3hP3"></script>
 </body>
 </html>
