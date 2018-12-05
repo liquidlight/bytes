@@ -2,7 +2,6 @@
 	$date = '7th March 2019';
 	$address = 'Lighthouse, Kensington Street, Brighton, BN1 4AJ';
 	$tickets_on_sale = (time() > strtotime('10:00am 1st September 2017'));
-	$tickets = ($tickets_on_sale) ? '#tickets' : 'https://www.eventbrite.com/e/bytes-conf-2017-tickets-37126523431';
 	$ticket_text = ($tickets_on_sale) ? 'Tickets on sale!' : 'Tickets on sale 1st Sept'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +43,7 @@
 
 	<link rel="manifest" href="/manifest.webmanifest">
 
-	<link rel="stylesheet" href="/assets/bytes-2019/css/screen.css?0dk37">
+	<link rel="stylesheet" href="/assets/bytes-2019/css/screen.css?0daY37">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -113,13 +113,16 @@
 		<section class="jsTextImg sectionTextImage sectionTertiary alt">
 			<div class="picture">
 				<span class="pictureShadow"></span>
-				<img class="jsLazyImage"
-					data-srcset="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg 450w,
-							/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w700.jpg 700w,
-							/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w1000.jpg 1000w"
-					data-src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg"
-					src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w50.jpg"
-					alt="Charity on Bytes conf 2016"/>
+				<figure>
+					<img class="jsLazyImage"
+						data-srcset="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg 450w,
+								/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w700.jpg 700w,
+								/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w1000.jpg 1000w"
+						data-src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg"
+						src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w50.jpg"
+						alt="Charity on Bytes conf 2016 - Photo by Paul Mansfield"/>
+					<figcaption>Photo by Paul Mansfield</figcaption>
+				</figure>
 			</div>
 			<div class="content">
 				<div class="contentInner">

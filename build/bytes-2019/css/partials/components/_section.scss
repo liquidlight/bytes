@@ -60,11 +60,6 @@ section {
 	padding: var(--gutter);
 	max-width: layout(maxWidthThin);
 	margin: 0 auto;
-
-	// .contentInner {
-	// 	padding-left: var(--gutter);
-	// 	background: theme(neutralLightest);
-	// }
 }
 
 .sectionTextImage .picture {
@@ -72,6 +67,15 @@ section {
 	position: relative;
 	height: 100%;
 	max-width: 55rem;
+
+	figcaption {
+		position: absolute;
+		bottom: 0.5rem;
+		left: 1rem;
+		font-weight: bold;
+		font-size: 0.8rem;
+		color: theme(neutralLightest);
+	}
 }
 
 .pictureShadow {
