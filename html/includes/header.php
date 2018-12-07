@@ -37,7 +37,7 @@
 	<meta property="og:title" content="<?php echo $name; ?>"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://www.bytesconf.co.uk" />
-	<meta property="og:image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/favicon.png"/>
+	<meta property="og:image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/logo.png"/>
 	<meta property="og:description" content="<?php echo $description; ?>" />
 	<meta property="og:site_name" content="<?php echo $name; ?>" />
 
