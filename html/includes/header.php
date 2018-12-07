@@ -26,7 +26,7 @@
 	<meta name="twitter:title" content="<?php echo $name; ?>">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:domain" content="www.bytesconf.co.uk" />
-	<meta name="twitter:image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/logo.png" />
+	<meta name="twitter:image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/poster.png" />
 	<meta name="twitter:url" content="https://www.bytesconf.co.uk" />
 	<meta name="twitter:creator" content="@bytesconf">
 	<meta name="twitter:label1" content="📆 Date" />
@@ -37,7 +37,7 @@
 	<meta property="og:title" content="<?php echo $name; ?>"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://www.bytesconf.co.uk" />
-	<meta property="og:image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/logo.png"/>
+	<meta property="og:image" content="https://www.bytesconf.co.uk/assets/bytes-2019/img/poster.png"/>
 	<meta property="og:description" content="<?php echo $description; ?>" />
 	<meta property="og:site_name" content="<?php echo $name; ?>" />
 
