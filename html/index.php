@@ -72,7 +72,7 @@
 			</svg>
 			<div class="highlightBoxContent">
 				<p class="featured"><?= $address ?></p>
-				<p>Join us in central Brighton on 7th March 2019 for an evening mini-conference feature
+				<p>Join us in central Brighton on 7th March 2019 for an evening mini-conference featuring
 					four fantastic keynote speakers (plus one wild raffle)! Every penny raised will be donated to a
 					chosen charity.</p>
 				<p class="featured small"><?= $date ?></p>
