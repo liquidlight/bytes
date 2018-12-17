@@ -2,7 +2,6 @@
 	$name = 'Bytes Conference, Brighton';
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
 	$description = 'Bytes is an affordable, evening mini-conference for web enthusiasts';
-	$tickets_url = 'https://www.eventbrite.com/e/bytes-conf-2019-tickets-53101432815';
 
 	include 'includes/header.php'; ?>
 	<main>

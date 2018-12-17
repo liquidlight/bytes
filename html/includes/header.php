@@ -1,8 +1,7 @@
 <?php
 	$date = '7th March 2019';
 	$address = 'Lighthouse, Kensington Street, Brighton, BN1 4AJ';
-	$tickets_on_sale = (time() > strtotime('10:00am 1st September 2017'));
-	$ticket_text = ($tickets_on_sale) ? 'Tickets on sale!' : 'Tickets on sale 1st Sept'; ?>
+	$tickets_url = 'https://www.eventbrite.com/e/bytes-conf-2019-tickets-53101432815'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
