@@ -114,11 +114,11 @@
 				<span class="pictureShadow"></span>
 				<figure>
 					<img class="jsLazyImage"
-						data-srcset="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg 450w,
-								/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w700.jpg 700w,
-								/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w1000.jpg 1000w"
-						data-src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w450.jpg"
-						src="/assets/bytes-2019/img/charity/CarouselRockHouseByPaulMansfield-q80-w50.jpg"
+						data-srcset="/assets/bytes-2019/img/charity/carousel_q80_w450.jpg 450w,
+								/assets/bytes-2019/img/charity/carousel_q80_w700.jpg 700w,
+								/assets/bytes-2019/img/charity/carousel_q80_w1000.jpg 1000w"
+						data-src="/assets/bytes-2019/img/charity/carousel_q80_w450.jpg"
+						src="/assets/bytes-2019/img/charity/carousel_q80_w50.jpg"
 						alt="Charity on Bytes conf 2016 - Photo by Paul Mansfield"/>
 					<figcaption>Photo by Paul Mansfield</figcaption>
 				</figure>
@@ -126,10 +126,9 @@
 			<div class="content">
 				<div class="contentInner">
 					<div class="shapeOutside"></div>
-					<h2 class="jsHeading">All proceeds support our chosen local charity</h2>
-					<p>It’s super important to us to support our local community and so all of our profits are donated
-						to a selected local charity. Last year we're proud to say we raised over <strong>£600</strong>
-						for Codebar, a non-profit initiative who aim to promote diversity within the tech industry.</p>
+					<h2 class="jsHeading">All proceeds support our chosen local charity - Carousel</h2>
+					<p><a href="http://www.carousel.org.uk">Carousel</a> is an award-winning charity supporting learning disabled people to achieve their artistic ambitions. They believe that learning disabled artists make a vital contribution to the world we live in; they are central to decision making and delivery of the work produced.</p>
+					<p><em>All</em> of the money raised at Bytes Conf will be going straight to them. That's ticket sales and from the sale of raffle tickets too!</p>
 				</div>
 			</div>
 		</section>
