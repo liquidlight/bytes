@@ -128,7 +128,7 @@
 					<div class="shapeOutside"></div>
 					<h2 class="jsHeading">All proceeds support our chosen local charity - Carousel</h2>
 					<p><a href="http://www.carousel.org.uk">Carousel</a> is an award-winning charity supporting learning disabled people to achieve their artistic ambitions. They believe that learning disabled artists make a vital contribution to the world we live in; they are central to decision making and delivery of the work produced.</p>
-					<p><em>All</em> of the money raised at Bytes Conf will be going straight to them. That's ticket sales and from the sale of raffle tickets too!</p>
+					<p><em>All</em> of the money raised at Bytes Conf will be going straight to them.<br>That includes both entry and raffle ticket sales from the night.</p>
 				</div>
 			</div>
 		</section>
