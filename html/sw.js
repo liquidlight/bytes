@@ -8,7 +8,7 @@ const cacheName = 'filesv1';
 addEventListener('fetch',  fetchEvent => {
   const request = fetchEvent.request;
   // TEMP: Fix for PDF bug in chrome
-  if (event.request.url.includes('.pdf')) {
+  if (request.url.includes('.pdf')) {
 	  return;
   }
   if (request.method !== 'GET') {
