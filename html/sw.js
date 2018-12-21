@@ -3,10 +3,14 @@
 // Both: cache a fresh version if possible.
 // (beware: the cache will grow and grow; there's no cleanup)
 
-const cacheName = 'files';
+const cacheName = 'filesv1';
 
 addEventListener('fetch',  fetchEvent => {
   const request = fetchEvent.request;
+  // TEMP: Fix for PDF bug in chrome
+  if (event.request.url.includes('.pdf')) {
+	  return;
+  }
   if (request.method !== 'GET') {
 	return;
   }
