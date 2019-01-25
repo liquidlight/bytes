@@ -13,9 +13,9 @@ export default (() => {
 	 * @param {Object} panel - Speaker content
 	 */
 	function injectContent(panel) {
-		setTimeout(() => {
-			panelContainer.classList.remove('isLoading');
-		}, 2000);
+		// setTimeout(() => {
+		// 	panelContainer.classList.remove('isLoading');
+		// }, 2000);
 
 		panelContent.innerHTML = panel.innerHTML;
 	}
@@ -37,9 +37,9 @@ export default (() => {
 	 */
 	function getContent(name, update = true, firstLoad = false) {
 
-		if (!firstLoad) {
-			panelContainer.classList.add('isLoading');
-		}
+		// if (!firstLoad) {
+		// 	panelContainer.classList.add('isLoading');
+		// }
 
 		for (const panel of panels) {
 			const panelName = panel.dataset.speakerContent;

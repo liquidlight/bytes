@@ -50,9 +50,9 @@
 				<nav class="navigation">
 					<ul>
 						<?php /*
-						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="#schedule">Schedule</a></li>
 						*/ ?>
+						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
 				</nav>
@@ -167,7 +167,7 @@
 				will help you gain insight from our four keynote speakers</h2>
 		</section>
 
-		<?php // include 'includes/speakers.php'; ?>
+		<?php include 'includes/speakers.php'; ?>
 
 		<?php // include 'includes/schedule.php'; ?>
 

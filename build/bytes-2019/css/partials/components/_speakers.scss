@@ -1,5 +1,7 @@
 .speakers {
 	padding: 1rem;
+	margin: 0 auto;
+	max-width: 90rem;
 
 	@include mq(tablet) {
 		padding: 2rem;
@@ -27,23 +29,49 @@
 
 .speakerTrigger {
 	position: relative;
+	cursor: pointer;
 
 	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(45deg, #00DBDE, #FC00FF);
+		opacity: 0;
+		z-index: 1;
+		transition: opacity 0.3s ease;
+		will-change: opacity;
+	}
+
+	&::after {
 		width: 0;
 		height: 0;
-		border-left: 1rem solid transparent;
-		border-right: 1rem solid transparent;
-		border-top: 2rem solid theme(tertiary);
+		border-left: 1.5rem solid transparent;
+		border-right: 1.5rem solid transparent;
+		border-top: 1.25rem solid theme(tertiary);
 		position: absolute;
 		top: 100%;
-		left: calc(50% - 0.5rem);
+		left: calc(50% - 1.5rem);
 		transform-origin: center top;
 		transform: scaleY(0);
-		transition: transform 0.2 ease;
+		transition: transform 0.5s ease;
+		z-index: 1;
 
 		@include mq(tablet) {
 			content: '';
 		}
+	}
+
+	&:hover {
+		&::before {
+			opacity: 0.6;
+		}
+	}
+
+	img {
+		filter: grayscale(1);
 	}
 
 	span {
@@ -72,7 +100,7 @@
 			border-bottom: 0;
 		}
 
-		&::before {
+		&::after {
 			transform: scaleY(1);
 		}
 
@@ -139,14 +167,37 @@
 
 .speakerContent {
 	width: 100%;
+	animation: fadeIn 0.4s ease forwards;
+	opacity: 0;
 	@include mq(tablet) {
 		width: 60%;
+	}
+}
+
+.speakerContent ul {
+	list-style: none;
+	padding-left: 0;
+
+	@include mq(desktop) {
+		font-size: 1.25rem;
+	}
+}
+
+.speakerContent summary {
+	font-size: 1.3rem;
+	font-weight: bold;
+
+	&:focus {
+		outline: 0;
+		color: theme(tertiary);
 	}
 }
 
 .speakerImage {
 	width: 100%;
 	text-align: center;
+	animation: fadeIn 0.8s ease forwards;
+	opacity: 0;
 
 	@include mq(tablet) {
 		display: block;
