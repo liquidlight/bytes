@@ -72,7 +72,7 @@
 		<!-- Nikki Rae -->
 		<dt class="speakerItem">
 			<div id="nikki-rae" class="speakerTrigger">
-				<img src="/assets/bytes-2019/img/speakers/nikki-rae.jpg" alt="Nikki Rae profile picture" />
+				<img src="/assets/bytes-2019/img/speakers/nikki-rae-2.jpg" alt="Nikki Rae profile picture" />
 				<span>Nikki Rae</span>
 			</div>
 		</dt>
@@ -98,7 +98,7 @@
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/assets/bytes-2019/img/speakers/nikki-rae.jpg" alt="Nikki's profile picture" />
+					<img src="/assets/bytes-2019/img/speakers/nikki-rae-2.jpg" alt="Nikki's profile picture" />
 				</figure>
 			</div>
 		</dd>
@@ -115,9 +115,7 @@
 				<div class="speakerContent">
 					<h2>Owen Priestley</h2>
 					<h3>Protest! A brief history of design activism and generally standing up to the man</h3>
-
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum hic, possimus corrupti deleniti ratione sit voluptas, id voluptates illum, beatae ea error laboriosam unde rem tenetur saepe? Minus, voluptatum aut.</p>
-
+					<p>The art of protest, the power of symbols, how design is shaped by process and urgency, and how before the age of mass communications, the medium was as important as the message.</p>
 
 					<details>
 						<summary>About Owen</summary>
