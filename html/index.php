@@ -51,8 +51,8 @@
 					<ul>
 						<?php /*
 						<li><a href="#schedule">Schedule</a></li>
-						*/ ?>
 						<li><a href="#speakers">Speakers</a></li>
+						*/ ?>
 						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
 				</nav>
@@ -60,7 +60,7 @@
 
 			<div class="headerIntro wrapper">
 				<h1 class="jsHeading heading"><?= $description ?></h1>
-				<p class="confDates">07.03.2019 - Tickets from £11.50</p>
+				<p class="confDates">07.03.2019 - Tickets £15</p>
 				<p class="confDates">Lighthouse, Brighton</p>
 			</div>
 		</header>
@@ -167,7 +167,7 @@
 				will help you gain insight from our four keynote speakers</h2>
 		</section>
 
-		<?php include 'includes/speakers.php'; ?>
+		<?php // include 'includes/speakers.php'; ?>
 
 		<?php // include 'includes/schedule.php'; ?>
 
