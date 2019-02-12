@@ -51,8 +51,8 @@
 					<ul>
 						<?php /*
 						<li><a href="#schedule">Schedule</a></li>
-						<li><a href="#speakers">Speakers</a></li>
 						*/ ?>
+						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
 				</nav>
@@ -100,11 +100,11 @@
 			<div class="picture">
 				<span class="pictureShadow"></span>
 				<img class="jsLazyImage"
-					data-srcset="/assets/bytes-2019/img/speakers/bytes2017-334--q85-w450.jpg 450w,
-							/assets/bytes-2019/img/speakers/bytes2017-334--q85-w700.jpg 700w,
-							/assets/bytes-2019/img/speakers/bytes2017-334--q85-w1000.jpg 1000w"
-					data-src="/assets/bytes-2019/img/speakers/bytes2017-334--q85-w450.jpg"
-					src="/assets/bytes-2019/img/speakers/bytes2017-334--q80-w50.jpg"
+					data-srcset="/assets/bytes-2019/img/talks/bytes2017-334--q85-w450.jpg 450w,
+							/assets/bytes-2019/img/talks/bytes2017-334--q85-w700.jpg 700w,
+							/assets/bytes-2019/img/talks/bytes2017-334--q85-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/talks/bytes2017-334--q85-w450.jpg"
+					src="/assets/bytes-2019/img/talks/bytes2017-334--q80-w50.jpg"
 					alt="Bytes conf 2017"/>
 			</div>
 		</section>
@@ -167,7 +167,7 @@
 				will help you gain insight from our four keynote speakers</h2>
 		</section>
 
-		<?php // include 'includes/speakers.php'; ?>
+		<?php include 'includes/speakers.php'; ?>
 
 		<?php // include 'includes/schedule.php'; ?>
 

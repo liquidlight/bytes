@@ -3,7 +3,7 @@
 		<!-- Andy Croll -->
 		<dt class="speakerItem">
 			<div id="andy-croll" class="speakerTrigger">
-				<img src="/assets/bytes-2019/img/speakers/andy-croll.jpg" alt="Andy Croll profile picture"/>
+				<img src="/assets/bytes-2019/img/speakers/andy-croll.jpg" alt="Andy's profile picture"/>
 				<span>Andy Croll</span>
 			</div>
 		</dt>
@@ -29,7 +29,7 @@
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/assets/bytes-2019/img/speakers/andy-croll.jpg" alt="Andy Croll profile picture"/>
+					<img src="/assets/bytes-2019/img/speakers/andy-croll.jpg" alt="Andy's profile picture"/>
 				</figure>
 			</div>
 		</dd>
@@ -37,7 +37,7 @@
 		<!-- Mariam Crichton -->
 		<dt class="speakerItem">
 			<div id="mariam-crichton" class="speakerTrigger">
-				<img src="/assets/bytes-2019/img/speakers/mariam-crichton.jpg" alt="Mariam Crichton profile picture" />
+				<img src="/assets/bytes-2019/img/speakers/mariam-crichton.jpg" alt="Mariam's profile picture" />
 				<span>Mariam Crichton</span>
 			</div>
 		</dt>
@@ -64,7 +64,7 @@
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/assets/bytes-2019/img/speakers/mariam-crichton.jpg" alt="Mariam Crichton profile picture" />
+					<img src="/assets/bytes-2019/img/speakers/mariam-crichton.jpg" alt="Mariam's profile picture" />
 				</figure>
 			</div>
 		</dd>
@@ -72,7 +72,7 @@
 		<!-- Nikki Rae -->
 		<dt class="speakerItem">
 			<div id="nikki-rae" class="speakerTrigger">
-				<img src="/assets/bytes-2019/img/speakers/nikki-rae-2.jpg" alt="Nikki Rae profile picture" />
+				<img src="/assets/bytes-2019/img/speakers/nikki-rae.jpg" alt="Nikki's profile picture" />
 				<span>Nikki Rae</span>
 			</div>
 		</dt>
@@ -98,7 +98,7 @@
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/assets/bytes-2019/img/speakers/nikki-rae-2.jpg" alt="Nikki's profile picture" />
+					<img src="/assets/bytes-2019/img/speakers/nikki-rae.jpg" alt="Nikki's profile picture" />
 				</figure>
 			</div>
 		</dd>
@@ -106,7 +106,7 @@
 		<!-- Owen Priestley -->
 		<dt class="speakerItem">
 			<div id="owen-priestley" class="speakerTrigger">
-				<img src="/assets/bytes-2019/img/speakers/owen-priestley.jpg" alt="Owen's profile picture"/>
+				<img src="/assets/bytes-2019/img/speakers/owen-priestley.jpg" alt="Owen's profile picture" />
 				<span>Owen Priestley</span>
 			</div>
 		</dt>
@@ -114,8 +114,8 @@
 			<div class="speakerPanelInner" data-speaker-content="owen-priestley">
 				<div class="speakerContent">
 					<h2>Owen Priestley</h2>
-					<h3>Protest! A brief history of design activism and generally standing up to the man</h3>
-					<p>The art of protest, the power of symbols, how design is shaped by process and urgency, and how before the age of mass communications, the medium was as important as the message.</p>
+					<h3>How working within parameters can be a catalyst for creativity</h3>
+					<p>As commercial designers, we work within set parameters, be they budget, ‘the brief’ or technology. In my talk, I will give examples, outside of the commercial world we work in, of how working within limitations and dogma can produce creative solutions which would not have come about without these limitations.</p>
 
 					<details>
 						<summary>About Owen</summary>
@@ -129,7 +129,7 @@
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/assets/bytes-2019/img/speakers/owen-priestley.jpg" alt="Owen's profile picture"/>
+					<img src="/assets/bytes-2019/img/speakers/owen-priestley.jpg" alt="Owen's profile picture" />
 				</figure>
 			</div>
 		</dd>
@@ -137,7 +137,7 @@
 		<!-- Candi & Mike -->
 		<dt class="speakerItem">
 			<div id="candi-and-mike" class="speakerTrigger">
-				<img src="/2017/assets/bytes/img/speakers/mindi.jpg" alt="Candi & Mike picture"/>
+				<img src="/assets/bytes-2019/img/speakers/mike-and-candice-bytes2017.jpg" alt="Candi and Mike in Bytes Conf 2017" />
 				<span>Candi & Mike</span>
 			</div>
 		</dt>
@@ -145,15 +145,17 @@
 			<div class="speakerPanelInner" data-speaker-content="candi-and-mike">
 				<div class="speakerContent">
 					<h2>Candi & Mike</h2>
-					<p>Your MCs for the evening, Mike and Candi are like the Ant and Dec of the web world. Introductions, jokes and general professional hilarity will ensue.</p>
+					<p>Your MCs for the evening, Mike and Candi are like the Phil and Holly of the web world. Introductions, jokes and general professional hilarity will ensue.</p>
+					<p>Candi is an account manager extraordinaire - talking to people is her job, so you’ll feel like you’ve be friends for years even when she is only introducing herself. Musically inclined, we have to make sure she doesn’t break out into song spontaneously.</p>
+					<p>Mike couldn’t be more opposite - a developer who can’t hold a tune to save his life (despite having a music production degree). Old before his time, expect puns and dad jokes scattered throughout the evening.</p>
+					<p>These two are the mortar to the bricks that are the speakers, the &lt;div&gt;s to their content and the opening credits that you skip to watch the TV show. They are the mere vessels which allow you to consume the content which are the Bytes Conf talks. The creators of Bytes Conf, feel free to compliment or complain to them - they are are your beck and call.</p>
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/2017/assets/bytes/img/speakers/mindi.jpg" alt="Candi & Mike picture"/>
+					<img src="/assets/bytes-2019/img/speakers/mike-and-candice-bytes2017.jpg" alt="Candi and Mike in Bytes Conf 2017" />
 				</figure>
 			</div>
 		</dd>
-
 
 	</dl>
 
