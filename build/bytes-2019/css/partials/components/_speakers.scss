@@ -186,6 +186,8 @@
 .speakerContent summary {
 	font-size: 1.3rem;
 	font-weight: bold;
+	cursor: pointer;
+	user-select: none;
 
 	&:focus {
 		outline: 0;
