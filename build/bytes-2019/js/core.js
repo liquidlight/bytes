@@ -1,4 +1,3 @@
-// import './modules/speakers';
 import './modules/map';
 import './modules/lazyload';
 import './modules/animation-text';
