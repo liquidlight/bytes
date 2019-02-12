@@ -91,5 +91,9 @@
 		@include mq(desktop) {
 			opacity: 0;
 		}
+
+		.noIntersObserver & {
+			opacity: 1;
+		}
 	}
 }

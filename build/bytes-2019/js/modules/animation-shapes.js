@@ -67,6 +67,8 @@ import anime from '../libs/anime';
 		shapeElements.forEach(el => {
 			shapesObs.observe(el);
 		});
+	} else {
+		document.documentElement.classList.add('noIntersObserver');
 	}
 
 	/**
