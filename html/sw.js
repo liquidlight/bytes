@@ -3,34 +3,33 @@
 // Both: cache a fresh version if possible.
 // (beware: the cache will grow and grow; there's no cleanup)
 
-const cacheName = 'filesv1.1';
+const cacheName = 'filesv1.3';
 
 addEventListener('fetch',  fetchEvent => {
-  const request = fetchEvent.request;
-  // TEMP: Fix for PDF bug in chrome
-  if (request.url.includes('.pdf')) {
-	  return;
-  }
-  if (request.method !== 'GET') {
-	return;
-  }
-  fetchEvent.respondWith(async function() {
-	const responseFromFetch = fetch(request);
-	fetchEvent.waitUntil(async function() {
-		const responseCopy = (await responseFromFetch).clone();
-		const myCache = await caches.open(cacheName);
-		await myCache.put(request, responseCopy);
+	const request = fetchEvent.request;
+
+	if (request.method !== 'GET') {
+		return;
+	}
+
+	fetchEvent.respondWith(async function() {
+		const responseFromFetch = fetch(request);
+		fetchEvent.waitUntil(async function() {
+			const responseCopy = (await responseFromFetch).clone();
+			const myCache = await caches.open(cacheName);
+			await myCache.put(request, responseCopy);
+		}());
+
+		if (request.headers.get('Accept').includes('text/html')) {
+			try {
+				return await responseFromFetch;
+			}
+			catch(error) {
+				return caches.match(request);
+			}
+			} else {
+			const responseFromCache = await caches.match(request);
+			return responseFromCache || responseFromFetch;
+			}
 	}());
-	if (request.headers.get('Accept').includes('text/html')) {
-		try {
-			return await responseFromFetch;
-		}
-		catch(error) {
-			return caches.match(request);
-		}
-		} else {
-		const responseFromCache = await caches.match(request);
-		return responseFromCache || responseFromFetch;
-		}
-  }());
 });
