@@ -196,7 +196,40 @@
 			<h2 class="jsHeading">With thanks to...</h2>
 			<ul class="partners partnersLower">
 				<li>
-					<a rel="nofollow" href="https://www.liquidlight.co.uk/"><img class="jsLazyImage" data-src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+					<a rel="nofollow" target="_blank" href="https://birdandblendtea.com/uk_en/" title="Bird and Blend Tea Co."><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/bird-and-blend-logo.png" alt="Bird and Blend Tea Co."></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://www.brightongin.com/" title="Brighton Gin"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/gin-brighton-logo.png" alt="Brighton Gin"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://hicacti.com/" title="HiCacti"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/hicacti.png" alt="HiCacti"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://www.hollerbrewery.com/" title="Holler Brewery"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/holler.png" alt="Holler Brewery"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://www.liquidlight.co.uk/" title="Liquid Light"><img class="jsLazyImage" data-src="/assets/bytes/img/partners/liquid-light.png" alt="Liquid Light"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://pharmacie.coffee/" title="Pharmacie Coffee Roasters"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/lscales-logo.png" alt="Pharmacie Coffee Roasters"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://myriadeditions.com/" title="Myriad Editions"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/myriad-logo.svg" alt="Myriad Editions"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://octopus.energy/" title="Octopus Energy"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/octopus-energy.png" alt="Octopus Energy"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://rosenfeldmedia.com/" title="Rosenfeld Media"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/rosenfeld.svg" alt="Rosenfeld Media"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://www.smashingmagazine.com/" title="Smashing Magazine"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/smashing-mag.svg" alt="Smashing Magazine"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://www.theprivatepress.org/" title="The Private Press"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/the-private-press-logo.svg" alt="The Private Press"></a>
+				</li>
+				<li>
+					<a rel="nofollow" target="_blank" href="https://typo3.org/" title="Typo 3"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/typo3-logo.svg" alt="Typo 3"></a>
 				</li>
 			</ul>
 
