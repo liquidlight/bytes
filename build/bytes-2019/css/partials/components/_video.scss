@@ -1,0 +1,27 @@
+.promotionalVideo {
+	padding: 1rem;
+	margin: 0 auto;
+	max-width: 90rem;
+
+	@include mq(tablet) {
+		padding: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.video {
+	position: relative;
+	height: 0;
+	padding-top: 56.25%; // 16:9
+	margin-bottom: 1rem;
+
+	> iframe,
+	> video,
+	> object {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}

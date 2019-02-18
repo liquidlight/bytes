@@ -12,22 +12,36 @@
 }
 
 .partners img {
-	max-height: 4.5rem;
+	max-height: 3rem;
 	max-width: 15rem;
 	width: auto;
 	display: block;
 
+	@include mq(tablet) {
+		max-height: 4.5rem;
+	}
+
 	&[src*="typo3"] {
-		max-height: 3rem;
+		max-height: 2rem;
+		@include mq(tablet) {
+			max-height: 3rem;
+		}
 	}
 
 	&[src*="octopus"] {
-		max-height: 3.5rem;
+		max-height: 2rem;
+		@include mq(tablet) {
+			max-height: 3.5rem;
+		}
 	}
 }
 
 .partners li {
-	padding: var(--gutter);
+	padding: 1rem;
+
+	@include mq(tablet) {
+		padding: 2rem;
+	}
 }
 
 .partners a {

@@ -159,6 +159,14 @@
 			</div>
 		</section>
 
+		<section class="promotionalVideo">
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Sm313k4Ut1c?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<?php include 'includes/speakers.php'; ?>
+
 		<section class="callout">
 			<svg class="jsCallout calloutShape" viewBox="0 0 792 482">
 				<polygon class="calloutPolygon" points="177 58 553 110 724 318 366 425 68 227"></polygon>
@@ -166,8 +174,6 @@
 			<h2 class="brandedDot">If you are just starting out, or an industry professional, this affordable mini-conf
 				will help you gain insight from our four keynote speakers</h2>
 		</section>
-
-		<?php include 'includes/speakers.php'; ?>
 
 		<?php // include 'includes/schedule.php'; ?>
 
