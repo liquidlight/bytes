@@ -1,3 +1,9 @@
+button {
+	background: none;
+	border: 0;
+	outline: 0;
+}
+
 .btn {
 	display: block;
 	margin: 0 auto;
@@ -15,6 +21,7 @@
 		font-size: 1.4rem;
 	}
 
+	&:focus,
 	&:hover {
 		color: theme(neutralLightest);
 		text-decoration: none;
@@ -27,23 +34,23 @@
 			}
 		}
 
-		span {
+		.btnText {
 			transform: translateX(0.3rem);
 		}
 	}
+}
 
-	span {
-		position: relative;
-		line-height: 1.7;
-		transition: transform 0.3s ease;
-		display: block;
-		will-change: transform;
-	}
+.btnText {
+	position: relative;
+	line-height: 1.7;
+	transition: transform 0.3s ease;
+	display: block;
+	will-change: transform;
 }
 
 .btnShapeWrapper {
 	perspective: 100px;
-	// transform-style: preserve-3d;
+	display: block;
 }
 
 .btnShape {
@@ -58,6 +65,7 @@
 	backface-visibility: inherit;
 	height: 2rem;
 	transition: border 0.2s ease;
+	display: block;
 
 	@include mq(tablet) {
 		height: 2.4rem;

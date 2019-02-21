@@ -10,25 +10,27 @@ $typo-reset: 'v4';
 // Base
 @import 'partials/base/document';
 @import 'partials/base/fonts';
-@import 'partials/base/typography';
 @import 'partials/base/table';
+@import 'partials/base/typography';
 
 // Structure
+@import 'partials/structure/footer';
 @import 'partials/structure/header';
 @import 'partials/structure/nav';
 @import 'partials/structure/wrapper';
-@import 'partials/structure/footer';
 
 // Components
 @import 'partials/components/box';
 @import 'partials/components/button';
 @import 'partials/components/callout';
+@import 'partials/components/forms';
 @import 'partials/components/hero';
 @import 'partials/components/logo';
-@import 'partials/components/partners';
-// @import 'partials/components/schedule';
-@import 'partials/components/section';
-@import 'partials/components/speakers';
 @import 'partials/components/map';
+@import 'partials/components/partners';
+@import 'partials/components/section';
+@import 'partials/components/signup';
+@import 'partials/components/speakers';
 @import 'partials/components/video';
+// @import 'partials/components/schedule';
 

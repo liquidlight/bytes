@@ -79,7 +79,7 @@
 					<div class="btnShapeWrapper">
 						<div class="btnShape"></div>
 					</div>
-					<span>Buy tickets</span>
+					<span class="btnText">Buy tickets</span>
 				</a>
 			</div>
 		</div>
@@ -193,7 +193,7 @@
 					<div class="btnShapeWrapper">
 						<div class="btnShape"></div>
 					</div>
-					<span>Buy tickets</span>
+					<span class="btnText">Buy tickets</span>
 				</a>
 			</div>
 		</div>
@@ -241,6 +241,8 @@
 
 			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a><br><a href="/assets/bytes-2019/files/bytes-conf-2019-press-document.pdf">Download the press pack</a></p>
 		</section>
+
+		<?php include 'includes/signup.php'; ?>
 
 	</main>
 <?php include 'includes/footer.php';
