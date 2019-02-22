@@ -84,6 +84,8 @@
 			</div>
 		</div>
 
+		<?php include 'includes/signup.php'; ?>
+
 		<section class="jsTextImg sectionTextImage">
 			<div class="content">
 				<div class="contentInner">
@@ -241,8 +243,6 @@
 
 			<p class="featured featuredSub">Want to sponsor Bytes? <a href="mailto:hello@bytesconf.co.uk?subject=Bytes 2019 Sponsorship">Get in touch</a><br><a href="/assets/bytes-2019/files/bytes-conf-2019-press-document.pdf">Download the press pack</a></p>
 		</section>
-
-		<?php include 'includes/signup.php'; ?>
 
 	</main>
 <?php include 'includes/footer.php';

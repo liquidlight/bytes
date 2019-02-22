@@ -1,9 +1,13 @@
 
 form {
 	text-align: center;
+}
 
-	.msg {
-		font-weight: bold;
+form .msg {
+	font-weight: bold;
+
+	&.success {
+		color: theme(secondary);
 	}
 }
 

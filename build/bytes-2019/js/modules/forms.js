@@ -35,14 +35,14 @@ export default (() => {
 		submitBtnInner.innerText = 'Loading...';
 
 		if (!emailField.value.length) {
-			addError('Please enter an e-mail address');
+			addError('Please enter an e-mail address 🙄');
 			submitBtn.classList.remove('disabled');
 			submitBtnInner.innerText = 'Subscribe';
 			return false;
 		}
 
 		if (!nameField.value.length) {
-			addError('Please enter your name');
+			addError('Please enter your name 🤦‍♂️');
 			submitBtn.classList.remove('disabled');
 			submitBtnInner.innerText = 'Subscribe';
 			return false;
@@ -55,10 +55,11 @@ export default (() => {
 			.then(response => response.json())
 			.then(response => {
 				if (response.success) {
-					msgEl.innerText = 'Thanks for signing up to the mailing list!';
+					msgEl.innerText = '👏 Yes! Thanks for signing up to the newsletter 🤜💥🤛';
+					msgEl.classList.add('success');
 					submitBtnInner.innerText = 'Subscribed!';
 				} else {
-					msgEl.innerText = response.error;
+					msgEl.innerText = `🙈 ${response.error}`;
 					submitBtnInner.innerText = 'Subscribe';
 				}
 			})
