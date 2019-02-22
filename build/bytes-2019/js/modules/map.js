@@ -114,9 +114,9 @@ let googleMapsLazyload = () => {
 
 if(document.getElementById('jsMap')) {
 	// eslint-disable-next-line no-negated-condition
-	if (!('IntersectionObserver' in window)) {
+	// if (!('IntersectionObserver' in window)) {
 		injectGoogleMap();
-	} else {
-		googleMapsLazyload()
-	}
+	// } else {
+		// googleMapsLazyload()
+	// }
 }
