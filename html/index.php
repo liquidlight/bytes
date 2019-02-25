@@ -49,9 +49,7 @@
 
 				<nav class="navigation">
 					<ul>
-						<?php /*
 						<li><a href="#schedule">Schedule</a></li>
-						*/ ?>
 						<li><a href="#speakers">Speakers</a></li>
 						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
@@ -177,7 +175,7 @@
 				will help you gain insight from our four keynote speakers</h2>
 		</section>
 
-		<?php // include 'includes/schedule.php'; ?>
+		<?php include 'includes/schedule.php'; ?>
 
 		<section id="map" class="maps">
 			<h2 class="jsHeading">Where to find us</h2>

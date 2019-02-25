@@ -5,58 +5,56 @@
 		<table>
 			<tr>
 				<td>7:00pm</td>
-				<td><p>Doors Open</p></td>
+				<td><p>Doors open 🚪</p></td>
+			</tr>
+			<tr>
+				<td>7:20pm</td>
+				<td><p>Bytes 2019 starts 🎉</p></td>
 			</tr>
 			<tr>
 				<td>7:30pm</td>
 				<td>
-					<h3><a href="#speakers" data-speaker="lisa-freeman" class="jsLinkToSpeaker">Lisa Freeman</a></h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur voluptatibus saepe placeat asperiores sequi incidunt. Nostrum tenetur ab dolores voluptatum consequuntur incidunt molestiae eos sapiente nobis consectetur? Sed, impedit?</p>
+					<h3><a href="#speakers" data-speaker="andy-croll" class="jsLinkToSpeaker">Andy Croll</a></h3>
+					<h4>The impermanence of software 🖥</h4>
 				</td>
 			</tr>
 			<tr>
-				<td>8:15pm</td>
+				<td>8:00pm</td>
 				<td>
-					<p>Break</p>
+					<h3><a href="#speakers" data-speaker="mariam-crichton" class="jsLinkToSpeaker">Mariam Crichton</a></h3>
+					<h4>Demystifying management in digital 🧐</h4>
 				</td>
 			</tr>
 			<tr>
-				<td>8:30pm</td>
+				<td>8:45pm</td>
 				<td>
-					<h3><a href="#speakers" data-speaker="matt-keogh" class="jsLinkToSpeaker">Matt Keogh</a></h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora amet deserunt veniam quos saepe a minima facere. Repudiandae odit recusandae veritatis minima quis.</p>
+					<p>Break 🍻</p>
 				</td>
 			</tr>
 			<tr>
 				<td>9:00pm</td>
 				<td>
-					<h3><a href="#">Mike Street</a></h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora amet deserunt veniam quos saepe a minima facere. Repudiandae odit recusandae veritatis minima quis.</p>
+					<h3><a href="#speakers" data-speaker="nikki-rae" class="jsLinkToSpeaker">Nikki Rae</a></h3>
+					<h4>What analysts would love devs to know 📈</h4>
 				</td>
 			</tr>
 			<tr>
 				<td>9:30pm</td>
 				<td>
-					<p>Break</p>
+					<h3><a href="#speakers" data-speaker="owen-priestley" class="jsLinkToSpeaker">Owen Priestley</a></h3>
+					<h4>How working within parameters can be a catalyst for creativity 🔗</h4>
 				</td>
 			</tr>
 			<tr>
-				<td>9:45pm</td>
+				<td>10pm</td>
 				<td>
-					<h3><a href="#">Graeme Robinson</a></h3>
-					<p>Autism and the Web</p>
+					<p>Raffle 🎟🎟</p>
 				</td>
 			</tr>
 			<tr>
-				<td>10:15pm</td>
+				<td>10:30pm</td>
 				<td>
-					<p>Raffle</p>
-				</td>
-			</tr>
-			<tr>
-				<td>10:45pm</td>
-				<td>
-					<p>Break</p>
+					<p>Bytes ends 😞</p>
 				</td>
 			</tr>
 		</table>
