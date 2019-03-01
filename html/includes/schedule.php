@@ -26,6 +26,13 @@
 				</td>
 			</tr>
 			<tr>
+				<td>8:30pm</td>
+				<td>
+					<h3><a href="http://www.carousel.org.uk/">Carousel</a></h3>
+					<h4>Our nominated charity talking about where your money is going 🎠</h4>
+				</td>
+			</tr>
+			<tr>
 				<td>8:45pm</td>
 				<td>
 					<p>Break 🍻</p>
