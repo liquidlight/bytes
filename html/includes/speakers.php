@@ -69,36 +69,36 @@
 			</div>
 		</dd>
 
-		<!-- Nikki Rae -->
+		<!-- Cassie Evans -->
 		<dt class="speakerItem">
-			<div id="nikki-rae" class="speakerTrigger">
-				<img src="/assets/bytes-2019/img/speakers/nikki-rae.jpg" alt="Nikki's profile picture" />
-				<span>Nikki Rae</span>
+			<div id="cassie-evans" class="speakerTrigger">
+				<img src="/assets/bytes-2019/img/speakers/cassie-evans.jpg" alt="Cassie's profile picture" />
+				<span>Cassie Evans</span>
 			</div>
 		</dt>
 		<dd class="speakerPanel">
-			<div class="speakerPanelInner" data-speaker-content="nikki-rae">
+			<div class="speakerPanelInner" data-speaker-content="cassie-evans">
 				<div class="speakerContent">
-					<h2>Nikki Rae</h2>
-					<h3>What Analysts would Love Devs to know</h3>
-					<p>A holistic approach to appreciating that website development for business should support an Analytics Framework?</p>
-					<p>Web analytics tools gather data and attempt to turn it into information about human behaviour. If you don’t know how Google Analytics does this, you’ll never know how reliable the information is. This talk will expose you to some pitfalls of web analytics tools and raise your level of consciousness so you can see beyond the numbers.</p>
+					<h2>Cassie Evans</h2>
+					<h3>Limitation breeds creativity</h3>
+					<p>In Web Development, the sheer volume of things to learn can be overwhelming. </p>
+					<p>Pair this with anxiety and a tendency to procrastinate and you’ve got the perfect recipe for doing absolutely nothing. </p>
+					<p>Constraints might not feel like what you want when you're trying to kickstart creativity or start a new project. But working within constraints can help you get started and provide unconventional ways around a problem. </p>
+					<p>Come along to see me demo a few of Cassie's favourite unconventional solutions. </p>
 
 					<details>
-						<summary>About Nikki</summary>
-						<p>Nikki Rae is the Managing Director of Future Insight Analytics Ltd, A Data & Google Analytics Agency based in Lewes. Nikki is a renowned international speaker on the subject of Analytics & Customer Experience and is a huge proponent of data-driven marketing and decision-making. She has worked with companies such as Google as well as smaller, more local businesses, universities and public sector organisations.</p>
-						<p>Nikki has an academic career in Computer Science (BSc) and Technology & Innovation Management (MSc) and is a guest lecturer at Brighton and Sussex University.</p>
-						<p>Nikki is also, friendly, approachable and talks ‘tech’ in plain and simple language for everyone to understand</p>
+						<summary>About Cassie</summary>
+						<p>Cassie is passionate about web animation, SVG and testing the limits of CSS. She is a core organiser of codebar Brighton, a non-profit initiative that runs free programming workshops to tackle the diversity gap and currently works as a Front-end Developer at Clearleft. </p>
 					</details>
 
 					<ul>
-						<li><a href="http://www.futureinsightanalytics.com/">@analyticsgirl</a></li>
-						<li><a href="https://www.linkedin.com/in/nicolarae/">linkedin.com/in/nicolarae</a></li>
+						<li><a href="https://twitter.com/cassiecodes">@cassiecodes</a></li>
+						<li><a href="http://cassieevans.co.uk/">cassieevans.co.uk</a></li>
 					</ul>
 				</div>
 
 				<figure class="speakerImage">
-					<img src="/assets/bytes-2019/img/speakers/nikki-rae.jpg" alt="Nikki's profile picture" />
+					<img src="/assets/bytes-2019/img/speakers/cassie-evans.jpg" alt="Nikki's profile picture" />
 				</figure>
 			</div>
 		</dd>

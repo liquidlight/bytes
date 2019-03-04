@@ -41,8 +41,8 @@
 			<tr>
 				<td>9:00pm</td>
 				<td>
-					<h3><a href="#speakers" data-speaker="nikki-rae" class="jsLinkToSpeaker">Nikki Rae</a></h3>
-					<h4>What analysts would love devs to know 📈</h4>
+					<h3><a href="#speakers" data-speaker="cassie-evans" class="jsLinkToSpeaker">Cassie Evans</a></h3>
+					<h4>Limitation breeds creativity 🧫</h4>
 				</td>
 			</tr>
 			<tr>
