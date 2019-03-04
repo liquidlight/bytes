@@ -53,7 +53,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td>10pm</td>
+				<td>10:00pm</td>
 				<td>
 					<p>Raffle 🎟🎟</p>
 				</td>
