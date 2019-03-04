@@ -15,7 +15,7 @@
 			<h4>Thanks to all that came & made Bytes Conf 2017 amazing!</h4>
 			<div class="thin">
 				<p>We would like to thank every single person who was involved in making Bytes Conf 2017 fantastic. From the fascinating talks to the brilliant prizes, Bytes Conf was excellent.</p>
-				<p>With all the ticket sales and raffle money, we managed to raise <strong>at least £500</strong> for codebar (final number to be confirmed). Thank you!!</P>
+				<p>With all the ticket sales and raffle money, we managed to raise a staggering <strong>£607.05</strong> for codebar Thank you!!</P>
 				<p>If you want to pretend you were there, or relive the fantastic conf you can:</p>
 				<p class="center"><a class="button" href="https://www.youtube.com/watch?v=V2ywBPmEs1E&list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX">Watch the videos</a> and <a class="button" href="https://flic.kr/s/aHskxktQRV">See the photos</a></p>
 				<p>Make sure you <a href="#signup">sign up to the newsletter</a> to be first to hear details about the next Bytes Conf!</p>
