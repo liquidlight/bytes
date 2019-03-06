@@ -231,8 +231,7 @@
 					<a rel="nofollow" target="_blank" href="https://www.theprivatepress.org/" title="The Private Press"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/the-private-press-logo.svg" alt="The Private Press"></a>
 				</li>
 				<li>
-					<a rel="nofollow" target="_blank" href="https://www.prodpad.com/" title="ProdPad"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/prod-pad.png" alt="ProdPad"></a>
-
+					<a rel="nofollow" target="_blank" href="https://www.prodpad.com/about-us/jobs/" title="ProdPad"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/prod-pad.png" alt="ProdPad"></a>
 				</li>
 				<li>
 					<a rel="nofollow" target="_blank" href="https://rosenfeldmedia.com/" title="Rosenfeld Media"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/rosenfeld.svg" alt="Rosenfeld Media"></a>
