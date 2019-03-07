@@ -213,6 +213,9 @@
 					<a rel="nofollow" target="_blank" href="https://birdandblendtea.com/uk_en/" title="Bird and Blend Tea Co."><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/bird-and-blend-logo.png" alt="Bird and Blend Tea Co."></a>
 				</li>
 				<li>
+					<a rel="nofollow" target="_blank" href="https://confwall.com" title="ConfWall"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/confWall.png" alt="ConfWall"></a>
+				</li>
+				<li>
 					<a rel="nofollow" target="_blank" href="https://www.brightongin.com/" title="Brighton Gin"><img class="jsLazyImage" data-src="/assets/bytes-2019/img/partners/gin-brighton-logo.png" alt="Brighton Gin"></a>
 				</li>
 				<li>
