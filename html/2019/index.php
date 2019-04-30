@@ -3,21 +3,21 @@
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
 	$description = 'Bytes is an affordable, evening mini-conference for web enthusiasts';
 
-	include '2019/includes/header.php'; ?>
+	include 'includes/header.php'; ?>
 	<main>
 		<header>
 			<picture class="headerImage">
 				<source type="image/webp"
-					srcset="/assets/bytes-2019/img/hero/header-small.webp 400w,
-					/assets/bytes-2019/img/hero/header-medium.webp 800w,
-					/assets/bytes-2019/img/hero/header-large.webp 1200w"
+					srcset="/assets/bytes-2019/img/hero/w400_q50.webp 400w,
+					/assets/bytes-2019/img/hero/w800_q50.webp 800w,
+					/assets/bytes-2019/img/hero/w1400_q50.webp 1200w"
 					sizes="100vw" />
 				<source type="image/jpg"
-					srcset="/assets/bytes-2019/img/hero/header-small.jpg 400w,
-					/assets/bytes-2019/img/hero/header-medium.jpg 800w,
-					/assets/bytes-2019/img/hero/header-large.jpg 1200w"
+					srcset="/assets/bytes-2019/img/hero/w400_q50.jpg 400w,
+					/assets/bytes-2019/img/hero/w800_q50.jpg 800w,
+					/assets/bytes-2019/img/hero/w1400_q50.jpg 1200w"
 					sizes="100vw" />
-				<img src="/assets/bytes-2019/img/hero/header-large.jpg" alt="Bytes Conference - Audience 2019">
+				<img src="/assets/bytes-2019/img/hero/w1400_q50.jpg" alt="Bytes Conference - Audience 2017">
 			</picture>
 
 			<div class="head">
@@ -46,49 +46,157 @@
 					</svg>
 					<span>Bytes conf.</span>
 				</a>
+
+				<nav class="navigation">
+					<ul>
+						<li><a href="#schedule">Schedule</a></li>
+						<li><a href="#speakers">Speakers</a></li>
+						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
+					</ul>
+				</nav>
 			</div>
 
 			<div class="headerIntro wrapper">
 				<h1 class="jsHeading heading"><?= $description ?></h1>
-				<p class="confDates">Brighton</p>
+				<p class="confDates">07.03.2019 - Tickets £15</p>
+				<p class="confDates">Lighthouse, Brighton</p>
 			</div>
 		</header>
 
-		<div class="highlightBox highlightBoxLarge">
+		<div class="highlightBox">
 			<svg class="highlightBoxShape" viewBox="0 0 1032 462">
 				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
 			</svg>
 			<div class="highlightBoxContent">
-				<p class="featured">Thank you! 🙌</p>
-				<p>We would like to thank every single person who was involved in making Bytes Conf 2019 absolutely amazing!</p>
-				<p>From the incredible talks and speakers, to the phenomenal prizes and beverages on show, Bytes Conf 2019 was by far the best one yet 💪</p>
-				<p>From the tickets, donations and the raffle we are super excited to announce we have raised a mind-blowing £858.22 for our Charity Partner Carousel. <br> Let's just say that again...<b>£858.22</b>! 🕺💃</p>
-				<p>Woo! We couldn't be happier to contribute to the fantastic work Carousel do in supporting learning disabled artists develop and manage their creative lives.</p>
-				<p>If you're sad it's over and just want to check out those captured moment all of the photos are on <a href="https://flic.kr/s/aHsmzG78Hv" title="See Bytes 2019 photos on Flickr" target="_blank">Flickr</a>, or you can watch all of the <a href="https://www.youtube.com/watch?v=9nwyTxM8rSY&list=PLPs419gH1FQIe-QdN88nvyy7YIiZw3lho" title="Watch Bytes conf 2019 on youtube" target="_blank">incredible talks</a> on YouTube now! 🎥</p>
-				<p>Make sure you sign up to the newsletter to be first to hear details about the next Bytes Conf!</p>
-				<p>Thanks again and we'll see you next year! 🎉</p>
-				<p>~ Mike and Candi</p>
+				<p class="featured"><?= $address ?></p>
+				<p>Join us in central Brighton on 7th March 2019 for an evening mini-conference featuring
+					four fantastic keynote speakers (plus one wild raffle)! Every penny raised will be donated to a
+					chosen charity.</p>
+				<p class="featured small"><?= $date ?></p>
+				<a href="<?= $tickets_url ?>" class="btn">
+					<div class="btnShapeWrapper">
+						<div class="btnShape"></div>
+					</div>
+					<span class="btnText">Buy tickets</span>
+				</a>
 			</div>
 		</div>
 
-		<?php include '2019/includes/signup.php'; ?>
+		<?php include 'includes/signup.php'; ?>
+
+		<section class="jsTextImg sectionTextImage">
+			<div class="content">
+				<div class="contentInner">
+					<div class="shapeOutside"></div>
+					<h2 class="jsHeading">Four forward thinking talks</h2>
+					<p>The evening will provide a series of diverse talks from all corners of the web industry,
+						covering topics ranging from development and design, through to marketing and performance tips.
+						As we aim to support our industry, we like to give local and upcoming speakers a chance to shine
+						alongside more seasoned public speakers and always aim for diversity.
+						<a href="https://www.youtube.com/playlist?list=PLPs419gH1FQLl2vgcPlUV0GEs3PrWUFCX" target="_blank" rel="noreferrer">
+						Watch the talks from last year</a>.</p>
+				</div>
+			</div>
+			<div class="picture">
+				<span class="pictureShadow"></span>
+				<img class="jsLazyImage"
+					data-srcset="/assets/bytes-2019/img/talks/bytes2017-334--q85-w450.jpg 450w,
+							/assets/bytes-2019/img/talks/bytes2017-334--q85-w700.jpg 700w,
+							/assets/bytes-2019/img/talks/bytes2017-334--q85-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/talks/bytes2017-334--q85-w450.jpg"
+					src="/assets/bytes-2019/img/talks/bytes2017-334--q80-w50.jpg"
+					alt="Bytes conf 2017"/>
+			</div>
+		</section>
+
+		<section class="jsTextImg sectionTextImage sectionTertiary alt">
+			<div class="picture">
+				<span class="pictureShadow"></span>
+				<figure>
+					<img class="jsLazyImage"
+						data-srcset="/assets/bytes-2019/img/charity/carousel_q80_w450.jpg 450w,
+								/assets/bytes-2019/img/charity/carousel_q80_w700.jpg 700w,
+								/assets/bytes-2019/img/charity/carousel_q80_w1000.jpg 1000w"
+						data-src="/assets/bytes-2019/img/charity/carousel_q80_w450.jpg"
+						src="/assets/bytes-2019/img/charity/carousel_q80_w50.jpg"
+						alt="Charity on Bytes conf 2016 - Photo by Paul Mansfield"/>
+					<figcaption>Photo by Paul Mansfield</figcaption>
+				</figure>
+			</div>
+			<div class="content">
+				<div class="contentInner">
+					<div class="shapeOutside"></div>
+					<h2 class="jsHeading">All proceeds support our chosen local charity - Carousel</h2>
+					<p><a href="http://www.carousel.org.uk">Carousel</a> is an award-winning charity supporting learning disabled people to achieve their artistic ambitions. They believe that learning disabled artists make a vital contribution to the world we live in; they are central to decision making and delivery of the work produced.</p>
+					<p><em>All</em> of the money raised at Bytes Conf will be going straight to them.<br>That includes both entry and raffle ticket sales from the night.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="jsTextImg sectionTextImage">
+			<div class="content">
+				<div class="contentInner">
+					<div class="shapeOutside"></div>
+					<h2 class="jsHeading">Laid back atmosphere & raffle</h2>
+					<p>We like to think we're a little less serious than other conferences and aim to keep the evening
+						as laid back as possible. Grab a free drink, relax and make friends with some industry locals.
+						At the end of the night, we run a raffle with swag donated by our generous sponsors. Previous
+						prizes have included a keg of beer, copious amounts of books, LaserZone tickets and a pair of
+						socks to name a few! Check out the
+						<a href="https://www.flickr.com/photos/bytesconf/sets/72157666468263319/" target="_blank" rel="noreferrer">photos
+						from last year</a>.</p>
+				</div>
+			</div>
+			<div class="picture">
+				<span class="pictureShadow"></span>
+				<img class="jsLazyImage"
+					data-srcset="/assets/bytes-2019/img/raffle/bytes2017-60--q80-w450.jpg 450w,
+							/assets/bytes-2019/img/raffle/bytes2017-60--q80-w700.jpg 700w,
+							/assets/bytes-2019/img/raffle/bytes2017-60--q80-w1000.jpg 1000w"
+					data-src="/assets/bytes-2019/img/raffle/bytes2017-60--q80-w450.jpg"
+					src="/assets/bytes-2019/img/raffle/bytes2017-60--q80-w50.jpg"
+					alt="Bytes conf 2017"/>
+			</div>
+		</section>
 
 		<section class="promotionalVideo">
 			<div class="video">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPs419gH1FQIe-QdN88nvyy7YIiZw3lho&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Sm313k4Ut1c?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</section>
+
+		<?php include 'includes/speakers.php'; ?>
 
 		<section class="callout">
 			<svg class="jsCallout calloutShape" viewBox="0 0 792 482">
 				<polygon class="calloutPolygon" points="177 58 553 110 724 318 366 425 68 227"></polygon>
 			</svg>
-			<h2 class="brandedDot">Digital arts and media play a big role in our
-			 work with people with learning disabilities, so being involved with
-			 Bytes is a great fit and real pleasure. Thank you for your support
-			 of our life-changing charity</h2>
-			<p>Lisa, Carousel</p>
+			<h2 class="brandedDot">If you are just starting out, or an industry professional, this affordable mini-conf
+				will help you gain insight from our four keynote speakers</h2>
 		</section>
+
+		<?php include 'includes/schedule.php'; ?>
+
+		<section id="map" class="maps">
+			<h2 class="jsHeading">Where to find us</h2>
+			<div id="jsMap" class="googlemap"></div>
+		</section>
+
+		<div class="jsHighlightJoinUs highlightBox">
+			<svg class="highlightBoxShape" viewBox="0 0 1032 462">
+				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
+			</svg>
+			<div class="highlightBoxContent">
+				<h2>Why not join us?</h2>
+				<p class="featured">Get your tickets now. We’ll see you on 7th March!</p>
+				<a href="<?= $tickets_url ?>" class="btn">
+					<div class="btnShapeWrapper">
+						<div class="btnShape"></div>
+					</div>
+					<span class="btnText">Buy tickets</span>
+				</a>
+			</div>
+		</div>
 
 		<section id="partners">
 			<h2 class="jsHeading">With thanks to...</h2>
@@ -143,4 +251,4 @@
 		</section>
 
 	</main>
-<?php include '2019/includes/footer.php';
+<?php include 'includes/footer.php';

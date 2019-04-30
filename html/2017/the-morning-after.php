@@ -2,6 +2,7 @@
 	$name = 'Bytes Conference, Brighton';
 	$title = 'Bytes Conference Brighton - A mini-conference in Brighton';
 	$description = 'Bytes is an affordable, web-industry focused mini-conference hosted in the heart of Brighton raising money for a local charity';
+	$morningAfter = 1;
 
 	include 'includes/header.php'; ?>
 	<main>

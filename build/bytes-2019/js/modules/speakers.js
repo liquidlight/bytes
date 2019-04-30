@@ -8,6 +8,10 @@ export default (() => {
 		panelContent = document.querySelector('.jsSpeakerDetails'),
 		scheduleLinks = document.querySelectorAll('.jsLinkToSpeaker');
 
+	if (!triggers.length) {
+		return;
+	}
+
 	/**
 	 * Injects speaker content in panel
 	 * @param {Object} panel - Speaker content
@@ -115,6 +119,7 @@ export default (() => {
 
 		// Set first speaker as active
 		const speaker = triggers[0].id;
+
 		setActive(triggers[0]);
 		getContent(speaker, false, true);
 
