@@ -51,7 +51,6 @@
 					<ul>
 						<li><a href="#schedule">Schedule</a></li>
 						<li><a href="#speakers">Speakers</a></li>
-						<li><a href="<?= $tickets_url ?>" class="tickets"><span>Buy Tickets</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -73,16 +72,8 @@
 					four fantastic keynote speakers (plus one wild raffle)! Every penny raised will be donated to a
 					chosen charity.</p>
 				<p class="featured small"><?= $date ?></p>
-				<a href="<?= $tickets_url ?>" class="btn">
-					<div class="btnShapeWrapper">
-						<div class="btnShape"></div>
-					</div>
-					<span class="btnText">Buy tickets</span>
-				</a>
 			</div>
 		</div>
-
-		<?php include 'includes/signup.php'; ?>
 
 		<section class="jsTextImg sectionTextImage">
 			<div class="content">
@@ -181,22 +172,6 @@
 			<h2 class="jsHeading">Where to find us</h2>
 			<div id="jsMap" class="googlemap"></div>
 		</section>
-
-		<div class="jsHighlightJoinUs highlightBox">
-			<svg class="highlightBoxShape" viewBox="0 0 1032 462">
-				<polygon class="boxPolygon" points="102 38 933 57 985 425 46 425"></polygon>
-			</svg>
-			<div class="highlightBoxContent">
-				<h2>Why not join us?</h2>
-				<p class="featured">Get your tickets now. We’ll see you on 7th March!</p>
-				<a href="<?= $tickets_url ?>" class="btn">
-					<div class="btnShapeWrapper">
-						<div class="btnShape"></div>
-					</div>
-					<span class="btnText">Buy tickets</span>
-				</a>
-			</div>
-		</div>
 
 		<section id="partners">
 			<h2 class="jsHeading">With thanks to...</h2>
