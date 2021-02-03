@@ -1,35 +1,143 @@
-// HTML files: try the network first, then the cache.
-// Other files: try the cache first, then the network.
-// Both: cache a fresh version if possible.
-// (beware: the cache will grow and grow; there's no cleanup)
+/**
+ * Service worker
+ *
+ * @filename sw.js
+ * @author Mike Street
+ * @author João Augusto
+ * @author Oliver Rowlands
+ * @date 2019-07-01
+ * @copyright Liquid Light Group Ltd.
+ * @url http://www.liquidlight.co.uk
+ *
+ */
 
-const cacheName = 'filesv1.3';
+/**
+ * PWA Config
+ */
+let config = {};
 
-addEventListener('fetch',  fetchEvent => {
-	const request = fetchEvent.request;
+const defaults = {
+	version: ':1.4',
+	debug: false,
+	offlineAsset: '/offline/',
+	priority: {
+		name: 'Priority pages',
+		key: 'priority',
 
-	if (request.method !== 'GET') {
+		pages: [
+			'/offline/'
+		]
+	},
+
+	cayg: {
+		name: 'Cache as you go',
+		key: 'cayg'
+	}
+};
+
+
+config = Object.assign(defaults, config);
+
+const CACHE = config.priority.key + config.version;
+
+// Cache a page and then the assets
+let cachePage = request => {
+	caches
+		.open(config.cayg.key + config.version)
+		.then(cache => cacheAssets(request));
+}
+
+let cacheAssets = request => {
+	/**
+	 * Caching Strategies Based on Request Types
+	 * https://medium.com/dev-channel/service-worker-caching-strategies-based-on-request-types-57411dd7652c
+	 */
+	switch (request.destination) {
+		case 'style':
+		case 'script':
+		case 'document':
+		case 'image':
+		case 'font': {
+			caches
+				.open(config.cayg.key + config.version)
+				.then(cache => cache.add(request.url));
+
+			return;
+		}
+
+		default: {
+			return request;
+		}
+	}
+}
+
+// Cache priority pages
+function precache(request) {
+	return caches.open(CACHE)
+		.then(cache => {
+			cache.addAll(config.priority.pages);
+		});
+}
+
+let debug = output => {
+	if (config.debug === true) {
+		console.log(output);
+	}
+};
+	// Runs if the client hasn't been here before
+self.addEventListener('install', () => {
+	debug('[SW] Install');
+});
+
+// Once installed, it runs
+self.addEventListener('activate', (event) => {
+	debug('[SW] Activate');
+
+	event.waitUntil(precache(event.request));
+});
+
+// Triggers whenever an asset or page is fetched
+self.addEventListener('fetch', event => {
+	debug('[SW] Fetch');
+
+	let request = event.request;
+	let url = new URL(request.url);
+
+	// Only deal with requests from the same domain.
+	if (url.origin !== location.origin) {
 		return;
 	}
 
-	fetchEvent.respondWith(async function() {
-		const responseFromFetch = fetch(request);
-		fetchEvent.waitUntil(async function() {
-			const responseCopy = (await responseFromFetch).clone();
-			const myCache = await caches.open(cacheName);
-			await myCache.put(request, responseCopy);
-		}());
+	// Ignore requests for Typo3
+	if (request.url.includes('/typo3')) {
+		return;
+	}
 
-		if (request.headers.get('Accept').includes('text/html')) {
-			try {
-				return await responseFromFetch;
-			}
-			catch(error) {
-				return caches.match(request);
-			}
-			} else {
-			const responseFromCache = await caches.match(request);
-			return responseFromCache || responseFromFetch;
-			}
-	}());
+	// Always fetch non-GET requests from the network.
+	if (request.method !== 'GET') {
+		event.respondWith(fetch(request));
+		return;
+	}
+
+	// If we are actually connected,
+	if (request.headers.get('accept').includes('text/html')) {
+		precache(event.request);
+	}
+
+	// Get the resource
+	let resource = fetch(request)
+		// If it is a successfull response
+		// Try network first and then cache
+		.then(response => {
+			cachePage(request);
+			return response;
+		})
+		.catch(async () => {
+			return (await caches.match(request.url)) || caches.match(config.offlineAsset);
+		});
+
+	event.respondWith(resource);
+
+	return;
+
 });
