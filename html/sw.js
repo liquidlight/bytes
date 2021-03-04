@@ -17,7 +17,7 @@
 let config = {};
 
 const defaults = {
-	version: ':1.4',
+	version: ':1.5',
 	debug: false,
 	offlineAsset: '/offline/',
 	priority: {
@@ -41,13 +41,16 @@ config = Object.assign(defaults, config);
 const CACHE = config.priority.key + config.version;
 
 // Cache a page and then the assets
-let cachePage = request => {
+let cachePage = (request, response) => {
+	const clonedResponse = response.clone();
+
 	caches
 		.open(config.cayg.key + config.version)
-		.then(cache => cacheAssets(request));
+		.then(cache => cacheAssets(request, clonedResponse));
 }
 
-let cacheAssets = request => {
+let cacheAssets = (request, response) => {
+
 	/**
 	 * Caching Strategies Based on Request Types
 	 * https://medium.com/dev-channel/service-worker-caching-strategies-based-on-request-types-57411dd7652c
@@ -60,7 +63,7 @@ let cacheAssets = request => {
 		case 'font': {
 			caches
 				.open(config.cayg.key + config.version)
-				.then(cache => cache.add(request.url));
+				.then(cache => cache.put(request.url, response));
 
 			return;
 		}
@@ -119,17 +122,12 @@ self.addEventListener('fetch', event => {
 		return;
 	}
 
-	// If we are actually connected,
-	if (request.headers.get('accept').includes('text/html')) {
-		precache(event.request);
-	}
-
 	// Get the resource
 	let resource = fetch(request)
 		// If it is a successfull response
 		// Try network first and then cache
 		.then(response => {
-			cachePage(request);
+			cachePage(request, response);
 			return response;
 		})
 		.catch(async () => {
