@@ -112,7 +112,7 @@ self.addEventListener('fetch', event => {
 	}
 
 	// Ignore requests for Typo3
-	if (request.url.includes('/typo3')) {
+	if (request.url.includes('/typo3/')) {
 		return;
 	}
 
