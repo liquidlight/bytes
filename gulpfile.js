@@ -5,4 +5,4 @@ global.config = {
 	}
 };
 
-module.exports = require('/usr/local/share/typo3/latest/typo3/ext/ll_fe/Default/Build/gulp4');
+module.exports = require('@packages/gulp');
