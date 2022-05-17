@@ -14,6 +14,9 @@ return ZyncHelper::arrayMergeRecursive(
 
 			// Production environment
 			'production' => [
+				'options' => [
+					'skip-favicon' => true
+				],
 				'host' => [
 					'name' => 'bytes',
 				],
