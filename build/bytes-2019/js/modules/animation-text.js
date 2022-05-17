@@ -1,15 +1,9 @@
-import Splitting from '../libs/splitting';
-
 (() => {
 
 	/**
 	 * Splitting
 	 */
 	const headings = document.querySelectorAll('.jsHeading');
-	const results = Splitting({
-		target: headings,
-		by: 'words'
-	});
 
 	/**
 	 * Heading reveal
@@ -35,7 +29,7 @@ import Splitting from '../libs/splitting';
 				headingObserver.unobserve(entry.target);
 			}
 		});
-	}
+	};
 
 	// eslint-disable-next-line no-negated-condition
 	if (!('IntersectionObserver' in window)) {

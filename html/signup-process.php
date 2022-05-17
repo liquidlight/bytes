@@ -13,7 +13,7 @@
 			'3fed2229ab',
 			$input
 		);
-		echo json_encode(array_merge(array('success' => true), $return));
+		echo json_encode(array_merge(['success' => true], $return));
 	} catch (Exception $e) {
-		echo json_encode(array('error' => $e->getMessage()));
+		echo json_encode(['error' => $e->getMessage()]);
 	}

@@ -39,7 +39,7 @@ export default (() => {
 				imageObserver.unobserve(entry.target);
 			}
 		});
-	}
+	};
 
 	// eslint-disable-next-line no-negated-condition
 	if (!('IntersectionObserver' in window)) {

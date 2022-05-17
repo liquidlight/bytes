@@ -15,7 +15,7 @@ import anime from '../libs/anime';
 		easing: 'easeOutElastic',
 		duration: 1200,
 		elasticity: 300,
-		opacity: [0,1],
+		opacity: [0, 1],
 		round: 1,
 		delay: 1000
 	});
@@ -57,7 +57,7 @@ import anime from '../libs/anime';
 						boxPolygon.restart();
 						boxPolygon.begin = () => {
 							document.querySelector('.jsHighlightJoinUs').classList.add('hasStarted');
-						}
+						};
 						shapesObs.unobserve(target);
 					}
 				}
@@ -102,8 +102,8 @@ import anime from '../libs/anime';
 		.add({
 			targets: '.logoFgShape',
 			points: [
-				{ value: '0 59 0 6 216 6 216 59' },
-				{ value: '0 59 13 6 203 6 216 61' }
+				{value: '0 59 0 6 216 6 216 59'},
+				{value: '0 59 13 6 203 6 216 61'}
 			],
 			offset: 200,
 			easing: 'easeOutElastic',
@@ -113,8 +113,8 @@ import anime from '../libs/anime';
 		})
 		.add({
 			targets: '.logoBgShape',
-			rotate: [{ value: '6deg' }, { value: 0 }],
-			scale: [{ value: 0.6 }, { value: 1 }],
+			rotate: [{value: '6deg'}, {value: 0}],
+			scale: [{value: 0.6}, {value: 1}],
 			opacity: [
 				{
 					value: 0
@@ -126,10 +126,10 @@ import anime from '../libs/anime';
 				}
 			],
 			offset: 300,
-			easing: 'easeOutElastic',
+			easing: 'easeOutElastic'
 		});
 
-	const logo = document.querySelector('.jsLogo')
+	const logo = document.querySelector('.jsLogo');
 
 	function animateLogo(el, rotation) {
 		anime.remove(el);

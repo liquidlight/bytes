@@ -1,10 +1,9 @@
 <?php
 
-class Mailchimp_Mobile {
-    public function __construct(Mailchimp $master) {
-        $this->master = $master;
-    }
-
+class Mailchimp_Mobile
+{
+	public function __construct(Mailchimp $master)
+	{
+		$this->master = $master;
+	}
 }
-
-

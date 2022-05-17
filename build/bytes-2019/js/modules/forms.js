@@ -16,7 +16,7 @@ export default (() => {
 		submitBtnInner = document.querySelector('#signup button[type="submit"] .btnText'),
 		msgEl = document.querySelector('.jsformMessage');
 
-	let addError = function (message) {
+	let addError = function(message) {
 		msgEl.classList.add('isVisible');
 		msgEl.innerText = message;
 	};
@@ -49,9 +49,9 @@ export default (() => {
 		}
 
 		fetch(e.target.action, {
-				method: 'post',
-				body: JSON.stringify(formData)
-			})
+			method: 'post',
+			body: JSON.stringify(formData)
+		})
 			.then(response => response.json())
 			.then(response => {
 				if (response.success) {
@@ -63,7 +63,7 @@ export default (() => {
 					submitBtnInner.innerText = 'Subscribe';
 				}
 			})
-			.catch(err => console.log(err))
+			.catch();
 
 	});
 
@@ -73,12 +73,12 @@ export default (() => {
 	 */
 	for (const field of inputFields) {
 
-		field.addEventListener("blur", e => {
+		field.addEventListener('blur', e => {
 
 			if (e.target.value.trim().length > 0) {
-				field.classList.add('inputFilled')
+				field.classList.add('inputFilled');
 			} else {
-				field.classList.remove('inputFilled')
+				field.classList.remove('inputFilled');
 			}
 
 		}, true);

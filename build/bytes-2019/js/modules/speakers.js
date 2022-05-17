@@ -4,7 +4,6 @@ export default (() => {
 
 	const triggers = document.querySelectorAll('.speakerTrigger'),
 		panels = document.querySelectorAll('.speakerPanelInner'),
-		panelContainer = document.querySelector('.jsSpeakerContainer'),
 		panelContent = document.querySelector('.jsSpeakerDetails'),
 		scheduleLinks = document.querySelectorAll('.jsLinkToSpeaker');
 
@@ -39,11 +38,7 @@ export default (() => {
 	 * @param {Boolean} update Wether it should update URL or not
 	 * @param {Boolean} firstLoad First time running function
 	 */
-	function getContent(name, update = true, firstLoad = false) {
-
-		// if (!firstLoad) {
-		// 	panelContainer.classList.add('isLoading');
-		// }
+	function getContent(name, update = true) {
 
 		for (const panel of panels) {
 			const panelName = panel.dataset.speakerContent;
@@ -86,11 +81,10 @@ export default (() => {
 	 */
 	for (const speakerTrigger of triggers) {
 
-		speakerTrigger.addEventListener('click', function () {
+		speakerTrigger.addEventListener('click', function() {
 			const name = speakerTrigger.id;
 
 			if (name === 'undefined') {
-				console.warn('data-speaker-name not set!');
 				return;
 			}
 

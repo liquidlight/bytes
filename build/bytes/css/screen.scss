@@ -1,3 +1,4 @@
+/* stylelint-disable color-no-hex, unit-allowed-list */
 /**
  * Bytes Conference Website
  */
@@ -27,9 +28,9 @@ $animationTransition: (
 
 // Layout
 $mq-breakpoints: (
-    phone: 30em,
-    tablet: 45em,
-    desktop: 60em
+	phone: 30em,
+	tablet: 45em,
+	desktop: 60em
 );
 
 // LL Sass Library
@@ -37,6 +38,7 @@ $mq-breakpoints: (
 
 @font-face {
 	font-family: 'GrotaSans';
+	font-style: normal;
 	src: url('../fonts/GrotaSans-webfont.eot'); /* IE9 Compat Modes */
 	src: url('../fonts/GrotaSans-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 		url('../fonts/GrotaSans-webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -45,6 +47,7 @@ $mq-breakpoints: (
 }
 @font-face {
 	font-family: 'GrotaSansMedium';
+	font-style: normal;
 	src: url('../fonts/GrotaSansMedium-webfont.eot'); /* IE9 Compat Modes */
 	src: url('../fonts/GrotaSansMedium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 		url('../fonts/GrotaSansMedium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
@@ -338,7 +341,7 @@ form {
 		display: block;
 		padding: 1rem;
 		background: theme(neutralLightest);
-		-webkit-appearance: none;
+		appearance: none;
 		width: 100%;
 		border: 0.2rem solid theme(primary);
 
@@ -379,7 +382,7 @@ form {
 	}
 
 	.button {
-		border: none;
+		border: 0;
 		background: theme(primary);
 		color: theme(neutralLightest);
 		&:hover {
