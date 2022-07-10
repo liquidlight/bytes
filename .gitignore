@@ -8,10 +8,6 @@ Thumbs.db
 node_modules
 bower_components
 
-# Compiled Files
-/html/assets
-*sprite.*
-
 # Misc.
 error_log
 *.dh.key
