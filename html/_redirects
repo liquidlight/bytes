@@ -2,4 +2,7 @@
 /the-morning-after.php	/the-morning-after.html
 /call-for-speakers.php	/call-for-speakers.html
 
+https://2015.bytesconf.co.uk/*	https://www.bytesconf.co.uk/2015/:splat 301!
+https://2016.bytesconf.co.uk/*	https://www.bytesconf.co.uk/2016/:splat 301!
+https://2017.bytesconf.co.uk/*	https://www.bytesconf.co.uk/2017/:splat 301!
 https://2019.bytesconf.co.uk/*	https://www.bytesconf.co.uk/2019/:splat 301!
